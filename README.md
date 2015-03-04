@@ -8,9 +8,7 @@ There are multiple manuals, which are more or less interconnected, involved in t
 
 - The [Movie File Merger User Manual][], which concentrates on the program technical aspects of handling MFM.  It is a GitBook and on [GitHub][GitHub MFM UM].
 - [How to Organize Videos on Your Hard Disks][] explains some of my ideas about handling collections and includes a few brief description of some useful programs.  It is also a GitBook and on [GitHub][GitHub HtOVoYHD].
-- The [Movie File Merger Wiki][], have a look at the sections on the right side when you are in the MFM Wiki :point_right:...
 [Movie File Merger User Manual]: http://movie-file-merger.org/usermanual.html
 [GitHub MFM UM]: https://github.com/Modi777/movie-file-merger-user-manual
 [How to Organize Videos on Your Hard Disks]: http://www.movie-file-merger.org/organizevideos.html
 [GitHub HtOVoYHD]: https://github.com/Modi777/How-to-Organize-Videos-on-Your-Hard-Disks
-[Movie File Merger Wiki]: https://github.com/Modi777/Movie-File-Merger/wiki
