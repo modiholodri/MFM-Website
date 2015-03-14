@@ -9,8 +9,8 @@
 #### AOLSoft.jpg ####
 ![AOLSoft.jpg](http://www.movie-file-merger.org/images/AOLSoft.jpg)
 
-####  AOLSoft5Stars.jpg ####
-![ AOLSoft5Stars.jpg](http://www.movie-file-merger.org/images/ AOLSoft5Stars.jpg)
+#### AOLSoft5Stars.jpg ####
+![AOLSoft5Stars.jpg](http://www.movie-file-merger.org/images/AOLSoft5Stars.jpg)
 
 #### Addict3D.png ####
 ![Addict3D.png](http://www.movie-file-merger.org/images/Addict3D.png)
@@ -31,6 +31,7 @@
 ![Donate.jpg](http://www.movie-file-merger.org/images/Donate.jpg)
 
 #### DotNet.jpg ####
+Get better one.
 ![DotNet.jpg](http://www.movie-file-merger.org/images/DotNet.jpg)
 
 #### Download26.png ####
@@ -52,28 +53,30 @@
 ![Dropbox.jpg](http://www.movie-file-merger.org/images/Dropbox.jpg)
 
 #### FileCart.png ####
+Get better one.
 ![FileCart.png](http://www.movie-file-merger.org/images/FileCart.png)
 
 #### FileGuru.jpg ####
+Get better one.
 ![FileGuru.jpg](http://www.movie-file-merger.org/images/FileGuru.jpg)
 
 #### Filebot.png ####
 ![Filebot.png](http://www.movie-file-merger.org/images/Filebot.png)
 
 #### Findsoftware.gif ####
+Get better one.
 ![Findsoftware.gif](http://www.movie-file-merger.org/images/Findsoftware.gif)
 
 #### FireFox.png ####
 ![FireFox.png](http://www.movie-file-merger.org/images/FireFox.png)
 
 #### FreelyDownload.png ####
+Get better one.
 ![FreelyDownload.png](http://www.movie-file-merger.org/images/FreelyDownload.png)
 
 #### FreewareBase.gif ####
+Get better one.
 ![FreewareBase.gif](http://www.movie-file-merger.org/images/FreewareBase.gif)
-
-#### FreewareBase.png ####
-![FreewareBase.png](http://www.movie-file-merger.org/images/FreewareBase.png)
 
 #### FreewareBaseAufgenommen.png ####
 ![FreewareBaseAufgenommen.png](http://www.movie-file-merger.org/images/FreewareBaseAufgenommen.png)
@@ -106,6 +109,7 @@
 ![GitHub.png](http://www.movie-file-merger.org/images/GitHub.png)
 
 #### Header.gif ####
+Make better one.
 ![Header.gif](http://www.movie-file-merger.org/images/Header.gif)
 
 #### IMDb.jpg ####
@@ -124,6 +128,7 @@
 ![LatestGames2.png](http://www.movie-file-merger.org/images/LatestGames2.png)
 
 #### MFM.gif ####
+Make better one.
 ![MFM.gif](http://www.movie-file-merger.org/images/MFM.gif)
 
 #### MFM.jpg ####
@@ -142,6 +147,7 @@
 ![MFM32Icon.gif](http://www.movie-file-merger.org/images/MFM32Icon.gif)
 
 #### MFM_GOM.jpg ####
+Update.
 ![MFM_GOM.jpg](http://www.movie-file-merger.org/images/MFM_GOM.jpg)
 
 #### MediaInfo.png ####
@@ -154,9 +160,11 @@
 ![NetbookFiles.png](http://www.movie-file-merger.org/images/NetbookFiles.png)
 
 #### NewDownload.gif ####
+Get better one.
 ![NewDownload.gif](http://www.movie-file-merger.org/images/NewDownload.gif)
 
 #### NoNags.png ####
+Get better one.
 ![NoNags.png](http://www.movie-file-merger.org/images/NoNags.png)
 
 #### NoNagsClean.png ####
@@ -175,6 +183,7 @@
 ![PVD.png](http://www.movie-file-merger.org/images/PVD.png)
 
 #### SharpDevelop.jpg ####
+Get better one.
 ![SharpDevelop.jpg](http://www.movie-file-merger.org/images/SharpDevelop.jpg)
 
 #### Sickbeard.jpg ####
@@ -189,19 +198,18 @@
 #### SoftSilo.gif ####
 ![SoftSilo.gif](http://www.movie-file-merger.org/images/SoftSilo.gif)
 
-#### SoftSilo.gif ####
-![SoftSilo.gif](http://www.movie-file-merger.org/images/SoftSilo.gif)
-
 #### Softnomy.png ####
+Get better one.
 ![Softnomy.png](http://www.movie-file-merger.org/images/Softnomy.png)
 
 #### SoftwareDownloadOne.png ####
 ![SoftwareDownloadOne.png](http://www.movie-file-merger.org/images/SoftwareDownloadOne.png)
 
-#### Sourceforge.png ####
-![Sourceforge.png](http://www.movie-file-merger.org/images/Sourceforge.png)
+#### SourceForge.png ####
+![SourceForge.png](http://www.movie-file-merger.org/images/SourceForge.png)
 
 #### Srelease.jpg ####
+Get better one.
 ![Srelease.jpg](http://www.movie-file-merger.org/images/Srelease.jpg)
 
 #### Srelease5Stars.jpg ####
@@ -214,12 +222,15 @@
 ![StatCounter.png](http://www.movie-file-merger.org/images/StatCounter.png)
 
 #### TeraCopy.jpg ####
+Get better one.
 ![TeraCopy.jpg](http://www.movie-file-merger.org/images/TeraCopy.jpg)
 
 #### TheTVDB.jpg ####
+Get better one.
 ![TheTVDB.jpg](http://www.movie-file-merger.org/images/TheTVDB.jpg)
 
 #### TodaySoftware.gif ####
+Get better one.
 ![TodaySoftware.gif](http://www.movie-file-merger.org/images/TodaySoftware.gif)
 
 #### TopShareware.png ####
@@ -235,6 +246,7 @@
 ![TorrentzEu.jpg](http://www.movie-file-merger.org/images/TorrentzEu.jpg)
 
 #### UltraDownloads.jpg ####
+Get better one.
 ![UltraDownloads.jpg](http://www.movie-file-merger.org/images/UltraDownloads.jpg)
 
 #### UpdateStar.gif ####
