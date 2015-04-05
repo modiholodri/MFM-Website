@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <XML_DIZ_INFO>
   <MASTER_PAD_VERSION_INFO>
     <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
     <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
     <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
     <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
-    <CERTIFIED>N</CERTIFIED>
+    <CERTIFIED>No</CERTIFIED>
     <CERTIFICATE_ID></CERTIFICATE_ID>
     <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
   </MASTER_PAD_VERSION_INFO>
   <RoboSoft>
     <Company_UIN>CMP-87001BAD599B</Company_UIN>
     <Product_UIN>APP-97005402A99B</Product_UIN>
-    <Publish_on_CD>FALSE</Publish_on_CD>
+    <Publish_on_CD>N</Publish_on_CD>
     <NewsFeed_Search_String></NewsFeed_Search_String>
     <Search_String>Movie File Merger</Search_String>
     <Press_Release_Search_String></Press_Release_Search_String>
@@ -31,8 +30,8 @@
     <State_Province>Bangkok</State_Province>
     <City_Town>Bangkok</City_Town>
     <Zip_Postal_Code>10110</Zip_Postal_Code>
-    <Address_1>79/1 Soi Nuannoi, Ekkamai 30 Klongton Nu</Address_1>
-    <Address_2></Address_2>
+    <Address_1>79/1 Soi Nuannoi, Ekkamai 30,</Address_1>
+    <Address_2>Klongton Nua</Address_2>
     <Company_WebSite_URL>http://movie-file-merger.org/</Company_WebSite_URL>
     <Contact_Info>
       <Contact_First_Name>Reinhold</Contact_First_Name>
@@ -41,7 +40,7 @@
       <Author_First_Name>Reinhold</Author_First_Name>
       <Author_Last_Name>Lauer</Author_Last_Name>
       <Author_Email>reinhold.lauer@gmail.com</Author_Email>
-      <Contact_Phone>+66 89 5070 333</Contact_Phone>
+      <Contact_Phone></Contact_Phone>
     </Contact_Info>
     <Support_Info>
       <Sales_Email>reinhold.lauer@gmail.com</Sales_Email>
@@ -56,43 +55,34 @@
     <LinkedinPage></LinkedinPage>
     <TwitterCompanyPage></TwitterCompanyPage>
     <FacebookCompanyPage></FacebookCompanyPage>
-    <CompanyStorePage></CompanyStorePage>
+    <CompanyStorePage>http://movie-file-merger.org/donations.html</CompanyStorePage>
   </Company_Info>
-  <ASP>
-    <ASP_FORM>Y</ASP_FORM>
-    <ASP_Member>N</ASP_Member>
-    <ASP_Member_Number></ASP_Member_Number>
-  </ASP>
   <Program_Info>
     <AppID>app-97005402a99b</AppID>
     <Program_Name>Movie File Merger</Program_Name>
-    <Program_Version>0.1.1</Program_Version>
-    <Program_Release_Month>01</Program_Release_Month>
-    <Program_Release_Day>11</Program_Release_Day>
+    <Program_Version>0.2.0</Program_Version>
+    <Program_Release_Month>04</Program_Release_Month>
+    <Program_Release_Day>05</Program_Release_Day>
     <Program_Release_Year>2015</Program_Release_Year>
     <Program_Cost_Dollars>0</Program_Cost_Dollars>
     <Program_Cost_Other_Code>THB</Program_Cost_Other_Code>
     <Program_Cost_Other>0</Program_Cost_Other>
     <Program_Type>Freeware</Program_Type>
-    <Program_Category_Class>System Utilities::File &amp; Disk Management</Program_Category_Class>
+    <Program_Category_Class>Home &amp; Hobby::Cataloging</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_Categories>Home &amp; Hobby :: Entertainment,Internet :: File Sharing Tools,Multimedia and Design :: Organizers,Multimedia and Design :: Utilities,Utilities :: File &amp; Disk Management,Utilities :: Synchronization</Program_Categories>
     <Program_Release_Status>New Release</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
     <Program_OS_Support>WinXP,Win7 x32,Win7 x64,Windows 8</Program_OS_Support>
     <Program_Language>English</Program_Language>
-    <Program_Change_Info>This release contains minor fixes like...
-- Improved picture, 
-- Updated About tab, 
-- Updated short instructions, 
-- Refactored the code.</Program_Change_Info>
+    <Program_Change_Info>This release contains several improvements and bug fixes, made Tool Tip Regex selectable, made selection based on horizontal resolution, improved Settings, added more Tool Tips, added various minor improvements...</Program_Change_Info>
     <Program_System_Requirements>.NET Framework</Program_System_Requirements>
     <Limitations>No limitations</Limitations>
     <Awards></Awards>
     <File_Info>
-      <File_Size_Bytes>1911808</File_Size_Bytes>
-      <File_Size_K>1867</File_Size_K>
-      <File_Size_MB>1.82</File_Size_MB>
+      <File_Size_Bytes>1823744</File_Size_Bytes>
+      <File_Size_K>1781</File_Size_K>
+      <File_Size_MB>1.74</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -117,12 +107,12 @@
       <Application_Order_URL>http://www.movie-file-merger.org/donations.html</Application_Order_URL>
       <Application_Screenshot_URL>http://www.movie-file-merger.org/images/MFM.gif</Application_Screenshot_URL>
       <Application_Icon_URL>http://www.movie-file-merger.org/images/MFM32Icon.gif</Application_Icon_URL>
-      <Application_XML_File_URL>http://repository.appvisor.com/app-97005402a99b/Movie_File_Merger_pad.xml</Application_XML_File_URL>
+      <Application_XML_File_URL>http://repository.appvisor.com/app-97005402a99b/site-01/Movie_File_Merger_pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
       <Primary_Download_URL>http://movie-file-merger.org/MFMSetup.exe</Primary_Download_URL>
-      <Secondary_Download_URL>http://104.156.55.153/~dwnldfrhtr/files/MFM_Setup.exe</Secondary_Download_URL>
-      <Additional_Download_URL_1>https://sourceforge.net/projects/movie-file-merger/files/latest/download?source=files</Additional_Download_URL_1>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
     </Download_URLs>
   </Web_Info>
@@ -283,11 +273,10 @@ Last but not least, it is possible to install the copying program TeraCopy which
   </Site>
   <Download_Link_Points_To_Non_Binary_File>TRUE</Download_Link_Points_To_Non_Binary_File>
   <Dynamic_PAD>
-    <Dynamic_Distributive>N</Dynamic_Distributive>
     <General>
       <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
       <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
-      <DP_Distributive_Enabled>FALSE</DP_Distributive_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
       <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
       <DP_Pad_Mask>Movie_File_Merger_pad.xml</DP_Pad_Mask>
       <DP_Distributive_Primary_URL>http://movie-file-merger.org/MFMSetup.exe</DP_Distributive_Primary_URL>

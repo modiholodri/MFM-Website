@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.1.2</LatestRelease>
+  <LatestRelease>0.2.0</LatestRelease>
   <ReleaseNotes>- Made Tool Tip Regex selectable
 - Made selection based on horizonal resolution
 - Improved Settings
