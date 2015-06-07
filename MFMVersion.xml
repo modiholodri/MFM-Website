@@ -1,10 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.2.0</LatestRelease>
-  <ReleaseNotes>- Made Tool Tip Regex selectable
-- Made selection based on horizonal resolution
-- Improved Settings
-- Added more Tool Tips
-- Added various minor improvements
-- ...</ReleaseNotes>
+  <LatestRelease>0.2.1</LatestRelease>
+  <ReleaseNotes>- Fixed TeraCopy interface problem with languages other then English.</ReleaseNotes>
 </MFMVersions>
