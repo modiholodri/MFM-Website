@@ -11,6 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+  text-shadow: 5px 5px 10px #888888;
 }
 
 p, ul, ol, table, pre, dl {
@@ -24,10 +25,12 @@ h1, h2, h3 {
 h1 {
   font-size:24px;
   position: relative;
+  text-align: center
 }
 
 h2 {
   color:#393939;
+  text-align: center
 }
 
 h3, h4, h5, h6 {
@@ -190,6 +193,8 @@ footer img {
     width: 32px;
     height: 32px;
     margin-right: 10px;
+    public;
+    max-age=86400
 }
 
 
