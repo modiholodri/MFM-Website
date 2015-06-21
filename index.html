@@ -1,344 +1,360 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <title>MFM Merge Video Collections</title>
-    <meta name="description" content="Selective combination of video collections, home videos, movies, series... Is Portable. Works with Dropbox, TeraCopy, MediaInfo, IMDb, GOM, or VLC.">
-    <meta name="keywords" content="Collection, Merge, Combination, Comparison, Video, Movies, Series, Documentaries, Existing, Garbage, Wish, Home Page">
-    <link rel="shortcut icon" type="image/x-icon" href="images/MFM32Favicon.ico" />
+        <title>MFM Merge Video Collections</title>
+        <meta name="description" content="Selective combination of video collections, home videos, movies, series... Is Portable. Works with Dropbox, TeraCopy, MediaInfo, IMDb, GOM, or VLC.">
+        <meta name="keywords" content="Collection, Merge, Combination, Comparison, Video, Movies, Series, Documentaries, Existing, Garbage, Wish, Home Page">
+        <link rel="shortcut icon" type="image/x-icon" href="images/MFM32Favicon.ico" />
 
-    <!--Using jQuery and jQuery UI for display effects-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <!--Using the hamburger menu display code-->
-    <script src="javascripts/hamburger.js"></script>
-    <script src="javascripts/scale.fix.js"></script>
+        <!--Using jQuery and jQuery UI for display effects-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+        <!--Using the hamburger menu display code-->
+        <script src="javascripts/hamburger.js"></script>
+        <script src="javascripts/scale.fix.js"></script>
 
-    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
-    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/hamburger.css"/>
-    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css">
-    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/pygment_trac.css">
-    <link rel="canonical" href="http://movie-file-merger.org/index.html" />
-    <link rel="alternate" hreflang="en" href="http://movie-file-merger.org/index.html" />
+        <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/hamburger.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css">
+        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/pygment_trac.css">
+        <link rel="canonical" href="http://movie-file-merger.org/index.html" />
+        <link rel="alternate" hreflang="en" href="http://movie-file-merger.org/index.html" />
      
-    <!-- Google Analytics Code -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-63705144-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
+        <!-- Google Analytics Code -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-63705144-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
 
-  <body>
-    <div class="wrapper"  id="container">
-      
-    <header>
-       <!--The Hamburger-->
-       <div id="hamburger">
-           <div></div>
-           <div></div>
-           <div></div>
-       </div>
+    <body>
+        <div class="wrapper"  id="container">
+            <header>
+                <!--The Hamburger-->
+                <div id="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
-       <!-- Header Banner -->
-       <img src="images/Header.gif" alt="Header" width="220" style="margin: 0px 0px 15px 10px; box-shadow: 5px 5px 10px #888888" >
+                <!-- Header Banner -->
+                <img src="images/Header.gif" alt="Header" width="220" style="margin: 0px 0px 15px 10px; box-shadow: 5px 5px 10px #888888" >
 
-       <h1> MFM Home  <img style="margin: 0px 0px 0px 10px" src="images/MFM128.png" alt="Movie File Merger" height="32"></h1>
+                <h1> MFM Home  <img style="margin: 0px 0px 0px 10px" src="images/MFM128.png" alt="Movie File Merger" height="32"></h1>
 
-       <!-- The download areas -->
-       <ul>
-            <li><a href="https://github.com/Modi777/Movie-File-Merger/zipball/master">Download <strong>ZIP File</strong></a></li>
-            <li><a href="https://github.com/Modi777/Movie-File-Merger/tarball/master">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="http://movie-file-merger.org/MFMSetup.exe">Download <strong>MFM Setup</strong></a></li> 
-        </ul>
-    </header>
+                <!-- The download areas -->
+                <ul>
+                    <li><a href="https://github.com/Modi777/Movie-File-Merger/zipball/master">Download <strong>ZIP File</strong></a></li>
+                    <li><a href="https://github.com/Modi777/Movie-File-Merger/tarball/master">Download <strong>TAR Ball</strong></a></li>
+                    <li><a href="http://movie-file-merger.org/MFMSetup.exe">Download <strong>MFM Setup</strong></a></li> 
+                </ul>
+            </header>
 
-    <!--The Layer that will be layed over the content so that the content is unclickable while menu is shown-->
-    <div id="contentLayer"></div>
+            <!--The Layer that will be layed over the content so that the content is unclickable while menu is shown-->
+            <div id="contentLayer"></div>
 
-    <!--The mobile navigation Markup hidden via css-->
-    <nav>
-        <ul>
-            <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
-            <li><a href="usermanual.html">User Manual</a></li>
-            <li><a href="organizevideos.html">Organize Videos</a></li>
-            <li><a href="downloads.html">Downloads</a></li>
-            <li><a href="donations.html">Donations</a></li>
-            <li><a href="bugs.html">Bugs/Ideas</a></li>
-            <li><a href="license.html">License</a></li>
-        </ul>
-    </nav>
+            <!--The mobile navigation Markup hidden via css-->
+            <nav>
+                <ul>
+                    <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
+                    <li><a href="usermanual.html">User Manual</a></li>
+                    <li><a href="organizevideos.html">Organize Videos</a></li>
+                    <li><a href="downloads.html">Downloads</a></li>
+                    <li><a href="donations.html">Donations</a></li>
+                    <li><a href="bugs.html">Bugs/Ideas</a></li>
+                    <li><a href="license.html">License</a></li>
+                </ul>
+            </nav>
 
-     <!--The content of the site-->
-    <div id="content">
+            <!--The content of the site-->
+            <div id="content">
 
-     <section>
-         <img src="images/Header.gif" alt="Header" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
+            <section>
+            <img src="images/Header.gif" alt="Header" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
 
-         <h2>MFM Basic Introduction</h2>
-
-            <p>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries.  
-               It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.</p>
-
-             <img src="images/MFM_VLC.jpg" alt="MFM &amp; VLC" style="box-shadow: 5px 5px 10px #888888">
+            <h2>MFM Basic Introduction</h2>
             
-            <p></p>
-            <p>For more information have a look at the <a href="http://movie-file-merger.org/usermanual.html">MFM User Manual</a>
-               or check out <a href="http://movie-file-merger.org/organizevideos.html">How to Organize Videos on Your Hard Disks</a>.
-               Both books are a work in progress, but there should be already some useful stuff in there. </p>
+                <p>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries.
+                   It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.</p>
 
-           <p>The <a href="https://github.com/Modi777/Movie-File-Merger/wiki">Movie File Merger Wiki</a> 
-              contains information related to the program, which is basically the user manual and how to organize videos combined.</p>
-
-        <h3>Features</h3>
-            <p>MFM is not a movie database program like <a href="http://www.videodb.info/forum_en/">Personal Video Database</a>! 
-               MFM is designed so that the lists can be easily updated once out of date. 
-               MFM runs in <a href="http://www.dropbox.com">Dropbox</a>, which makes it easier to share lists with other people.  
-               MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick.
-               MFM works together with multiple other programs, like 
-               <a href="http://www.gomlab.com">GOM</a>, 
-               <a href="http://www.videolan.org/vlc">VLC</a>, 
-               <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>, or 
-               <a href="http://codesector.com/teracopy">TeraCopy</a>.
-               All of them can be downloaded and used for free.</p>
+                <img src="images/MFM_VLC.jpg" alt="MFM &amp; VLC" style="box-shadow: 5px 5px 10px #888888">
             
-            <p>Some examples of what you can do with MFM are:</p>
-            <ul>
-                <li>Select which videos are copied or moved</li>
-                <li>Select the videos to copy before hand; lists are small can be easily distributed over the internet</li>
-                <li>Copy only relevant videos in the Wish list</li>
-                <li>Ignore videos in the Existing and Garbage lists; don't have all the stuff duplicated in various locations</li>
-                <li>Select movies according to predefined genre lists from <a href="http://www.imdb.com">IMDb</a></li>
-                <li>Select videos according to regular expressions which can be tested with <a href="http://rubular.com">Rubular</a>; for example year 2013</li>
-                <li>Search for movies or series on <a href="http://www.imdb.com">IMDb</a></li>
-                <li>Search for videos on <a href="http://torrentz.eu">torrentz.eu</a></li>
-                <li>List detailed media information with <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a></li>
-                <li>View video media information in the pop-ups when hovering over a list entry</li>
-                <li>Select videos according to filtered media information; for example horizontal resolution greater than 1000 pixels</li>
-                <li>Play videos in the Import list with your default player</li>
-            </ul>
+                <p></p>
+                <p>For more information have a look at the <a href="http://movie-file-merger.org/usermanual.html">MFM User Manual</a>
+                   or check out <a href="http://movie-file-merger.org/organizevideos.html">How to Organize Videos on Your Hard Disks</a>.
+                   Both books are a work in progress, but there should be already some useful stuff in there. </p>
 
-         <h3>100% Clean</h3>
+                <p>The <a href="https://github.com/Modi777/Movie-File-Merger/wiki">Movie File Merger Wiki</a> 
+                   contains information related to the program, which is basically the user manual and how to organize videos combined.</p>
 
-         <p>Use one of the sites below to download MFM, if you prefer to have a virus checked download.</p>
+            <h3>Features</h3>
+                <p>MFM is not a movie database program like <a href="http://www.videodb.info/forum_en/">Personal Video Database</a>! 
+                   MFM is designed so that the lists can be easily updated once out of date. 
+                   MFM runs in <a href="http://www.dropbox.com">Dropbox</a>, which makes it easier to share lists with other people.  
+                   MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick.
+                   MFM works together with multiple other programs, like 
+                   <a href="http://www.gomlab.com">GOM</a>, 
+                   <a href="http://www.videolan.org/vlc">VLC</a>, 
+                   <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>, or 
+                   <a href="http://codesector.com/teracopy">TeraCopy</a>.
+                   All of them can be downloaded and used for free.</p>
+            
+                <p>Some examples of what you can do with MFM are:</p>
+                <ul>
+                    <li>Select which videos are copied or moved</li>
+                    <li>Select the videos to copy before hand; lists are small can be easily distributed over the internet</li>
+                    <li>Copy only relevant videos in the Wish list</li>
+                    <li>Ignore videos in the Existing and Garbage lists; don't have all the stuff duplicated in various locations</li>
+                    <li>Select movies according to predefined genre lists from <a href="http://www.imdb.com">IMDb</a></li>
+                    <li>Select videos according to regular expressions which can be tested with <a href="http://rubular.com">Rubular</a>; for example year 2013</li>
+                    <li>Search for movies or series on <a href="http://www.imdb.com">IMDb</a></li>
+                    <li>Search for videos on <a href="http://torrentz.eu">torrentz.eu</a></li>
+                    <li>List detailed media information with <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a></li>
+                    <li>View video media information in the pop-ups when hovering over a list entry</li>
+                    <li>Select videos according to filtered media information; for example horizontal resolution greater than 1000 pixels</li>
+                    <li>Play videos in the Import list with your default player</li>
+                </ul>
 
-         <p style="text-align:center">
-         <!-- FreewareFiles 100% Clean -->
-         <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
-         <img alt="FreewareFiles" src="images/FreewareFilesClean.png" style="margin: 0px 5px" height="40"></a>
+            <h3>100% Clean</h3>
+                <p>Use one of the sites below to download MFM, if you prefer to have a virus checked download.</p>
 
-         <!-- TopShareware 100% Clean -->
-         <a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm">
-         <img alt="TopShareware" src="images/TopSharewareClean.png" style="margin: 0px 5px" height="40"></a>
+                <p style="text-align:center">
+                    <!-- FreewareFiles 100% Clean -->
+                    <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
+                    <img alt="FreewareFiles" src="images/FreewareFilesClean.png" style="margin: 0px 5px" height="40"></a>
 
-         <!-- Download26 100% Clean -->
-         <a href="http://www.download26.com/modules/wfdownloads/singlefile.php?cid=50&lid=2758">
-         <img alt="Download26" src="images/Download26Clean.png" style="margin: 0px 5px" height="40"></a>
+                    <!-- TopShareware 100% Clean -->
+                    <a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm">
+                    <img alt="TopShareware" src="images/TopSharewareClean.png" style="margin: 0px 5px" height="40"></a>
 
-         <!-- NoNags 100% Clean -->
-         <a href="http://www.nonags.com/freeware-movie-file-merger_4412.html">
-         <img alt="NoNags" src="images/NoNagsClean.png" style="margin: 0px 5px" height="40"></a>
+                    <!-- Download26 100% Clean -->
+                    <a href="http://www.download26.com/modules/wfdownloads/singlefile.php?cid=50&lid=2758">
+                    <img alt="Download26" src="images/Download26Clean.png" style="margin: 0px 5px" height="40"></a>
 
-         <!-- TodaySoftware 100% Clean -->
-         <a href="http://www.todaysoftware.net/windows/system-utilities/file-disk-management/movie-file-merger/">
-         <img alt="TodaySoftware" src="images/TodaySoftwareClean.png" style="margin: 0px 5px" height="40"></a>
+                    <!-- NoNags 100% Clean -->
+                    <a href="http://www.nonags.com/freeware-movie-file-merger_4412.html">
+                    <img alt="NoNags" src="images/NoNagsClean.png" style="margin: 0px 5px" height="40"></a>
 
-         <!-- GearDownload 100% Clean -->
-         <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
-         <img alt="GearDownloadClean" src="images/GearDownloadClean.gif" style="margin: 0px 5px" height="40"></a></p>
+                    <!-- TodaySoftware 100% Clean -->
+                    <a href="http://www.todaysoftware.net/windows/system-utilities/file-disk-management/movie-file-merger/">
+                    <img alt="TodaySoftware" src="images/TodaySoftwareClean.png" style="margin: 0px 5px" height="40"></a>
 
-         <p style="text-align:center">If you like MFM, please consider making a donation in my Bitcoin wallet.<br />
-         <a href="https://www.coinbase.com/modi"><img src="images/Coinbase.png" alt="Coinbase" height="62"></a></p>
+                    <!-- GearDownload 100% Clean -->
+                    <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
+                    <img alt="GearDownloadClean" src="images/GearDownloadClean.gif" style="margin: 0px 5px" height="40"></a>
+                </p>
 
-        <h3>Hidden Benefits</h3>
-          <p>MFM is designed so that it is quite flexible.  How and for what to use it depends basically on you, 
-              what means also that you'll have to use it for some time to figure out which way is best. 
-              Some of the not that obvious benefits are:</p>
-          <ul>
-              <li>Backup your video collections on hard disks of others, that way they can watch your videos and you safe space</li>
-              <li>Social gathering when visiting your friend, because your two hard disks have to be brought together to make it happen</li>
-              <li>Save internet bandwidth, because large data quantities are moved over USB or similar</li>
-              <li>Faster than backing up in the cloud, transferring data over USB 3.0 is around 150MB/s</li>
-          </ul>
+                <p style="text-align:center">
+                    If you like MFM, please consider making a donation in my Bitcoin wallet.<br />
+                    <a href="https://www.coinbase.com/modi"><img src="images/Coinbase.png" alt="Coinbase" height="62"></a>
+                </p>
+            
+            <h3>Hidden Benefits</h3>
+                <p>
+                    MFM is designed so that it is quite flexible.  How and for what to use it depends basically on you, 
+                    what means also that you'll have to use it for some time to figure out which way is best. 
+                    Some of the not that obvious benefits are:
+                </p>
+                <ul>
+                    <li>Backup your video collections on hard disks of others, that way they can watch your videos and you safe space</li>
+                    <li>Social gathering when visiting your friend, because your two hard disks have to be brought together to make it happen</li>
+                    <li>Save internet bandwidth, because large data quantities are moved over USB or similar</li>
+                    <li>Faster than backing up in the cloud, transferring data over USB 3.0 is around 150MB/s</li>
+                </ul>
 
-            <h3 style="text-align: center">Rewards<img src="images/5Stars.jpg" alt="Rewarded 5 Stars" height="64px">Rewards</h3>
+                <h3 style="text-align: center">
+                    Rewards
+                    <img src="images/5Stars.jpg" alt="Rewarded 5 Stars" height="64px">Rewards
+                </h3>
 
-            <p>Below are some rewards MFM got so far...</p>
+                <p>
+                    Below are some rewards MFM got so far...
+                </p>
 
-            <p style="text-align:center">
-            <!-- Srelease Rewarded 5 Stars -->
-            <a href="http://www.srelease.com/movie-file-merger" target="_blank">
-            <img style="margin: 5px 5px" height="40" src="images/Srelease5Stars.jpg" alt="Srelease"></a>
+                <p style="text-align:center">
+                    <!-- Srelease Rewarded 5 Stars -->
+                    <a href="http://www.srelease.com/movie-file-merger" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/Srelease5Stars.jpg" alt="Srelease"></a>
 
-            <!-- TopShareware Rewarded 5 Stars -->
-            <a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm" target="_blank">
-            <img style="margin: 5px 5px" height="30" src="images/TopShareware5Stars.png" alt="TopShareware"></a>
+                    <!-- TopShareware Rewarded 5 Stars -->
+                    <a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm" target="_blank">
+                    <img style="margin: 5px 5px" height="30" src="images/TopShareware5Stars.png" alt="TopShareware"></a>
 
-            <!-- AOLSoft 5 Stars -->
-            <a href="http://www.aol-soft.com/movie-file-merger" target="_blank">
-            <img style="margin: 5px 5px" height="40" src="images/AOLSoft5Stars.jpg" alt="AOLSoft"></a>
+                    <!-- AOLSoft 5 Stars -->
+                    <a href="http://www.aol-soft.com/movie-file-merger" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/AOLSoft5Stars.jpg" alt="AOLSoft"></a>
 
-            <!-- UpdateStar 5 Stars -->
-            <a href="http://movie-file-merger.updatestar.com" target="_blank">
-            <img style="margin: 5px 5px" height="40" src="images/UpdateStar5Stars.png" alt="UpdateStar"></a>
+                    <!-- UpdateStar 5 Stars -->
+                    <a href="http://movie-file-merger.updatestar.com" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/UpdateStar5Stars.png" alt="UpdateStar"></a>
 
-            <!-- New Software -->
-            <a href="http://www.newsoftware.us/movie-file-merger-reinhold-lauer.html" target="_blank">
-            <img style="margin: 5px 5px" height="40" src="images/NewSoftware5Stars.jpg" alt="New Software"></a>
+                    <!-- New Software -->
+                    <a href="http://www.newsoftware.us/movie-file-merger-reinhold-lauer.html" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/NewSoftware5Stars.jpg" alt="New Software"></a>
 
-             <!-- FreewareBase Aufgenommen -->
-             <a href="http://www.freeware-base.de/freeware-zeige-details-29400-Movie_File_Merger.html">
-             <img style="margin: 5px 5px" height="40" src="images/FreewareBaseAufgenommen.png" alt="FreewareBase"></a>
+                     <!-- FreewareBase Aufgenommen -->
+                     <a href="http://www.freeware-base.de/freeware-zeige-details-29400-Movie_File_Merger.html">
+                     <img style="margin: 5px 5px" height="40" src="images/FreewareBaseAufgenommen.png" alt="FreewareBase"></a>
 
-             <!-- FreewareFiles Approved Listing -->
-             <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
-             <img style="margin: 5px 5px" height="40" src="images/FreewareFilesApprovedListing.png" alt="FreewareFiles"></a>
+                     <!-- FreewareFiles Approved Listing -->
+                     <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
+                     <img style="margin: 5px 5px" height="40" src="images/FreewareFilesApprovedListing.png" alt="FreewareFiles"></a>
 
-             <!-- MooSeek Consigliato! -->
-             <a href="http://www.mooseek.com/software/schede/movie-file-merger.htm">
-             <img style="margin: 5px 5px" height="40" src="images/MooSeek.jpg" alt="MooSeek"></a>
+                     <!-- MooSeek Consigliato! -->
+                     <a href="http://www.mooseek.com/software/schede/movie-file-merger.htm">
+                     <img style="margin: 5px 5px" height="40" src="images/MooSeek.jpg" alt="MooSeek"></a>
 
-             <!-- FreewarePark5Stars -->
-             <a href="http://www.freewarepark.com/movie-file-merger.html">
-             <img style="margin: 5px 5px" height="40" src="images/FreewarePark5Stars.png" alt="FreewarePark5Stars"></a>
-             </p>
+                     <!-- FreewarePark5Stars -->
+                     <a href="http://www.freewarepark.com/movie-file-merger.html">
+                     <img style="margin: 5px 5px" height="40" src="images/FreewarePark5Stars.png" alt="FreewarePark5Stars"></a>
+                 </p>
 
-             <p style="text-align:center">
-             <!-- DownloadPipe 5 Stars -->
-             <a href="http://www.downloadpipe.com/Windows/system-utilities-file-disk-management/review-Movie-File-Merger-1545641.html">
-             <img style="margin: 5px 5px" height="40" src="images/DownloadPipe5Stars.gif" alt="DownloadPipe"></a>
+                 <p style="text-align:center">
+                     <!-- DownloadPipe 5 Stars -->
+                     <a href="http://www.downloadpipe.com/Windows/system-utilities-file-disk-management/review-Movie-File-Merger-1545641.html">
+                     <img style="margin: 5px 5px" height="40" src="images/DownloadPipe5Stars.gif" alt="DownloadPipe"></a>
 
-             <!-- GearDownload -->
-             <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
-             <img style="margin: 5px 5px" height="40" src="images/GearDownload5Stars.gif" alt="GearDownload"></a>
+                     <!-- GearDownload -->
+                     <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
+                     <img style="margin: 5px 5px" height="40" src="images/GearDownload5Stars.gif" alt="GearDownload"></a>
          
-             <!-- SoftMebo -->
-             <a href="http://www.softmebo.com/windows/home-hobby/cataloging/movie-file-merger/">
-             <img style="margin: 5px 5px" height="40" src="images/SoftMebo.png" alt="SoftMebo"></a>
+                     <!-- SoftMebo -->
+                     <a href="http://www.softmebo.com/windows/home-hobby/cataloging/movie-file-merger/">
+                     <img style="margin: 5px 5px" height="40" src="images/SoftMebo.png" alt="SoftMebo"></a>
 
-             <!-- How2Soft -->
-             <a href="http://www.how2soft.com/Movie_File_Merger-howso-386008.html">
-             <img style="margin: 5px 5px" height="40" src="images/How2Soft5Stars.png" alt="How2Soft"></a>
+                     <!-- How2Soft -->
+                     <a href="http://www.how2soft.com/Movie_File_Merger-howso-386008.html">
+                     <img style="margin: 5px 5px" height="40" src="images/How2Soft5Stars.png" alt="How2Soft"></a>
 
-             <!-- FreeDownloadsCenter -->
-             <a href="http://www.freedownloadscenter.com/Information_Management/Misc__Collection_Managers/Movie_File_Merger.html">
-             <img style="margin: 5px 5px" height="40" src="images/FreeDownloadsCenter5Stars.gif" alt="FreeDownloadsCenter"></a>
+                     <!-- FreeDownloadsCenter -->
+                     <a href="http://www.freedownloadscenter.com/Information_Management/Misc__Collection_Managers/Movie_File_Merger.html">
+                     <img style="margin: 5px 5px" height="40" src="images/FreeDownloadsCenter5Stars.gif" alt="FreeDownloadsCenter"></a>
 
-             <!-- 2000Shareware5Stars -->
-             <a href="http://www.2000shareware.com/info/movie-file-merger/259561">
-             <img style="margin: 5px 5px" height="40" src="images/2000Shareware5Stars.gif" alt="2000Shareware5Stars"></a>
+                     <!-- 2000Shareware5Stars -->
+                     <a href="http://www.2000shareware.com/info/movie-file-merger/259561">
+                     <img style="margin: 5px 5px" height="40" src="images/2000Shareware5Stars.gif" alt="2000Shareware5Stars"></a>
 
-             <!-- NoNags5Stars -->
-             <a href="http://www.nonags.com/freeware-movie-file-merger_4412.html">
-             <img style="margin: 5px 5px" height="40" src="images/NoNags5Stars.gif" alt="NoNags5Stars"></a>
+                     <!-- NoNags5Stars -->
+                     <a href="http://www.nonags.com/freeware-movie-file-merger_4412.html">
+                     <img style="margin: 5px 5px" height="40" src="images/NoNags5Stars.gif" alt="NoNags5Stars"></a>
+                </p>
 
-             </p>
+                <h2>Reviews</h2>
 
-           <h2>Reviews</h2>
-             <p> For a more comprehensive list of reviews go to the 
-             <a href="http://movie-file-merger.org/forum/viewforum.php?f=17">MFM Review Forum</a>.</p>
+                <p> For a more comprehensive list of reviews go to the
+                    <a href="http://movie-file-merger.org/forum/viewforum.php?f=17">MFM Review Forum</a>.
+                </p>
             
-             <!-- GHacks Rewarded 5 Stars -->
-             <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
-             <a href="http://www.ghacks.net/2015/01/05/merge-video-collections-with-movie-file-merger/" target="_blank">
-             <img style="margin: 5px 5px" height="40" src="images/GHacksRewarded.jpg" alt="GHacks Rewarded 5 Stars"></a><br>
-             Movie File Merger is an interesting program for users who want to move or copy video files. 
-             It does not really matter if you want to perform those operations on your own movie collection 
-             or if you use it to merge a friend's collection with your own.
-             </p>
+                <!-- GHacks Rewarded 5 Stars -->
+                <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
+                    <a href="http://www.ghacks.net/2015/01/05/merge-video-collections-with-movie-file-merger/" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/GHacksRewarded.jpg" alt="GHacks Rewarded 5 Stars"></a><br>
+                    Movie File Merger is an interesting program for users who want to move or copy video files. 
+                    It does not really matter if you want to perform those operations on your own movie collection 
+                    or if you use it to merge a friend's collection with your own.
+                </p>
 
-             <!-- Free Downloads Center -->
-             <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
-             <a href="http://www.freedownloadscenter.com/Reviews/r9513.html" target="_blank">
-             <img style="margin: 5px 5px" height="40" src="images/FreeDownloadsCenter.gif" alt="Free Downloads Center"></a><br>
-             Movie File Merger is the most ideal program helpful with the selective combination of video collections, 
-             like home videos, movies, series, or documentaries.  As the name suggests, this handy program enhanced 
-             with the latest technology and a fast and straightforward interface helps you with the selective combination 
-             of video collections, like home videos, movies, series, or documentaries. It is also useful with other collections, 
-             like music, or other files, and is optimized for videos. The tool also supports various other features like: 
-             the option to select videos to be copied and moved, ability to copy relevant videos in the Wish list, 
-             ability to ignore videos in the Existing and Garbage lists, ability to select movies according to predefined genre lists 
-             from IMDb, ability to search for videos on torrentz.eu, and much more.<br>
-             Movie File Merger, this capable software also supports the option of playing the video with your default player.
-             </p>
+                <!-- Free Downloads Center -->
+                <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
+                    <a href="http://www.freedownloadscenter.com/Reviews/r9513.html" target="_blank">
+                    <img style="margin: 5px 5px" height="40" src="images/FreeDownloadsCenter.gif" alt="Free Downloads Center"></a><br>
+                    Movie File Merger is the most ideal program helpful with the selective combination of video collections, 
+                    like home videos, movies, series, or documentaries.  As the name suggests, this handy program enhanced 
+                    with the latest technology and a fast and straightforward interface helps you with the selective combination 
+                    of video collections, like home videos, movies, series, or documentaries. It is also useful with other collections, 
+                    like music, or other files, and is optimized for videos. The tool also supports various other features like: 
+                    the option to select videos to be copied and moved, ability to copy relevant videos in the Wish list, 
+                    ability to ignore videos in the Existing and Garbage lists, ability to select movies according to predefined genre lists 
+                    from IMDb, ability to search for videos on torrentz.eu, and much more.<br>
+                    Movie File Merger, this capable software also supports the option of playing the video with your default player.
+                </p>
 
-             <!-- Baixaki -->
-             <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
-             <a href="http://www.baixaki.com.br/download/movie-file-merger.htm#nossaop">
-             <img style="margin: 5px 5px" height="30" src="images/Baixaki.png" alt="Baixaki Movie File Merger"></a>
-             (From Google Translate)<br>
-             MFM is a tool that when you learn to use, has a lot to offer. 
-             It has integrated search, allows you to delete the files from the original location and separates their lists 
-             in six categories, something very interesting to organize videos on your computer.><br>
-             Worth downloading Movie File Merger, especially if you do not mind reading a lot about the program's functions
-             before starting to use it. It has very detailed wikis on the developer's site, 
-             which can help a lot with the problem of the interface intuitiveness.
-             </p>
+                <!-- Baixaki -->
+                <p style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px">
+                    <a href="http://www.baixaki.com.br/download/movie-file-merger.htm#nossaop">
+                    <img style="margin: 5px 5px" height="30" src="images/Baixaki.png" alt="Baixaki Movie File Merger"></a>
+                    (From Google Translate)<br>
+                    MFM is a tool that when you learn to use, has a lot to offer. 
+                    It has integrated search, allows you to delete the files from the original location and separates their lists 
+                    in six categories, something very interesting to organize videos on your computer.><br>
+                    Worth downloading Movie File Merger, especially if you do not mind reading a lot about the program's functions
+                    before starting to use it. It has very detailed wikis on the developer's site, 
+                    which can help a lot with the problem of the interface intuitiveness.
+                </p>
 
-             <p  style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px; text-align: center">
-              <!-- AITnews -->
-             <a href="http://aitnews.com/2015/01/06/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%AC%D8%A7%D9%86%D9%8A-%D9%84%D9%86%D8%B3%D8%AE%D8%8C-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%88%D8%A3%D8%B1%D8%B4%D9%81%D8%A9-%D8%A7%D9%84%D9%81%D9%8A%D8%AF/">
-             <img style="margin: 5px 5px" height="40" src="images/AITnews.png" alt="AITnews File Merger"></a>
+                <p  style="box-shadow: 5px 5px 10px #888888; padding: 10px 15px 15px 15px; text-align: center">
+                    <!-- AITnews -->
+                    <a href="http://aitnews.com/2015/01/06/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%85%D8%AC%D8%A7%D9%86%D9%8A-%D9%84%D9%86%D8%B3%D8%AE%D8%8C-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%88%D8%A3%D8%B1%D8%B4%D9%81%D8%A9-%D8%A7%D9%84%D9%81%D9%8A%D8%AF/">
+                    <img style="margin: 5px 5px" height="40" src="images/AITnews.png" alt="AITnews File Merger"></a>
 
-             <!-- Kermalkom -->
-             <a href="http://www.kermalkom.com/more-120249-12-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%85%D8%AC%D8%A7%D9%86%D9%8A%20%D9%84%D9%86%D8%B3%D8%AE%D8%8C%20%D8%AA%D8%B5%D9%86%D9%8A%D9%81%20%D9%88%D8%A3%D8%B1%D8%B4%D9%81%D8%A9%20%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88%20%D9%81%D9%8A%20%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2">
-             <img style="margin: 5px 5px" height="40" src="images/Kermalkom.png" alt="Kermalkom File Merger"></a>
-             </p>
+                    <!-- Kermalkom -->
+                    <a href="http://www.kermalkom.com/more-120249-12-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%85%D8%AC%D8%A7%D9%86%D9%8A%20%D9%84%D9%86%D8%B3%D8%AE%D8%8C%20%D8%AA%D8%B5%D9%86%D9%8A%D9%81%20%D9%88%D8%A3%D8%B1%D8%B4%D9%81%D8%A9%20%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88%20%D9%81%D9%8A%20%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2">
+                    <img style="margin: 5px 5px" height="40" src="images/Kermalkom.png" alt="Kermalkom File Merger"></a>
+                </p>
 
-         <img src="images/Header.gif" alt="Header" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
-         <p style="text-align: center"><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/00a9.png" alt="Copyright" height="15" width="15"> 2012-2015 Reinhold Lauer</p>
-    </section>
+                <img src="images/Header.gif" alt="Header" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
+                <p style="text-align: center">
+                    © 2012-2015 Reinhold Lauer
+                </p>
+            </section>
       
-      <footer>
-       <h3>Authors & Contributors</h3>
-           <p><small><a href="mailto:modi@movie-file-merger.org">R. Lauer</a> (<a href="https://github.com/Modi777" class="user-mention">@Modi777</a>), J. Gemzoee, H. Hammerborgh<br>
-               Theme by <a href="https://github.com/orderedlist">S. Smith</a></small></p>
-          <!--32x32 Icons of most contributers-->
-          <a href="http://www.icsharpcode.net/OpenSource/SD"><img src="images/SharpDevelop.jpg" alt="Free SharpDevelop IDE"></a>
-          <a href="http://www.microsoft.com/net"><img src="images/DotNet.jpg" alt="Free Framework"></a>
-          <a href="http://www.microsoft.com/web/webmatrix"><img src="images/WebMatrix.jpg" alt="Free Web Design"></a>
-          <a href="https://github.com/Modi777/Movie-File-Merger"><img src="images/GitHub.png" alt="Free GitHub Implementation"></a>
-          <a href="http://statcounter.com"><img src="images/StatCounter.png" alt="Free Website Statistics"></a>
-          <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual"><img src="images/GitBook.jpg" alt="Free GitBook User Manual"></a>
-          <a href="http://codesector.com/teracopy"><img src="images/TeraCopy.jpg" alt="Free Copy Program"></a>
-          <a href="http://www.gomlab.com/eng"><img src="images/GOM.jpg" alt="Free Media Player"></a>
-          <a href="http://www.imdb.com"><img src="images/IMDb.jpg" alt="Free Movie Database"></a>
-          <a href="http://thetvdb.com"><img src="images/TheTVDB.jpg" alt="Free Movie Database"></a>
-          <a href="http://www.videodb.info/forum_en"><img src="images/PVD.png" alt="Free Video Database"></a>
-          <a href="http://torrentz.eu"><img src="images/TorrentzEu.jpg" alt="Free Torrent Meta Search Engine"></a>
-          <a href="http://mediaarea.net/en/MediaInfo"><img src="images/MediaInfo.png" alt="Free Media Information"></a>
-          <a href="http://www.videolan.org/vlc"><img src="images/VLC.png" alt="Free Media Player"></a>
-          <a href="http://dropbox.com"><img src="images/Dropbox.jpg" alt="Free Cloud Storage"></a>
-          <a href="http://www.mozilla.org/en-US/firefox"><img src="images/FireFox.png" alt="Free Web Browser"></a>
-          <a href="http://sickbeard.com"><img src="images/Sickbeard.jpg" alt="Free Cloud Storage"></a>
-          <a href="http://www.filebot.net"><img src="images/Filebot.png" alt="Free File Renamer"></a>
-          <a href="http://www.gimp.org"><img src="images/Gimp.jpg" alt="Free Image Processing"></a>
-          <a href="http://www.jrsoftware.org/isinfo.php"><img src="images/InnoSetup.png" alt="Free Installer"></a>
-      </footer>
-     </div>
-    </div>
+            <footer>
+                <h3>Authors & Contributors</h3>
+                <p><small>
+                    <a href="mailto:modi@movie-file-merger.org">R. Lauer</a> 
+                    (<a href="https://github.com/Modi777" class="user-mention">@Modi777</a>), 
+                    J. Gemzoee, H. Hammerborgh<br>
+                    Theme by <a href="https://github.com/orderedlist">S. Smith</a></small>
+                </p>
+                <!--32x32 Icons of most contributers-->
+                <a href="http://www.icsharpcode.net/OpenSource/SD"><img src="images/SharpDevelop.jpg" alt="Free SharpDevelop IDE"></a>
+                <a href="http://www.microsoft.com/net"><img src="images/DotNet.jpg" alt="Free Framework"></a>
+                <a href="http://www.microsoft.com/web/webmatrix"><img src="images/WebMatrix.jpg" alt="Free Web Design"></a>
+                <a href="https://github.com/Modi777/Movie-File-Merger"><img src="images/GitHub.png" alt="Free GitHub Implementation"></a>
+                <a href="http://statcounter.com"><img src="images/StatCounter.png" alt="Free Website Statistics"></a>
+                <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual"><img src="images/GitBook.jpg" alt="Free GitBook User Manual"></a>
+                <a href="http://codesector.com/teracopy"><img src="images/TeraCopy.jpg" alt="Free Copy Program"></a>
+                <a href="http://www.gomlab.com/eng"><img src="images/GOM.jpg" alt="Free Media Player"></a>
+                <a href="http://www.imdb.com"><img src="images/IMDb.jpg" alt="Free Movie Database"></a>
+                <a href="http://thetvdb.com"><img src="images/TheTVDB.jpg" alt="Free Movie Database"></a>
+                <a href="http://www.videodb.info/forum_en"><img src="images/PVD.png" alt="Free Video Database"></a>
+                <a href="http://torrentz.eu"><img src="images/TorrentzEu.jpg" alt="Free Torrent Meta Search Engine"></a>
+                <a href="http://mediaarea.net/en/MediaInfo"><img src="images/MediaInfo.png" alt="Free Media Information"></a>
+                <a href="http://www.videolan.org/vlc"><img src="images/VLC.png" alt="Free Media Player"></a>
+                <a href="http://dropbox.com"><img src="images/Dropbox.jpg" alt="Free Cloud Storage"></a>
+                <a href="http://www.mozilla.org/en-US/firefox"><img src="images/FireFox.png" alt="Free Web Browser"></a>
+                <a href="http://sickbeard.com"><img src="images/Sickbeard.jpg" alt="Free Cloud Storage"></a>
+                <a href="http://www.filebot.net"><img src="images/Filebot.png" alt="Free File Renamer"></a>
+                <a href="http://www.gimp.org"><img src="images/Gimp.jpg" alt="Free Image Processing"></a>
+                <a href="http://www.jrsoftware.org/isinfo.php"><img src="images/InnoSetup.png" alt="Free Installer"></a>
+            </footer>
+        </div>
+        </div>
 
-    <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
-        var sc_project=10227202;
-        var sc_invisible=1;
-        var sc_security="e96e6a0e";
-        var scJsHost = (("https:" == document.location.protocol) ?
-        "https://secure." : "http://www.");
-        document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-        "statcounter.com/counter/counter.js'></"+"script>");
-    </script>
-    <noscript><div class="statcounter"><a title="create counter"
-        href="http://statcounter.com/free-hit-counter/" target="_blank"><img
-        class="statcounter" 
-        src="http://c.statcounter.com/10227202/0/e96e6a0e/1/"
-        alt="create counter"></a></div></noscript>
-    <!-- End of StatCounter Code for Default Guide -->
-  </body>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+            var sc_project=10227202;
+            var sc_invisible=1;
+            var sc_security="e96e6a0e";
+            var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+            "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="create counter"
+            href="http://statcounter.com/free-hit-counter/" target="_blank"><img
+            class="statcounter" 
+            src="http://c.statcounter.com/10227202/0/e96e6a0e/1/"
+            alt="create counter"></a></div>
+        </noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+    </body>
 </html>
