@@ -3,7 +3,6 @@
 <url><loc>http://movie-file-merger.org/</loc><lastmod>2015-06-01T07:12:57+00:00</lastmod><changefreq>monthly</changefreq><priority>1.00</priority></url>
 <url><loc>http://movie-file-merger.org/forum/index.php</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>http://movie-file-merger.org/usermanual.html</loc><lastmod>2015-06-01T07:13:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-<url><loc>http://movie-file-merger.org/organizevideos.html</loc><lastmod>2015-06-01T07:13:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>http://movie-file-merger.org/downloads.html</loc><lastmod>2015-06-01T07:12:33+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>http://movie-file-merger.org/donations.html</loc><lastmod>2015-06-01T07:12:30+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>http://movie-file-merger.org/bugs.html</loc><lastmod>2015-06-01T07:12:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -702,7 +701,6 @@
 <url><loc>http://movie-file-merger.org/forum/search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;author_id=50&amp;start=80</loc><changefreq>monthly</changefreq><priority>0.38</priority></url>
 <url><loc>http://movie-file-merger.org/forum/search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;author_id=50&amp;start=90</loc><changefreq>monthly</changefreq><priority>0.38</priority></url>
 <url><loc>http://www.movie-file-merger.org/usermanual.html</loc><lastmod>2015-06-01T07:13:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.38</priority></url>
-<url><loc>http://www.movie-file-merger.org/organizevideos.html</loc><lastmod>2015-06-01T07:13:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.38</priority></url>
 <url><loc>http://www.movie-file-merger.org/downloads.html</loc><lastmod>2015-06-01T07:12:33+00:00</lastmod><changefreq>monthly</changefreq><priority>0.38</priority></url>
 <url><loc>http://www.movie-file-merger.org/donations.html</loc><lastmod>2015-06-01T07:12:30+00:00</lastmod><changefreq>monthly</changefreq><priority>0.38</priority></url>
 <url><loc>http://www.movie-file-merger.org/bugs.html</loc><lastmod>2015-06-01T07:12:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.38</priority></url>
