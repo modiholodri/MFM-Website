@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.2.1</LatestRelease>
-  <ReleaseNotes>- Fixed TeraCopy interface problem with languages other then English.</ReleaseNotes>
+  <LatestRelease>0.3.0</LatestRelease>
+  <ReleaseNotes>This release add the new action bar, to make the operation a little bit simpler...
+- Just Scan It, to scan for collections on all connected hard disks.
+- Just Rip It, to get everything in the import folder.
+- Automatic wishing or binning with some predefined criteria.
+- Minor improvements for Windows 10. </ReleaseNotes>
 </MFMVersions>
