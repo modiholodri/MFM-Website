@@ -10,5 +10,5 @@ There are multiple manuals, which are more or less interconnected, involved in t
 - [How to Organize Videos on Your Hard Disks][] explains some of my ideas about handling collections and includes a few brief description of some useful programs.  It is also a GitBook and on [GitHub][GitHub HtOVoYHD].
 [Movie File Merger User Manual]: http://movie-file-merger.org/usermanual.html
 [GitHub MFM UM]: https://github.com/Modi777/movie-file-merger-user-manual
-[How to Organize Videos on Your Hard Disks]: http://www.movie-file-merger.org/organizevideos.html
+[How to Organize Videos on Your Hard Disks]: http://movie-file-merger.org/usermanual.html
 [GitHub HtOVoYHD]: https://github.com/Modi777/How-to-Organize-Videos-on-Your-Hard-Disks
