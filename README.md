@@ -1,10 +1,9 @@
 ### :checkered_flag: Welcome to the Movie File Merger Website!
-Have a look at the [Movie File Merger Website][], where you can download the project as ZIP or TAR, or the installation folder for the latest release.
-[MFM Installation]: https://github.com/Modi777/Movie-File-Merger/wiki/installation/
+Have a look at the [Movie File Merger Website][], where you can download the project as ZIP File, TAR Ball, or Setup for the latest release.
 [Movie File Merger Website]: http://movie-file-merger.org
 
 ### :book: The User Manuals...
-There are multiple manuals, which are more or less interconnected, involved in the whole project.
+There are two manuals, which are more or less interconnected, involved in the whole project.
 
 - The [Movie File Merger User Manual][], which concentrates on the program technical aspects of handling MFM.  It is a GitBook and on [GitHub][GitHub MFM UM].
 - [How to Organize Videos on Your Hard Disks][] explains some of my ideas about handling collections and includes a few brief description of some useful programs.  It is also a GitBook and on [GitHub][GitHub HtOVoYHD].
