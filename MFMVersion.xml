@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.3.0</LatestRelease>
-  <ReleaseNotes>This release add the new action bar, to make the operation a little bit simpler...
-- Just Scan It, to scan for collections on all connected hard disks.
-- Just Rip It, to get everything in the import folder.
-- Automatic wishing or binning with some predefined criteria.
-- Minor improvements for Windows 10. </ReleaseNotes>
+  <LatestRelease>0.4.0</LatestRelease>
+  <ReleaseNotes>This release added the Maintenance tab...
+    - Interface to FileBot, to rename the actual files
+    - Interface to Windows Explorer, to move or delete files
+    - Minimum resolution when processing videos
+    - Multiple minor improvements and fixes
+</ReleaseNotes>
 </MFMVersions>
