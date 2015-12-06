@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.4.0</LatestRelease>
-  <ReleaseNotes>This release added the Maintenance tab...
-    - Interface to FileBot, to rename the actual files
-    - Interface to Windows Explorer, to move or delete files
-    - Minimum resolution when processing videos
-    - Multiple minor improvements and fixes
+  <LatestRelease>0.4.1</LatestRelease>
+  <ReleaseNotes>This release streamlined the user interface...
+- Checked the Maintenance tab.
+- Checked the FileBot interface.
+- Simplified the Lists tab.
+- Simplified the Setting tab. 
 </ReleaseNotes>
 </MFMVersions>
