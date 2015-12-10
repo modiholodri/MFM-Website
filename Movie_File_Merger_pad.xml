@@ -66,13 +66,13 @@
   <Program_Info>
     <AppID>app-97005402a99b</AppID>
     <Program_Name>Movie File Merger</Program_Name>
-    <Program_Version>0.3.0</Program_Version>
-    <Program_Release_Month>08</Program_Release_Month>
-    <Program_Release_Day>08</Program_Release_Day>
+    <Program_Version>0.4.1</Program_Version>
+    <Program_Release_Month>12</Program_Release_Month>
+    <Program_Release_Day>06</Program_Release_Day>
     <Program_Release_Year>2015</Program_Release_Year>
     <Program_Cost_Dollars>0</Program_Cost_Dollars>
-    <Program_Cost_Other_Code>THB</Program_Cost_Other_Code>
-    <Program_Cost_Other>0</Program_Cost_Other>
+    
+    
     <Program_Type>Freeware</Program_Type>
     <Program_Category_Class>Home &amp; Hobby::Cataloging</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
@@ -80,20 +80,20 @@
     <Program_Release_Status>New Release</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
     <Program_Target_Platform>Windows</Program_Target_Platform>
-    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,WinServer,WinOther,WinVista,WinVista x64</Program_OS_Support>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows 10,WinServer,WinOther,WinVista,WinVista x64</Program_OS_Support>
     <Program_Language>English</Program_Language>
-    <Program_Change_Info>This release adds the new action bar, to make the operation simpler...
-- Just Scan It, to scan for collections on all connected hard disks.
-- Just Rip It, to get everything in the import folder.
-- Automatic wishing or binning with predefined criteria.
-- Minor improvements for Windows 10</Program_Change_Info>
+    <Program_Change_Info>This release streamlined the user interface... 
+- Checked the Maintenance tab. 
+- Checked the FileBot interface. 
+- Simplified the Lists tab. 
+- Simplified the Setting tab.</Program_Change_Info>
     <Program_System_Requirements>.NET Framework</Program_System_Requirements>
     <Limitations>No limitations</Limitations>
-    <Awards></Awards>
+    <Awards>http://movie-file-merger.org/otherstuff.html</Awards>
     <File_Info>
-      <File_Size_Bytes>1826816</File_Size_Bytes>
-      <File_Size_K>1784</File_Size_K>
-      <File_Size_MB>1.74</File_Size_MB>
+      <File_Size_Bytes>1869824</File_Size_Bytes>
+      <File_Size_K>1826</File_Size_K>
+      <File_Size_MB>1.78</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -111,6 +111,8 @@
     <Includes_DirectX></Includes_DirectX>
     <Includes_VB_Runtime></Includes_VB_Runtime>
     <GooglePlusFanPage></GooglePlusFanPage>
+    <GooglePlusProductPage>https://plus.google.com/u/0/+MovieFileMergerOrgModi</GooglePlusProductPage>
+    <FacebookProductPage>https://www.facebook.com/Movie.File.Merger</FacebookProductPage>
   </Program_Info>
   <Web_Info>
     <Application_URLs>
@@ -129,31 +131,31 @@
   </Web_Info>
   <Program_Descriptions>
     <English>
-      <Keywords>Collection, Combination, Comparison, Video, Movies, Series, Documentaries, Existing, Garbage, Wish</Keywords>
+      <Keywords>Collection, Combination, Comparison, Cleanup, Video, Movies, Series, Documentaries, Existing, Garbage, Wish</Keywords>
       <Char_Desc_45>Selective combination of video collections.</Char_Desc_45>
       <Char_Desc_80>Selective combination of video collections on hard disks.</Char_Desc_80>
-      <Char_Desc_250>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files.</Char_Desc_250>
-      <Char_Desc_450>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.  MFM runs in Dropbox, which makes it easier to share lists with other people. MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick.</Char_Desc_450>
-      <Char_Desc_2000>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.
+      <Char_Desc_250>Movie File Merger (MFM) helps you with the selective combination and cleanup of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files.</Char_Desc_250>
+      <Char_Desc_450>Movie File Merger (MFM) helps you with the selective combination and cleanup of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.  MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick, or even in Dropbox, which makes it easier to share lists with other people.</Char_Desc_450>
+      <Char_Desc_2000>Movie File Merger (MFM) helps you with the selective combination and cleanup of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.
 
-MFM is not a movie database program like Personal Video Database! MFM is designed so that the lists can be easily updated once out of date. MFM runs in Dropbox, which makes it easier to share lists with other people. MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick. MFM works together with multiple other programs, like GOM, VLC, MediaInfo, or TeraCopy. All of them can be downloaded and used for free.
+MFM is designed so that the video lists can be easily updated once out of date. MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick, or even in Dropbox, which makes it easier to share lists with other people. MFM works together with multiple other programs, like GOM, VLC, MediaInfo, FileBot or TeraCopy. All of them can be downloaded and used for free.
 
 Features
 - Select which videos are copied or moved
-- Select the videos to copy before hand
 - Small lists for distribution over the internet
 - Copy only relevant videos in the Wish list
 - Ignore videos in the Existing and Garbage lists
 - Avoid to have all the stuff duplicated
-- Select movies according to predefined genre lists from IMDb
+- Select movies according to predefined genre lists
 - Select videos according to regular expressions
-- Search for movies or series on IMDb
-- Search for videos on torrentz.eu
+- Search for movies or series information on the web
+- Search for video torrents on the web
 - View video media information in the pop-ups when hovering over a list entry
 - Select videos according to filtered media information
 - Start playing the video with your default player
 - Scan all connected hard disks for collections (Just Scan It)
-- Copy everything, what is missing and not garbage, from the Import folder (Just Rip It)</Char_Desc_2000>
+- Copy everything, what is missing and not garbage, from the Import folder (Just Rip It)
+- Cleanup of your video collection</Char_Desc_2000>
     </English>
   </Program_Descriptions>
   <Permissions>
@@ -278,10 +280,10 @@ Last but not least, it is possible to install the copying program TeraCopy which
     <Site_DESCRIPTION></Site_DESCRIPTION>
     <Site_Site_Title>Movie File Merger</Site_Site_Title>
     <Site_Site_URL>http://www.movie-file-merger.org</Site_Site_URL>
-    <Site_Keywords>Collection, Combination, Comparison, Video, Movies, Series, Documentaries, Existing, Garbage, Wish</Site_Keywords>
+    <Site_Keywords>Collection, Combination, Comparison, Cleanup, Video, Movies, Series, Documentaries, Existing, Garbage, Wish, Rename, Recycle Bin, Colored Lists</Site_Keywords>
     <Site_Description_100>Selectively Merger Video Collections on Hard Disks</Site_Description_100>
-    <Site_Description_250>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files.</Site_Description_250>
-    <Site_Description_450>Movie File Merger (MFM) helps you with the selective combination of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.  MFM runs in Dropbox, which makes it easier to share lists with other people. MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick.</Site_Description_450>
+    <Site_Description_250>Movie File Merger (MFM) helps you with the selective combination and cleanup of video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files.</Site_Description_250>
+    <Site_Description_450>Movie File Merger (MFM) helps you with the selective combination of and cleanup video collections, like home videos, movies, series, or documentaries. It can be used also for other types of collections, like music, or basically any files, but MFM is optimized for videos.  MFM is portable, so that you can run it from anywhere, on any hard disk or memory stick, or even in Dropbox, which makes it easier to share lists with other people.</Site_Description_450>
     <Site_Contact_First_Name>Reinhold</Site_Contact_First_Name>
     <Site_Contact_Last_Name>Lauer</Site_Contact_Last_Name>
     <Site_Contact_Email>modi@movie-file-merger.org</Site_Contact_Email>
