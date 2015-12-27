@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>32</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>MFM Gallery</GalleryName>
+            <GallerySuffix>2</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>false</ImageAspectRatio>
+            <ImageEffect>carousel_basic</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>727</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chess/</ImageTemplate>
+            <ImageTemplateName>Chess</ImageTemplateName>
+            <ImageWidth>937</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Modi/Documents/WOW Slider/MFM Web.html</PublishFileName>
+            <PublishIndex>MFM Web.html</PublishIndex>
+            <PublishPath>C:/Users/Modi/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>true</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Play</TemplateFont>
+            <TemplateName>chess</TemplateName>
+            <ThumbAlign>top</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web GitHub.jpg</url>
+                <title>MFM on GitHub</title>
+                <userurl>https://github.com/Modi777/Movie-File-Merger</userurl>
+                <usertarget>_blank</usertarget>
+                <filesize>106550</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web SourceForge.jpg</url>
+                <title>MFM on SourceForge</title>
+                <userurl>https://sourceforge.net/projects/movie-file-merger</userurl>
+                <usertarget>_blank</usertarget>
+                <filesize>107505</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web User Manual.jpg</url>
+                <title>MFM Online User Manual</title>
+                <userurl>http://modi777.gitbooks.io/movie-file-merger-user-manual</userurl>
+                <usertarget>_blank</usertarget>
+                <filesize>126220</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web Forum.jpg</url>
+                <title>MFM Forum</title>
+                <userurl>http://movie-file-merger.org/forum/index.php</userurl>
+                <usertarget>_blank</usertarget>
+                <filesize>99938</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web AppVisor.jpg</url>
+                <title>MFM Web AppVisor</title>
+                <userurl>http://wiki.appvisor.org/Movie_File_Merger</userurl>
+                <filesize>146488</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web OpenHub.jpg</url>
+                <title>MFM Web OpenHub</title>
+                <userurl>https://www.openhub.net/p/Movie-File-Merger</userurl>
+                <filesize>83513</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web StatCounter.jpg</url>
+                <title>MFM on StatCounter</title>
+                <filesize>83004</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web Google Analytics.jpg</url>
+                <title>MFM on Google Analytics</title>
+                <filesize>62776</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web FileCart.jpg</url>
+                <title>MFM on FileCart</title>
+                <userurl>http://www.filecart.com/movie-file-merger</userurl>
+                <filesize>96138</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web FreewareFiles.jpg</url>
+                <title>MFM on FreewareFiles</title>
+                <userurl>http://www.freewarefiles.com/Movie-File-Merger_program_103162.html</userurl>
+                <filesize>135482</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web Windows 10 Compatible.jpg</url>
+                <title>MFM on Windows 10 Compatible</title>
+                <userurl>http://movie-file-merger.windows10compatible.com/</userurl>
+                <filesize>142972</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Web GearDownload.jpg</url>
+                <title>MFM on GearDownload</title>
+                <userurl>http://www.geardownload.com/hobby/movie-file-merger.html</userurl>
+                <filesize>97730</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

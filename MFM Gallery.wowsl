@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>32</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>MFM Gallery</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>false</ImageAspectRatio>
+            <ImageEffect>cube</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>727</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chess/</ImageTemplate>
+            <ImageTemplateName>Chess</ImageTemplateName>
+            <ImageWidth>937</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Modi/Documents/WOW Slider/MFM Gallery.html</PublishFileName>
+            <PublishIndex>MFM Gallery.html</PublishIndex>
+            <PublishPath>C:/Users/Modi/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>true</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Play</TemplateFont>
+            <TemplateName>chess</TemplateName>
+            <ThumbAlign>top</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Lists.jpg</url>
+                <title>MFM Lists</title>
+                <filesize>120086</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Maintenance.jpg</url>
+                <title>MFM Maintenance</title>
+                <filesize>155202</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Log.gif</url>
+                <title>MFM Log</title>
+                <filesize>128517</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Settings.gif</url>
+                <title>MFM Settings</title>
+                <filesize>116517</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM Instructions.jpg</url>
+                <title>MFM Instructions</title>
+                <filesize>181754</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Modi/Dropbox/GitHub/MFM-Website/images/MFM About.jpg</url>
+                <title>MFM About</title>
+                <filesize>183081</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
