@@ -38,7 +38,7 @@ the hamburger button with a little gradient effekt
 */
 #hamburger {
     float: left;
-    border: 1px solid #808080;
+    border: 1px solid #2f89cc;
     border-radius: 3px 3px 3px 3px;
     cursor: pointer;
     display: inline-block;
@@ -46,21 +46,21 @@ the hamburger button with a little gradient effekt
     padding: 3px 4px 3px;
     width: 25px;
     background: #f8f8f8;
-    background: -moz-linear-gradient(top, #f8f8f8 0%, #eeeeee 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #eeeeee));
-    background: -webkit-linear-gradient(top, #f8f8f8 0%, #eeeeee 100%);
-    background: -o-linear-gradient(top, #f8f8f8 0%, #eeeeee 100%);
-    background: -ms-linear-gradient(top, #f8f8f8 0%, #eeeeee 100%);
-    background: linear-gradient(to bottom, #f8f8f8 0%, #eeeeee 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#eeeeee', GradientType=0);
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #2f89cc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #2f89cc));
+    background: -webkit-linear-gradient(top, #f8f8f8 0%, #2f89cc 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%, #2f89cc 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%, #2f89cc 100%);
+    background: linear-gradient(to bottom, #f8f8f8 0%, #2f89cc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f89cc', endColorstr='#0068ff', GradientType=0);
 }
 
 /*
 The white stripes in the hamburger button
 */
 #hamburger div {
-    background-color: #bbb;
-    border: 1px solid #eee;
+    background-color: #808080;
+    border: 1px solid #2f89cc;
     border-radius: 2px 2px 2px 2px;
     height: 3px;
     margin-top: 3px;
