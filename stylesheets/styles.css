@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   color:#393939;
-  text-align: center
+  text-align: left
 }
 
 h3, h4, h5, h6 {
@@ -104,6 +104,10 @@ header {
   width:270px;
   float:left;
   position:fixed;
+}
+
+header h2 {
+    text-align: center
 }
 
 header ul {
