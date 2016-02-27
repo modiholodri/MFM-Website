@@ -1,1 +1,3 @@
 ErrorDocument 404 /errors.html
+
+Redirect 301 /MFMVersion.xml /launch_counter.php
