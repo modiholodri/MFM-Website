@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-  <LatestRelease>0.4.1</LatestRelease>
-  <ReleaseNotes>This release streamlined the user interface...
-- Checked the Maintenance tab.
-- Checked the FileBot interface.
-- Simplified the Lists tab.
-- Simplified the Setting tab. 
+<LatestRelease>0.4.2</LatestRelease>
+<ReleaseNotes>
+This release improved the colors and list updating...
+- Changed the list colors, after I got a new TV.
+- Fixed the scanning so that list are updated.
+- Changed export format to XML.
+- Added donations link to About tab.
+- Updated MediaInfo to version 0.7.84. 
 </ReleaseNotes>
 </MFMVersions>
