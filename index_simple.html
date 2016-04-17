@@ -1,311 +1,252 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Combine/Maintain Video Collections on Hard Disks</title>
-        <meta name="DC.Format" content="text/html" /> 
-        <meta name="DC.Title" xml:lang="EN" lang="EN" content="Combine/Maintain Video Collections on Hard Disks" />
-        <meta name="DC.Creator" content="Reinhold Lauer" />
-        <meta name="DC.Description" xml:lang="EN" lang="EN" content="Selective combination of video collections, home videos, movies, series... Is Portable." />
-        <meta name="DC.Rights" content="Copyright 2016, Reinhold Lauer - All rights reserved" />
+    <meta name="description" content="Selective combination of video collections, home videos, movies, series... Is Portable.">
+    <meta name="author" content="Reinhold Lauer">
+    <link rel="icon" href="images/MFM32Favicon.ico">
 
-        <meta name="description" content="Selective combination of video collections, home videos, movies, series... Is Portable.">
-        <meta name="keywords" content="Collection, Merge, Combination, Comparison, Video, Movies, Series, Documentaries, Home Page">
-        <link rel="shortcut icon" type="image/x-icon" href="images/MFM32Favicon.ico" />
+    <title>Combine/Maintain Video Collections on Hard Disks</title>
 
-        <!--Using jQuery and jQuery UI for display effects-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-        <!--Using the hamburger menu display code-->
-        <script src="javascripts/hamburger.js"></script>
-        <script src="javascripts/scale.fix.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/hamburger.css"/>
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css">
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/pygment_trac.css">
-        <link rel="canonical" href="http://movie-file-merger.org/index.html" />
-        <link rel="alternate" hreflang="en" href="http://movie-file-merger.org/index.html" />
-        <link rel="alternate" hreflang="en" href="http://movie-file-merger.org/" />
-     
-        <!-- Google Analytics Code -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-63705144-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        <!-- Start WOWSlider.com HEAD section -->
-        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-        <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
 
-    </head>
-
-    <body>
-        <!-- Facebook Stuff -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <div class="wrapper"  id="container">
-            <header>
-                <!--The Hamburger-->
-                <div id="hamburger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-
-                <!-- Header Banner -->
-                <img src="images/Header.gif" alt="Movie File Merger Banner" width="220" style="margin: 0px 0px 15px 10px; box-shadow: 5px 5px 10px #888888" >
-
-                <h2> MFM Home  <img style="margin: 0px 0px 0px 10px" src="images/MFM128.png" alt="Movie File Merger Home" height="32"></h2>
-
-                <!-- The download areas -->
-                <ul>
-                    <li><a href="https://modi777.gitbooks.io/movie-file-merger-user-manual">Access <strong>User Manual</strong></a></li>
-                    <li><a href="https://modi777.gitbooks.io/how-to-oraganize-videos-on-your-hard-disks">Access <strong>How to Org</strong></a></li>
-                    <li><a href="http://movie-file-merger.org/MFMSetup.exe">Download <strong>MFM Setup</strong></a></li> 
-                </ul>
-            </header>
-
-            <!--The Layer that will be layed over the content so that the content is unclickable while menu is shown-->
-            <div id="contentLayer"></div>
-
-            <!--The mobile navigation Markup hidden via css-->
-            <nav>
-                <ul>
-                    <li><a href="screenshots.html">Screenshots</a></li>
-                    <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
-                    <li><a href="usermanual.html">Manuals</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="donations.html">Donations</a></li>
-                    <li><a href="otherstuff.html">Other Stuff</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="license.html">License</a></li>
-                </ul>
-            </nav>
-
-            <!--The content of the site-->
-            <div id="content">
-
-            <section>
-            <img src="images/Header.gif" alt="Movie File Merger Banner" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
-            <p style="font-weight: bolder; font-style: italic; font-size: 24px; text-align: center">Combine/Maintain Video Collections on Hard Disks</p>
-
-            <h1>Movie File Merger Home</h1>
-            
-                <p>
-                    Movie File Merger (MFM) supports you with the selective combination and maintenance of video collections, 
-                    like home videos, movies, series, or documentaries on your hard disks.
-                </p>
-                <img src="images/TagCloud.jpg" alt="Movie File Merger Tag Cloud Collection share cleanup merge
-                        organize select inform download download move copy copy filter dump combine combine lists
-                        sort view play hover ignore Movies Series Documentaries Clips Music Files
-                        Garbage Existing Wish ImportFast Fast Hard-Disk USB Internet Internet Torrents WWW Web
-                        GOM FileBot TeraCopy VLC MediaInfo Dropbox IMDb TheTVDB" />
-                <p></p>
-
-                <p>
-                    version 0.4.1 loook like...
-                </p>
-
-                <!-- Start WOWSlider.com BODY section -->
-                <div id="wowslider-container1">
-                <div class="ws_images"><ul>
-		                <li><img src="data1/images/mfm_lists.jpg" alt="Movie File Merger Lists" title="Movie File Merger Lists" id="wows1_0"/></li>
-		                <li><img src="data1/images/mfm_maintenance.jpg" alt="Movie File Merger Maintenance" title="Movie File Merger Maintenance" id="wows1_1"/></li>
-		                <li><img src="data1/images/mfm_log.jpg" alt="Movie File Merger Log" title="Movie File Merger Log" id="wows1_2"/></li>
-		                <li><img src="data1/images/mfm_settings.jpg" alt="Movie File Merger Settings" title="Movie File Merger Settings" id="wows1_3"/></li>
-		                <li><img src="data1/images/mfm_instructions.jpg" alt="image slider" title="Movie File Merger Instructions" id="wows1_4"/></a></li>
-		                <li><img src="data1/images/mfm_about.jpg" alt="Movie File Merger About" title="Movie File Merger About" id="wows1_5"/></li>
-	                </ul></div>
-	                <div class="ws_bullets"><div>
-		                <a href="#" title="Movie File Merger Lists"><span><img src="data1/tooltips/mfm_lists.jpg" alt="Movie File Merger Lists"/>1</span></a>
-		                <a href="#" title="Movie File Merger Maintenance"><span><img src="data1/tooltips/mfm_maintenance.jpg" alt="Movie File Merger Maintenance"/>2</span></a>
-		                <a href="#" title="Movie File Merger Log"><span><img src="data1/tooltips/mfm_log.jpg" alt="Movie File Merger Log"/>3</span></a>
-		                <a href="#" title="Movie File Merger Settings"><span><img src="data1/tooltips/mfm_settings.jpg" alt="Movie File Merger Settings"/>4</span></a>
-		                <a href="#" title="Movie File Merger Instructions"><span><img src="data1/tooltips/mfm_instructions.jpg" alt="Movie File Merger Instructions"/>5</span></a>
-		                <a href="#" title="Movie File Merger About"><span><img src="data1/tooltips/mfm_about.jpg" alt="Movie File Merger About"/>6</span></a>
-	                </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
-                <div class="ws_shadow"></div>
-                </div>	
-                <script type="text/javascript" src="engine1/wowslider.js"></script>
-                <script type="text/javascript" src="engine1/script.js"></script>
-                <!-- End WOWSlider.com BODY section -->
-                <p></p>
-
-                <p>
-                    <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual/">User Manual</a>
-                    <!-- Movie File Merger User Manual -->
-                    <a href="https://www.gitbook.com/download/pdf/book/modi777/movie-file-merger-user-manual">
-                    <img alt="Movie File Merger User Manual" src="images/UserManualCover.png" style="margin: 0px 15px; box-shadow: 5px 5px 10px #888888" height="100"></a>
-                </p>
-                <p  style="text-align: center">
-                    <a href="http://modi777.gitbooks.io/how-to-oraganize-videos-on-your-hard-disks">How to Organize Videos on Your Hard Disks</a>.
-                    <!-- How to Organize Videos on Your Hard Disks -->
-                    <a href="https://www.gitbook.com/download/pdf/book/modi777/how-to-oraganize-videos-on-your-hard-disks">
-                    <img alt="How to Organize with Movie File Merger" src="images/HowToOrganizeCover.jpg" style="margin: 0px 15px; box-shadow: 5px 5px 10px #888888" height="100"></a>
-                </p>
-
-            <h2>Lists Tab Features
-                <img alt="Movie File Merger Features" src="images/Features.png" style="margin: 0px 0px 0px 20px" height="48">
-            </h2>
-                <p>
-                    The Lists tab is the main tab to combine video collections.
-                    Use it to move items around in the different lists, sort your collection, or rip the collection of a friend.
-                </p>
-                <img alt="Movie File Merger Lists Tab" src="images/MFMLists.jpg" style="box-shadow: 5px 5px 10px #888888">
-                <p></p>
-
-                <p>
-                    Some examples of what you can do with the Movie File Merger Lists Tab are:
-                </p>
-                <ul>
-                    <li>Select which videos are copied or moved</li>
-                    <li>Select the videos to copy before hand</li>
-                    <li>Small lists for distribution over the internet</li>
-                    <li>Copy only relevant videos in the Wish list</li>
-                    <li>Ignore videos in the Existing and Garbage lists</li>
-                    <li>Select movies according to predefined genre lists from the internet, for example <a href="http://www.imdb.com">IMDb</a></li>
-                    <li>Select videos according to resolution or other details</li>
-                    <li>Search for movies or series on the internet, like on <a href="http://thetvdb.com">TheTVDb</a></li>
-                    <li>Search for videos on the web, for example <a href="http://torrentz.eu">torrentz.eu</a></li>
-                    <li>List detailed media information with <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a></li>
-                    <li>View video media information in the pop-ups when hovering over a list entry</li>
-                    <li>Select videos according to filtered media information; for example horizontal resolution greater than 1000 pixels</li>
-                    <li>Play videos in the Import list with your default player</li>
-                </ul>
-
-            <h2>Maintenance Tab Features
-                <img alt="Movie File Merger Features" src="images/Features.png" style="margin: 0px 0px 0px 20px" height="48">
-            </h2>
-                <p>
-                    The Maintenance tab is used to cleanup your newly acquired videos and add-on files or to cleanup your collection in general. 
-                    It is used in conjunction with the Windows Explorer or FileBot, but basically, 
-                    you can use it with any program, which accepts file drops.
-                </p>
-                <img alt="Movie File Merger Maintenance Tab" src="images/MFMMaintenance.gif" style="box-shadow: 5px 5px 10px #888888">
-                <p></p>
-
-                <p>
-                    Some examples of what you can do with the Movie File Merger Maintenance Tab are:
-                </p>
-                <ul>
-                    <li>Suck relevant files out of download folders</li>
-                    <li>Differentiate automatically between movies and series</li>
-                    <li>Move irrelevant files into the Windows Recycle Bin</li>
-                    <li>Drop movies or series with bad names into <a href="http://www.filebot.net">FilBot</a> to rename them</li>
-                    <li>Move movies or series with good names in other folders</li>
-                    <li>Check if all files in your collection have a good name</li>
-                    <li>Get rid of garbage files in your collection</li>
-                </ul>
-
-            <h2>Hidden Benefits
-                <img alt="Movie File Merger Hidden Benefits" src="images/HiddenBenefits.png" style="margin: 0px 0px 0px 20px" height="48">
-            </h2>
-                <p>
-                    MFM is designed so that it is quite flexible.  How and for what to use it depends basically on you, 
-                    what means also that you'll have to use it for some time to figure out which way is best. 
-                    Some of the not that obvious benefits are:
-                </p>
-                <ul>
-                    <li>Backup your video collections on hard disks of others, that way they can watch your videos and you safe space</li>
-                    <li>Social gathering when visiting your friend, because your two hard disks have to be brought together to make it happen</li>
-                    <li>Save internet bandwidth, because large data quantities are moved over USB or similar</li>
-                    <li>Faster than backing up in the cloud, transferring data over USB 3.0 is around 150MB/s</li>
-                </ul>
-
-                <p style="font-weight: bolder; font-style: italic; font-size: 24px; text-align: center; margin-bottom: 0px">
-                    Combine/Maintain Video Collections on Hard Disks <br>
-                    <img alt="Movie File Merger Banner" src="images/Header.gif" width="500" style="margin: 5px 0px 0px; box-shadow: 5px 5px 10px #888888" > <br>
-                </p>
-                <p style="text-align: center">
-                    <a href="http://movie-file-merger.org/index.html">Home</a> | 
-                    <a href="http://movie-file-merger.org/screenshots.html">Screenshots</a> | 
-                    <a href="http://movie-file-merger.org/forum/index.php">Forum</a> | 
-                    <a href="http://movie-file-merger.org/usermanual.html">Manuals</a> | 
-                    <a href="http://movie-file-merger.org/downloads.html">Downloads</a> <br>
-                    <a href="http://movie-file-merger.org/donations.html">Donations</a> | 
-                    <a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a> | 
-                    <a href="http://movie-file-merger.org/contacts.html">Contact</a> | 
-                    <a href="http://movie-file-merger.org/license.html">License</a> <br>
-                    Copyright © 2012-2016 Reinhold Lauer
-                </p>
-            </section>
-      
-            <footer>
-                <!-- Twitter Stuff -->
-                <a href="https://twitter.com/ModiMovieMerger" class="twitter-follow-button" data-show-count="false">Follow @ModiMovieMerger</a>
-                <script>
-                    !function(d,s,id){
-                        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                        if(!d.getElementById(id)){
-                            js=d.createElement(s);
-                            js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
-                            fjs.parentNode.insertBefore(js,fjs);
-                        }
-                    }(document, 'script', 'twitter-wjs');
-                </script>
-                <br>
-                <!-- Google++ Stuff -->
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <div class="g-follow" data-href="https://plus.google.com/+MoviefilemergerOrgModi" data-rel="author"></div>
-                <br>
-                <!-- Facebook Stuff -->
-                <div class="fb-like" 
-                    data-href="https://www.facebook.com/Movie.File.Merger"
-                    data-layout="button_count" 
-                    data-action="like" 
-                    data-show-faces="true" 
-                    data-share="true">
-                </div>
-                <p></p>
-
-                <h3 style="margin: 0px 0px, 0px">Authors & Contributors <br>
-                    <small>
-                        <a href="mailto:modi@movie-file-merger.org">R. Lauer</a> 
-                        <a href="https://github.com/Modi777" class="user-mention">(@Modi777)</a>, 
-                        <a href="mailto:bitdown@movie-file-merger.org" class="user-mention">Bitdown</a>, 
-                        <a href="mailto:hammerborgh@movie-file-merger.org" class="user-mention">Hammerborgh</a>
-                    </small>
-                </h3>
-                
-            </footer>
-        </div>
-        </div>
-
-        <!-- Start of StatCounter Stuff -->
-        <script type="text/javascript">
-            var sc_project=10227202;
-            var sc_invisible=1;
-            var sc_security="e96e6a0e";
-            var scJsHost = (("https:" == document.location.protocol) ?
-            "https://secure." : "http://www.");
-            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-            "statcounter.com/counter/counter.js'></"+"script>");
-        </script>
-        <noscript>
-            <div class="statcounter">
-                <a title="create counter"
-                    href="http://statcounter.com/free-hit-counter/" target="_blank"><img
-                    class="statcounter" 
-                    src="http://c.statcounter.com/10227202/0/e96e6a0e/1/"
-                    alt="create counter">
-                </a>
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://movie-file-merger.org/index_simple.html">Movie File Merger</a>
             </div>
-        </noscript>
-        <!-- End of StatCounter Stuff -->
-    </body>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://movie-file-merger.org/screenshots.html">Screenshots</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/usermanual.html">Manuals</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/downloads.html">Downloads</a></li>
+                  </ul>
+                </li>
+                <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
+                <li><a href="http://movie-file-merger.org/donations.html">Donations</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://movie-file-merger.org/contacts.html">Contacts</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/license.html">License</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Fully Functional Free Download</h1>
+              <p>The latest version of the Movie File Merger is compatible with Windows 7, 8, and 10.
+                 All features are available in the free version.</p>
+              <p><a class="btn btn-lg btn-primary" href="http://movie-file-merger.org/MFMSetup.exe" role="button">Download Now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Online User Manual</h1>
+              <p>Explains the general usage of Movie File Merger and how to interact with the supporting programs. You can download it as ePUB, MOBI or PDF.
+                 Another short book is How to Organize Collections on Hard Disks.</p>
+              <p><a class="btn btn-lg btn-primary" href="http://modi777.gitbooks.io/movie-file-merger-user-manual/" role="button">Read It Now</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Open Source</h1>
+              <p>The complete Movie File Merger project inclusive source code can be downloaded as ZIP File or TAR Ball.  
+                 Contributers concerning source code or documentation are welcome!</p>
+              <p><a class="btn btn-lg btn-primary" href="https://github.com/Modi777/Movie-File-Merger" role="button">Get It Now</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <!-- Combine Two Collections -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconCombine.jpg" alt="Combine Two Collections" width="140" height="140">
+          <h2>Combine</h2>
+          <p>Movie File Merger (MFM) supports you with the selective combination of video collections, like home videos, movies, series, or documentaries on your hard disks.
+             It can be used also for other types of collections, like music, or basically any files, but it is optimized for videos.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- Remember Your Collection -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconRemember.jpg" alt="Remember Your Collection" width="140" height="140">
+          <h2>Remember</h2>
+          <p>Movie File Merger remembers all the videos you have in the different categories, like Movies, Documentaries, or Series. So that you'll not copy the same videos again and again.
+             It remembers also all the Garbage movies, which you don;t want to have anymore.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- Maintain Your Collection -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconMaintain.png" alt="Maintain Your Collection" width="140" height="140">
+          <h2>Maintain</h2>
+          <p>Movie File Merger is designed so that your collection information can be easily updated.  It points out bad names for documentaries, movies or series,
+             so that they can be renamed with BileBot. Unrelated files can be moved in the recycle bin and videos can be sucked out of all the subfolders.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Portable -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconPortable.png" alt="Movie File Merger is Portable" width="140" height="140">
+          <h2>Portable</h2>
+          <p>MMFM is portable, so that you can run it from anywhere, on any hard disk or memory stick. You can even put in in your phone when you use it as memory stick.
+             If Movie File Merger is run in Dropbox it's easier to share lists with other people.</p>
+          <p><a class="btn btn-default" href="http://movie-file-merger.org/downloads.html" role="button">Download now &raquo;</a></p>
+        </div>
+        <!-- Free -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconFree.png" alt="Movie File Merger is Free" width="140" height="140">
+          <h2>Free</h2>
+          <p>Movie File Merger is free and will be all the time free and all features are available in the free version.
+             Anyway, if you use Movie File Merger and it saves you time and moeny a donation would be welcome all the time.</p>
+          <p><a class="btn btn-default" href="http://movie-file-merger.org/donations.html" role="button">Donate now &raquo;</a></p>
+        </div>
+        <!-- Interfacing -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/IconInterfacing.png" alt="Movie File Merger Interfaces" width="140" height="140">
+          <h2>Interfacing</h2>
+          <p>MFM works together with multiple other programs, like FileBot, GOM, VLC, MediaInfo, or TeraCopy. All of them can be downloaded and used for free.
+             Other programs are either directly controlled from MFM or, if they accept file dorps, then then files can bge droped there from the Maintenance interface.</p>
+          <p><a class="btn btn-default" href="http://movie-file-merger.org/downloads.html" role="button">Download now &raquo;</a></p>
+        </div>
+      </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Reinhold Lauer &middot; <a href="#">Privacy</a> &middot; <a href="http://movie-file-merger.org/license.html">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
