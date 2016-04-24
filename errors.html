@@ -1,191 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="DC.Format" content="text/html" /> 
-        <meta name="DC.Title" xml:lang="EN" lang="EN" content="Movie File Merger Errors" />
-        <meta name="DC.Creator" content="Reinhold Lauer" />
-        <meta name="DC.Description" xml:lang="EN" lang="EN" content="Selective combination of video collections, home videos, movies, series... Is Portable." />
-        <meta name="DC.Rights" content="Copyright 2015, Reinhold Lauer - All rights reserved." />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Selective combination of video collections, home videos, movies, series... Is Portable.">
+    <meta name="author" content="Reinhold Lauer">
+    <link rel="icon" href="images/MFM32Favicon.ico">
 
-        <title>Movie File Merger Errors</title>
-        <meta name="description" content="Movie File Merger Errors - Selective combination of video collections, home videos, movies, series... Is Portable.">
-        <meta name="keywords" content="Collection, Merge, Combination, Comparison, Video, Movies, Series, Documentaries, Errors">
-        <link rel="shortcut icon" type="image/x-icon" href="images/MFM32Favicon.ico" />
+    <title>Combine/Maintain Video Collections on Hard Disks</title>
 
-        <!--Using jQuery and jQuery UI for display effects-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-        <!--Using the hamburger menu display code-->
-        <script src="javascripts/hamburger.js"></script>
-        <script src="javascripts/scale.fix.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/hamburger.css"/>
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css">
-        <link rel="stylesheet" type="text/css" media="all" href="stylesheets/pygment_trac.css">
-        <link rel="canonical" href="http://movie-file-merger.org/bugs.html" />
-        <link rel="alternate" hreflang="en" href="http://movie-file-merger.org/bugs.html" />
-     
-        <!-- Google Analytics Code -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-63705144-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/carousel.css" rel="stylesheet">
 
-    <body>
-        <!-- Facebook Stuff -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Google Analytics Code -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-63705144-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-        <div class="wrapper"  id="container">
-      
-        <header>
-            <!--The Hamburger-->
-            <div id="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://movie-file-merger.org/index_simple.html">
+                <img style="max-width:100px; margin-top: -7px;" src="images/MFM32Favicon.ico" alt="MFM Icon">
+              </a>
             </div>
-
-            <!-- Header Banner -->
-            <img src="images/Header.gif" alt="Movie File Merger Banner" width="220" style="margin: 0px 0px 15px 10px; box-shadow: 5px 5px 10px #888888" >
-
-            <h1> Errors <img style="margin: 0px 0px 0px 10px" src="images/Errors.png" alt="Movie File Merger Errors" height="32"></h1>
-
-            <!-- The download areas -->
-            <ul>
-                <li><a href="https://modi777.gitbooks.io/movie-file-merger-user-manual">Access <strong>User Manual</strong></a></li>
-                <li><a href="https://modi777.gitbooks.io/how-to-oraganize-videos-on-your-hard-disks">Access <strong>How to Org</strong></a></li>
-                <li><a href="http://movie-file-merger.org/MFMSetup.exe">Download <strong>MFM Setup</strong></a></li> 
-            </ul>
-        </header>
-
-        <!--The Layer that will be layed over the content so that the content is unclickable while menu is shown-->
-        <div id="contentLayer"></div>
-
-        <!--The mobile navigation Markup hidden via css-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="screenshots.html">Screenshots</a></li>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+              <li class="active"><a href="http://movie-file-merger.org/index.html">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Product<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://movie-file-merger.org/screenshots.html">Screenshots</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/manuals.html">Manuals</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/downloads.html">Downloads</a></li>
+                  </ul>
+                </li>
                 <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
-                <li><a href="usermanual.html">Manuals</a></li>
-                <li><a href="downloads.html">Downloads</a></li>
-                <li><a href="donations.html">Donations</a></li>
-                <li><a href="otherstuff.html">Other Stuff</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="license.html">License</a></li>
-            </ul>
+                <li><a href="http://movie-file-merger.org/donations.html">Donations</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://movie-file-merger.org/contacts.html">Contacts</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="http://movie-file-merger.org/license.html">License</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
+      </div>
+    </div>
 
-        <!--The content of the site-->
-        <div id="content">
-            <section>
-                <img src="images/Header.gif" alt="Movie File Merger Banner" width="500" style="margin: 5px 0px 10px; box-shadow: 5px 5px 10px #888888" >
-                <p style="font-weight: bolder; font-style: italic; font-size: 24px; text-align: center">Combine/Maintain Video Collections on Hard Disks</p>
+    <!-- ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container license">
 
-                <h2>Page Not Found</h2>
-                <p>
-                    Ooooops, I could not find the requested URL on the server hosting Movie File Merger.
-                    Please, select your desired page in the menu.
-                </p>
-                <p style="text-align:center">
-                    <img alt="Movie File Merger 404" src="images/404.jpg" height="150">
-                </p>
-                
-                <p style="font-weight: bolder; font-style: italic; font-size: 24px; text-align: center; margin-bottom: 0px">
-                    Combine/Maintain Video Collections on Hard Disks <br>
-                    <img alt="Movie File Merger Banner" src="images/Header.gif" width="500" style="margin: 5px 0px 0px; box-shadow: 5px 5px 10px #888888" > <br>
-                </p>
-                <p style="text-align: center">
-                    <a href="http://movie-file-merger.org/index.html">Home</a> | 
-                    <a href="http://movie-file-merger.org/screenshots.html">Screenshots</a> | 
-                    <a href="http://movie-file-merger.org/forum/index.php">Forum</a> | 
-                    <a href="http://movie-file-merger.org/usermanual.html">Manuals</a> | 
-                    <a href="http://movie-file-merger.org/downloads.html">Downloads</a> <br>
-                    <a href="http://movie-file-merger.org/donations.html">Donations</a> | 
-                    <a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a> | 
-                    <a href="http://movie-file-merger.org/contacts.html">Contact</a> | 
-                    <a href="http://movie-file-merger.org/license.html">License</a> <br>
-                    Copyright © 2012-2016 Reinhold Lauer
-                </p>
-            </section>
-      
-            <footer>
-                <!-- Twitter Stuff -->
-                <a href="https://twitter.com/ModiMovieMerger" class="twitter-follow-button" data-show-count="false">Follow @ModiMovieMerger</a>
-                <script>
-                    !function(d,s,id){
-                        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                        if(!d.getElementById(id)){
-                            js=d.createElement(s);
-                            js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
-                            fjs.parentNode.insertBefore(js,fjs);
-                        }
-                    }(document, 'script', 'twitter-wjs');
-                </script>
-                <br>
-                <!-- Google++ Stuff -->
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <div class="g-follow" data-href="https://plus.google.com/+MoviefilemergerOrgModi" data-rel="author"></div>
-                <br>
-                <!-- Facebook Stuff -->
-                <div class="fb-like" 
-                    data-href="https://www.facebook.com/Movie.File.Merger"
-                    data-layout="button_count" 
-                    data-action="like" 
-                    data-show-faces="true" 
-                    data-share="true">
-                </div>
-                <p></p>
-
-                <h3 style="margin: 0px 0px, 0px">Authors & Contributors <br>
-                    <small>
-                        <a href="mailto:modi@movie-file-merger.org">R. Lauer</a> 
-                        <a href="https://github.com/Modi777" class="user-mention">(@Modi777)</a>, 
-                        <a href="mailto:bitdown@movie-file-merger.org" class="user-mention">Bitdown</a>, 
-                        <a href="mailto:hammerborgh@movie-file-merger.org" class="user-mention">Hammerborgh</a>
-                    </small>
-                </h3>
-            </footer>
-            </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-responsive center-block" src="images/Header.gif" alt="Movie File Merger Banner">
         </div>
+        <div class="col-lg-6">
+          <img class="img-responsive visible-lg" src="images/Header.gif" alt="Movie File Merger Banner">
+        </div>
+      </div>
 
-        <!-- Start of StatCounter Code for Default Guide -->
-        <script type="text/javascript">
-            var sc_project=10227202;
-            var sc_invisible=1;
-            var sc_security="e96e6a0e";
-            var scJsHost = (("https:" == document.location.protocol) ?
-            "https://secure." : "http://www.");
-            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-            "statcounter.com/counter/counter.js'></"+"script>");
-        </script>
-        <noscript>
-            <div class="statcounter">
-                <a title="create counter"
-                    href="http://statcounter.com/free-hit-counter/" target="_blank"><img
-                    class="statcounter" 
-                    src="http://c.statcounter.com/10227202/0/e96e6a0e/1/"
-                    alt="create counter">
-                </a>
-            </div>
-        </noscript>
-        <!-- End of StatCounter Code for Default Guide -->
-    </body>
+       <div class=bs-docs-featurette> 
+        <div class=container> 
+          <h1 class="bs-docs-featurette-title text-center"><br>Page Not Found</h1> 
+          <p class="lead text-center">Ooooops, I could not find the requested URL on the server hosting Movie File Merger.
+                                      Please, select your desired page in the menu.</p>
+          <img class="img-responsive center-block" alt="Movie File Merger 404" src="images/404.jpg">
+        </div>
+      </div>
+                
+      <!-- FOOTER -->
+      <footer>
+        <div class="col-xs-12" style="height:25px;"></div>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Reinhold Lauer</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-responsive center-block" src="images/Header.gif" alt="Movie File Merger Banner">
+          </div>
+          <div class="col-lg-6">
+            <img class="img-responsive visible-lg" src="images/Header.gif" alt="Movie File Merger Banner">
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- Start of StatCounter Stuff -->
+    <script type="text/javascript">
+        var sc_project=10227202;
+        var sc_invisible=1;
+        var sc_security="e96e6a0e";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="create counter"
+                href="http://statcounter.com/free-hit-counter/" target="_blank"><img
+                class="statcounter" 
+                src="http://c.statcounter.com/10227202/0/e96e6a0e/1/"
+                alt="create counter">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of StatCounter Stuff -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
+

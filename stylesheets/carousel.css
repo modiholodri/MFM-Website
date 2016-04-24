@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  padding-top: 90px;
 }
 
 
@@ -39,8 +40,9 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  height: 290px;
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -49,15 +51,16 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
-  background-color: #007aff;
+  height: 290px;
+  background-color: #0082ff;
 }
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
+  top: 20%;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 92px;
+  object-fit: contain;
 }
 
 
@@ -120,6 +123,7 @@ body {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+    max-width: fit-content;
   }
 
   .featurette-heading {
