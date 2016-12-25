@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,20 +20,30 @@
 
     <!-- Google Analytics Code -->
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-63705144-1', 'auto');
         ga('send', 'pageview');
     </script>
 
     <!-- HeatMap Code -->
     <script>
-      (function(h,e,a,t,m,p) {
-        m=e.createElement(a);m.async=!0;m.src=t;
-        p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
-      })(window,document,'script','https://u.heatmap.it/log.js');
+        (function(h, e, a, t, m, p) {
+            m = e.createElement(a);
+            m.async = !0;
+            m.src = t;
+            p = e.getElementsByTagName(a)[0];
+            p.parentNode.insertBefore(m, p);
+        })(window, document, 'script', 'https://u.heatmap.it/log.js');
     </script>
 
     <!-- Start WOWSlider.com HEAD section -->
@@ -40,471 +51,621 @@
     <script type="text/javascript" src="engine3/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="engine4/style.css" />
     <script type="text/javascript" src="engine4/jquery.js"></script>
-  </head>
+</head>
 
 <!-- The Body ================================================== -->
-  <body>
+
+<body>
     <!-- The Menu -->
     <div class="navbar-wrapper">
-      <div class="container">
-        <nav class="navbar navbar-inverse navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="http://movie-file-merger.org/index_simple.html">
-                <img style="max-width:100px; margin-top: -7px;" src="images/MFM32Favicon.ico" alt="MFM Icon">
-              </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-              <li><a href="http://movie-file-merger.org/index.html">Home</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Product<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/screenshots.html">Screenshots</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/manuals.html">Manuals</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/details.html">Details</a></li>
-                  </ul>
-                </li>
-                <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
-                <li class="active"><a href="http://movie-file-merger.org/downloads.html">Downloads</a></li>
-                <li><a href="http://movie-file-merger.org/donations.html">Donations</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/contacts.html">Contacts</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="http://movie-file-merger.org/license.html">License</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+                        <a class="navbar-brand" href="http://movie-file-merger.org/index_simple.html">
+                            <img style="max-width:100px; margin-top: -7px;" src="images/MFM32Favicon.ico" alt="MFM Icon">
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="http://movie-file-merger.org/index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Product<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/screenshots.html">Screenshots</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/manuals.html">Manuals</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/details.html">Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://movie-file-merger.org/forum/index.php">Forum</a></li>
+                            <li class="active"><a href="http://movie-file-merger.org/downloads.html">Downloads</a></li>
+                            <li><a href="http://movie-file-merger.org/donations.html">Donations</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/contacts.html">Contacts</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/otherstuff.html">Other Stuff</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="http://movie-file-merger.org/license.html">License</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
 
     <!-- ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container">
 
-      <div class=bs-docs-featurette> 
-        <div class=container> 
-          <h1 class="bs-docs-featurette-title text-center">Movie File Merger Original Downloads</h1> 
-          <p class="lead text-center">Download Movie File Merger for free, without any hidden charges or other tricky stuff...</p>
+        <div class=bs-docs-featurette>
+            <div class=container>
+                <h1 class="bs-docs-featurette-title text-center">Movie File Merger Original Downloads</h1>
+                <p class="lead text-center">Download Movie File Merger for free, without any hidden charges or other tricky stuff...</p>
+            </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Application</h2>
-          <p>
-            The latest version of the Movie File Merger is compatible with Windows 7, 8, and 10. 
-            Click on Download Now below to get it for free.
-          </p> 
-          <p  style="text-align: center">
-            <!-- Download Now -->
-            <a href="http://movie-file-merger.org/MFMSetup.exe">
-            <img alt="Download Movie File Merger Now" src="images/DownloadNow.png" height="100"></a>
-          </p>
-          <p style="text-align: center">
-            <a href="http://movie-file-merger.org/MFMSetup.exe">
-            <img alt="MFM is Win 7 Compatible" src="images/Win7Compatible.png" height="70"></a>
-            <a href="http://movie-file-merger.org/MFMSetup.exe">
-            <img alt="MFM is Win 8 Compatible" src="images/Win8Compatible.png" style="margin: 0px 25px" height="70"></a>
-            <a href="http://movie-file-merger.org/MFMSetup.exe">
-            <img alt="MFM is Win 10 Copmatible" src="images/Win10Compatible.png" height="70"></a>
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <h2>Manuals</h2>
-          <p>
-            <!-- Movie File Merger User Manual -->
-            The 
-            <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual/">Movie File Merger User Manual</a> 
-            explains the general usage of Movie File Merger and how to interact with the supporting programs.  You can download it as
-            <a href="https://www.gitbook.com/download/epub/book/modi777/movie-file-merger-user-manual" rel="nofollow">ePUB</a>, 
-            <a href="https://www.gitbook.com/download/mobi/book/modi777/movie-file-merger-user-manual" rel="nofollow">MOBI</a> or 
-            <a href="https://www.gitbook.com/download/pdf/book/modi777/movie-file-merger-user-manual" rel="nofollow">PDF</a>.
-             
-            <!-- How to Organize Videos on Your Hard Disks -->
-            Some information about the general organization of stuff can be found in 
-            <a href="http://modi777.gitbooks.io/how-to-oraganize-videos-on-your-hard-disks">How to Organize Videos on Your Hard Disks</a>, 
-            which you can download as
-            <a href="https://www.gitbook.com/download/epub/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">ePUB</a>, 
-            <a href="https://www.gitbook.com/download/mobi/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">MOBI</a> or 
-            <a href="https://www.gitbook.com/download/pdf/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">PDF</a>.
-          </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Application</h2>
+                <p>
+                    The latest version of the Movie File Merger is compatible with Windows 7, 8, and 10. Click on Download Now below to get it for free.
+                </p>
+                <p style="text-align: center">
+                    <!-- Download Now -->
+                    <a href="http://movie-file-merger.org/MFMSetup.exe">
+                        <img alt="Download Movie File Merger Now" src="images/DownloadNow.png" height="100"></a>
+                </p>
+                <p style="text-align: center">
+                    <a href="http://movie-file-merger.org/MFMSetup.exe">
+                        <img alt="MFM is Win 7 Compatible" src="images/Win7Compatible.png" height="70"></a>
+                    <a href="http://movie-file-merger.org/MFMSetup.exe">
+                        <img alt="MFM is Win 8 Compatible" src="images/Win8Compatible.png" style="margin: 0px 25px" height="70"></a>
+                    <a href="http://movie-file-merger.org/MFMSetup.exe">
+                        <img alt="MFM is Win 10 Copmatible" src="images/Win10Compatible.png" height="70"></a>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h2>Manuals</h2>
+                <p>
+                    <!-- Movie File Merger User Manual -->
+                    The
+                    <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual/">Movie File Merger User Manual</a> explains the general usage of Movie File Merger and how to interact with the supporting programs. You can download it as
+                    <a href="https://www.gitbook.com/download/epub/book/modi777/movie-file-merger-user-manual" rel="nofollow">ePUB</a>,
+                    <a href="https://www.gitbook.com/download/mobi/book/modi777/movie-file-merger-user-manual" rel="nofollow">MOBI</a> or
+                    <a href="https://www.gitbook.com/download/pdf/book/modi777/movie-file-merger-user-manual" rel="nofollow">PDF</a>.
 
-          <p  style="text-align: center"><br>
-            <!-- Movie File Merger User Manual -->
-            <a href="https://www.gitbook.com/download/pdf/book/modi777/movie-file-merger-user-manual">
-            <img alt="Movie Filer Merger User Manual" src="images/UserManualCover.png" style="box-shadow: 5px 5px 10px #888888" height="100"></a>
-            <!-- How to Organize Videos on Your Hard Disks -->
-            <a href="https://www.gitbook.com/download/pdf/book/modi777/how-to-oraganize-videos-on-your-hard-disks">
-            <img alt="How to Organize Movies with Movie File Merger" src="images/HowToOrganizeCover.jpg" style="margin: 0px 0px 0px 55px; box-shadow: 5px 5px 10px #888888" height="100"></a>
-          </p>        
-        </div>
-      </div>
+                    <!-- How to Organize Videos on Your Hard Disks -->
+                    Some information about the general organization of stuff can be found in
+                    <a href="http://modi777.gitbooks.io/how-to-oraganize-videos-on-your-hard-disks">How to Organize Videos on Your Hard Disks</a>, which you can download as
+                    <a href="https://www.gitbook.com/download/epub/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">ePUB</a>,
+                    <a href="https://www.gitbook.com/download/mobi/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">MOBI</a> or
+                    <a href="https://www.gitbook.com/download/pdf/book/modi777/how-to-oraganize-videos-on-your-hard-disks" rel="nofollow">PDF</a>.
+                </p>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h2><br />The Source
-            <img alt="Movie File Merger Source Code" src="images/Source.jpg" style="margin: 0px 0px 0px 20px" height="48">
-          </h2>        
-          <p>
-            If you are interested in the details about how Movie File Merger is made, 
-            download the complete project inclusive source code as 
-            <a href="https://github.com/Modi777/Movie-File-Merger/zipball/master">ZIP File</a> or 
-            <a href="https://github.com/Modi777/Movie-File-Merger/tarball/master">TAR Ball</a>.
-            Movie File Merger is open source and the source code can be viewed or downloaded on...
-          </p>
-          <p style="text-align: center">
-            <a href="https://github.com/Modi777/Movie-File-Merger">
-            <img alt="Movie File Merger on GitHub" src="images/GitHubSocialCoding.jpg" style="margin: 5px 25px" height="64"></a>
-            or 
-            <a href="https://sourceforge.net/projects/movie-file-merger">
-            <img alt="Movie File Merger on SourceForge" src="images/SourceForgeSource.jpg" style="margin: 5px 0px 0px 25px" height="64"></a>
-          </p>
-          <p>
-            Of course you are also very welcome to fork 
-            <a href="https://github.com/Modi777/Movie-File-Merger">Movie File Merger on GitHub</a> and contribute to the program.
-          </p>
+                <p style="text-align: center"><br>
+                    <!-- Movie File Merger User Manual -->
+                    <a href="https://www.gitbook.com/download/pdf/book/modi777/movie-file-merger-user-manual">
+                        <img alt="Movie Filer Merger User Manual" src="images/UserManualCover.png" style="box-shadow: 5px 5px 10px #888888" height="100"></a>
+                    <!-- How to Organize Videos on Your Hard Disks -->
+                    <a href="https://www.gitbook.com/download/pdf/book/modi777/how-to-oraganize-videos-on-your-hard-disks">
+                        <img alt="How to Organize Movies with Movie File Merger" src="images/HowToOrganizeCover.jpg" style="margin: 0px 0px 0px 55px; box-shadow: 5px 5px 10px #888888" height="100"></a>
+                </p>
+            </div>
         </div>
-        <div class="col-lg-6">
-          <h2><br />Third Party Download Sites
-            <img src="images/3rdParty.jpg" alt="Movie File Merger 3rd Party Downloads" style="margin: 0px 0px 0px 20px" height="48">
-          </h2>
-          <p> If you prefer to get Movie File Merger from another download site, click on the according link below.
-              Just make sure that you get the latest version.  
-              Starting with version 0.2.0, Movie File Merger checks for a newer version to download at start up.
-              If you want to contribute without spending too much time or money, 
-              just leave a comment or review on one of the download sites.
-          </p>
 
-          <!-- Start WOWSlider.com BODY section -->
-          <div id="wowslider-container4">
-          <div class="ws_images">
-            <ul>
-		          <li><a href="http://www.freedownloadscenter.com/Information_Management/Misc__Collection_Managers/Movie_File_Merger.html"><img src="data4/images/freedownloadscenter.jpg" alt="Download Movie File Merger on Free Downloads" title="Download Movie File Merger on Free Downloads" id="wows4_0"/></a></li>
-		          <li><a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html"><img src="data4/images/freewarefiles.jpg" alt="Download Movie File Merger on Freeware Files" title="Download Movie File Merger on Freeware Files" id="wows4_1"/></a></li>
-		          <li><a href="https://sourceforge.net/projects/movie-file-merger"><img src="data4/images/sourceforge.png" alt="Download Movie File Merger on Source Forge" title="Download Movie File Merger on Source Forge" id="wows4_2"/></a></li>
-		          <li><a href="http://www.tucows.com/preview/1601777"><img src="data4/images/tucows.png" alt="Download Movie File Merger on Tucows" title="Download Movie File Merger on Tucows" id="wows4_3"/></a></li>
-		          <li><a href="http://movie-file-merger.en.softonic.com/"><img src="data4/images/softonic.jpg" alt="Download Movie File Merger on Softonic" title="Download Movie File Merger on Softonic" id="wows4_4"/></a></li>
-		          <li><a href="http://movie-file-merger.soft32.com/"><img src="data4/images/soft32.png" alt="Download Movie File Merger on Soft32" title="Download Movie File Merger on Soft32" id="wows4_5"/></a></li>
-		          <li><a href="http://www.sofotex.com/Movie-File-Merger-download_L134604.html"><img src="data4/images/sofotex.jpg" alt="Download Movie File Merger on Sofotex" title="Download Movie File Merger on Sofotex" id="wows4_6"/></a></li>
-		          <li><a href="http://movie-file-merger.updatestar.com/"><img src="data4/images/updatestar.jpg" alt="Download Movie File Merger on Update Star" title="Download Movie File Merger on Update Star" id="wows4_7"/></a></li>
-		          <li><a href="http://www.downloadcollection.com/movie_file_merger.htm"><img src="data4/images/downloadcollection.jpg" alt="Download Movie File Merger on Download Collection" title="Download Movie File Merger on Download Collection" id="wows4_8"/></a></li>
-		          <li><a href="http://www.catalogofsoftware.com/get_product.php?id=76499"><img src="data4/images/catalogofsoftware.png" alt="Download Movie File Merger on Catalog of Software" title="Download Movie File Merger on Catalog of Software" id="wows4_9"/></a></li>
-		          <li><a href="http://windows.podnova.com/software/3297471.htm"><img src="data4/images/podnova.png" alt="Download Movie File Merger on Podnova" title="Download Movie File Merger on Podnova" id="wows4_10"/></a></li>
-		          <li><a href="http://ptf.com/download/movie_file_merger/1548783"><img src="data4/images/ptf.png" alt="Download Movie File Merger on Prime Time Freeware" title="Download Movie File Merger on Prime Time Freeware" id="wows4_11"/></a></li>
-		          <li><a href="http://downloads.zdnet.com/product/31714-76277116"><img src="data4/images/zdnet.png" alt="Download Movie File Merger on ZDNet" title="Download Movie File Merger on ZDNet" id="wows4_12"/></a></li>
-		          <li><a href="http://download.cnet.com/Movie-File-Merger/3000-31714_4-76277116.html"><img src="data4/images/cnet.png" alt="Download Movie File Merger on cnet" title="Download Movie File Merger on cnet" id="wows4_13"/></a></li>
-		          <li><a href="http://www.softwareloaded.com/?p=652"><img src="data4/images/softwareloaded.png" alt="Download Movie File Merger on Software Loaded" title="Download Movie File Merger on Software Loaded" id="wows4_14"/></a></li>
-		          <li><a href="http://www.stahuj.centrum.cz/utility_a_ostatni/prace_se_soubory/deleni_a_spojovani_souboru/movie-file-merger"><img src="data4/images/stahuj.png" alt="Download Movie File Merger on Stahuj" title="Download Movie File Merger on Stahuj" id="wows4_15"/></a></li>
-		          <li><a href="http://www.download26.com/modules/wfdownloads/singlefile.php?cid=50&lid=2758"><img src="data4/images/download26.png" alt="Download Movie File Merger on Download26" title="Download Movie File Merger on Download26" id="wows4_16"/></a></li>
-		          <li><a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm"><img src="data4/images/topshareware.png" alt="Download Movie File Merger on Top Shareware" title="Download Movie File Merger on Top Shareware" id="wows4_17"/></a></li>
-		          <li><a href="http://www.newsoftware.us/movie-file-merger-reinhold-lauer.html"><img src="data4/images/newsoftware.jpg" alt="Download Movie File Merger on New Software" title="Download Movie File Merger on New Software" id="wows4_18"/></a></li>
-		          <li><a href="http://www.2000shareware.com/info/movie-file-merger/259561"><img src="data4/images/2000shareware.png" alt="Download Movie File Merger on 2000 Shareware" title="Download Movie File Merger on 2000 Shareware" id="wows4_19"/></a></li>
-		          <li><a href="http://movie-file-merger.software.informer.com/"><img src="data4/images/softwareinformer.png" alt="Download Movie File Merger on Software Informer" title="Download Movie File Merger on Software Informer" id="wows4_20"/></a></li>
-		          <li><a href="http://www.hotsoft32.com/software_0229171_Movie_File_Merger.htm"><img src="data4/images/hotsoft32.png" alt="Download Movie File Merger on HotSoft32" title="Download Movie File Merger on HotSoft32" id="wows4_21"/></a></li>
-		          <li><a href="http://www.file-software.com/Movie_File_Merger-softlist-386008.html"><img src="data4/images/filesoftware.jpg" alt="Download Movie File Merger on File Software" title="Download Movie File Merger on File Software" id="wows4_22"/></a></li>
-		          <li><a href="http://www.onethousandapps.com/home-and-hobby/cataloging/movie-file-merger-27962.html"><img src="data4/images/onethousandapps.png" alt="Download Movie File Merger on OneThousand Apps" title="Download Movie File Merger on OneThousand Apps" id="wows4_23"/></a></li>
-		          <li><a href="http://www.soft14.com/cgi-bin/sw-link.pl?act=sp22632"><img src="data4/images/soft14.jpg" alt="Download Movie File Merger on Soft14" title="Download Movie File Merger on Soft14" id="wows4_24"/></a></li>
-		          <li><a href="http://movie-file-merger.download-572-148815.datapicks.com/"><img src="data4/images/datapicks.jpg" alt="Download Movie File Merger on Data Picks" title="Download Movie File Merger on Data Picks" id="wows4_25"/></a></li>
-		          <li><a href="http://www.x64bitdownload.com/downloads/t-64-bit-movie-file-merger-download-gzltsdqj.html"><img src="data4/images/x64bit.png" alt="Download Movie File Merger on X64Bit" title="Download Movie File Merger on X64Bit" id="wows4_26"/></a></li>
-		          <li><a href="http://www.sharesoftware24.com/free-downloads/windows/home-hobby/cataloging/info/movie-file-merger-81027.html"><img src="data4/images/sharesoftware24.jpg" alt="Download Movie File Merger on Share Software 24" title="Download Movie File Merger on Share Software 24" id="wows4_27"/></a></li>
-		          <li><a href="http://www.downloadstock.biz/Home-Hobby/Catalogazione/Movie-File-Merger-1.html"><img src="data4/images/downloadstock.jpg" alt="Download Movie File Merger on Download Stock" title="Download Movie File Merger on Download Stock" id="wows4_28"/></a></li>
-		          <li><a href="http://softmania.sk/audio-a-video/movie-file-merger"><img src="data4/images/softmania.png" alt="Download Movie File Merger on Soft Mania" title="Download Movie File Merger on Soft Mania" id="wows4_29"/></a></li>
-		          <li><a href="http://www.guguzhu.com/soft/166958.html"><img src="data4/images/guguzhu.png" alt="Download Movie File Merger on GuGuZhu" title="Download Movie File Merger on GuGuZhu" id="wows4_30"/></a></li>
-		          <li><a href="http://www.download.hr/forum/threads/merge-video-collections-with-movie-file-merger.9680/"><img src="data4/images/downloadhr.png" alt="Download Movie File Merger on Download HR" title="Download Movie File Merger on Download HR" id="wows4_31"/></a></li>
-		          <li><a href="http://www.itshareware.com/prodview-code_336678--download-movie-file-merger.htm"><img src="data4/images/itshareware.jpg" alt="Download Movie File Merger on IT Shareware" title="Download Movie File Merger on IT Shareware" id="wows4_32"/></a></li>
-		          <li><a href="http://www.getsoftpro.com/product/Movie-File-Merger/329238"><img src="data4/images/getsoftpro.jpg" alt="Download Movie File Merger on Get Soft Pro" title="Download Movie File Merger on Get Soft Pro" id="wows4_33"/></a></li>
-		          <li><a href="http://movie-file-merger.windows10compatible.com/"><img src="data4/images/windows10compatible.png" alt="Download Movie File Merger on Windows 10 Compatible" title="Download Movie File Merger on Windows 10 Compatible" id="wows4_34"/></a></li>
-		          <li><a href="http://en.freedownloadmanager.org/Windows-PC/Movie-File-Merger-FREE.html"><img src="data4/images/fdmlib.png" alt="Download Movie File Merger on FDMlib" title="Download Movie File Merger on FDMlib" id="wows4_35"/></a></li>
-		          <li><a href="http://ru.handyarchive.com/Home-Education/Hobby/172224-Movie-File-Merger.html"><img src="data4/images/handyarchive.jpg" alt="Download Movie File Merger on Handy Archive" title="Download Movie File Merger on Handy Archive" id="wows4_36"/></a></li>
-		          <li><a href="http://www.freewarebox.com/free_29674_movie-file-merger-download.html"><img src="data4/images/freewarebox.png" alt="Download Movie File Merger on Freeware Box" title="Download Movie File Merger on Freeware Box" id="wows4_37"/></a></li>
-		          <li><a href="http://www.downloadmost.com/freeware/software/?Movie%20File%20Merger-21731.html"><img src="data4/images/downloadmost.jpg" alt="Download Movie File Merger on Download Most" title="Download Movie File Merger on Download Most" id="wows4_38"/></a></li>
-		          <li><a href="http://standaloneinstaller.com/50246/Movie-File-Merger"><img src="data4/images/standaloneinstaller.png" alt="Download Movie File Merger on Standalone Installer" title="Download Movie File Merger on Standalone Installer" id="wows4_39"/></a></li>
-		          <li><a href="http://rinoecomputer.blogspot.co.uk/2015/06/movie-file-merger-v021.html"><img src="data4/images/rinoecomputer.png" alt="Download Movie File Merger on Rinoe Computer" title="Download Movie File Merger on Rinoe Computer" id="wows4_40"/></a></li>
-		          <li><a href="http://movie-file-merger.download-125-220091.programsbase.com/"><img src="data4/images/programsbase.jpg" alt="Download Movie File Merger on Programs Base" title="Download Movie File Merger on Programs Base" id="wows4_41"/></a></li>
-		          <li><a href="https://www.sharewarepros.com/get/hobby/movie-file-merger-043191.html"><img src="data4/images/sharewarepros.jpg" alt="Download Movie File Merger on Shareware PROS" title="Download Movie File Merger on Shareware PROS" id="wows4_42"/></a></li>
-		          <li><a href="http://софт-драйвера.рф/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D0%B4%D0%BB%D1%8F-windows/%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D1%8B/movie-file-merger.html"><img src="data4/images/softdraivera.jpg" alt="Download Movie File Merger on Soft Draivera" title="Download Movie File Merger on Soft Draivera" id="wows4_43"/></a></li>
-		          <li><a href="http://www.searchsoftwar.com/product/Movie-File-Merger/329238"><img src="data4/images/searchsoftware.png" alt="Download Movie File Merger on Search Software" title="Download Movie File Merger on Search Software" id="wows4_44"/></a></li>
-		          <li><a href="http://www.fileyak.com/movie-file-merger"><img src="data4/images/fileyak.png" alt="Download Movie File Merger on File Yak" title="Download Movie File Merger on File Yak" id="wows4_45"/></a></li>
-		          <li><a href="http://www.superwebhunt.com/2015/06/19/movie-file-merger-0-2-1/"><img src="data4/images/superwebhunt.png" alt="Download Movie File Merger on Super Web Hunt" title="Download Movie File Merger on Super Web Hunt" id="wows4_46"/></a></li>
-		          <li><a href="http://www.download100.net/product/soft-60101.aspx#.Vcrii62jvoY"><img src="data4/images/download100.jpg" alt="Download Movie File Merger on Download 100" title="Download Movie File Merger on Download 100" id="wows4_47"/></a></li>
-		          <li><a href="http://www.kingdownloads.com/Home-Education/Hobbies/Movie-File-Merger-127962.html"><img src="data4/images/kingdownloads.png" alt="Download Movie File Merger on King Downloads" title="Download Movie File Merger on King Downloads" id="wows4_48"/></a></li>
-		          <li><a href="http://ar.softoware.net/tv-movies/download-movie-file-merger-for-windows.html"><img src="data4/images/softoware.png" alt="Download Movie File Merger on Softoware" title="Download Movie File Merger on Softoware" id="wows4_49"/></a></li>
-		          <li><a href="http://www.desktopfreewarefinder.com/movie-file-merger-73580.html"><img src="data4/images/desktopfreewarefinder.png" alt="Download Movie File Merger on Desktop Freeware Finder" title="Download Movie File Merger on Desktop Freeware Finder" id="wows4_50"/></a></li>
-		          <li><a href="http://movie-file-merger.sharewarejunction.com/"><img src="data4/images/sharewarejunction.jpg" alt="Download Movie File Merger on Shareware Junction" title="Download Movie File Merger on Shareware Junction" id="wows4_51"/></a></li>
-		          <li><a href="http://www.yankeedownload.com/software/movie-file-merger-lleof.html"><img src="data4/images/yankeedownload.png" alt="Download Movie File Merger on Yankee Download" title="Download Movie File Merger on Yankee Download" id="wows4_52"/></a></li>
-		          <li><a href="http://www.downloadtyphoon.com/movie-file-merger/infotmnfanzf"><img src="data4/images/downloadtyphoon.jpg" alt="Download Movie File Merger on Download Typhoon" title="Download Movie File Merger on Download Typhoon" id="wows4_53"/></a></li>
-		          <li><a href="http://www.freeware1.com/Home-and-Hobby/Cataloging/Reinhold-Lauer/Movie-File-Merger_83603.htm"><img src="data4/images/freeware1.jpg" alt="Download Movie File Merger on Freeware 1" title="Download Movie File Merger on Freeware 1" id="wows4_54"/></a></li>
-		          <li><a href="http://www.bestfreewaredownload.com/freeware/k-freeware-t-free-movie-file-merger-freeware-udmbrzlr.html"><img src="data4/images/bestfreewaredownload.png" alt="Download Movie File Merger on Best Freeware Download" title="Download Movie File Merger on Best Freeware Download" id="wows4_55"/></a></li>
-		          <li><a href="http://www.aol-soft.com/reinhold-lauer-movie-file-merger"><img src="data4/images/aolsoft.jpg" alt="Download Movie File Merger on AOL Soft" title="Download Movie File Merger on AOL Soft" id="wows4_56"/></a></li>
-		          <li><a href="http://www.filecart.com/movie-file-merger"><img src="data4/images/filecart.png" alt="Download Movie File Merger on File Cart" title="Download Movie File Merger on File Cart" id="wows4_57"/></a></li>
-		          <li><a href="http://www.freeware-base.de/freeware-zeige-details-29400-Movie_File_Merger.html"><img src="data4/images/freewarebase.jpg" alt="Download Movie File Merger on Freeware Base" title="Download Movie File Merger on Freeware Base" id="wows4_58"/></a></li>
-		          <li><a href="http://www.findsoftware.eu/?pad=id_aHR0cDovL3JlcG9zaXRvcnkuYXBwdmlzb3IuY29tL2luZm8vYXBwLTk3MDA1NDAyYTk5Yi9Nb3ZpZV9GaWxlX01lcmdlcl9wYWQueG1s"><img src="data4/images/findsoftware.jpg" alt="Download Movie File Merger on Find Software" title="Download Movie File Merger on Find Software" id="wows4_59"/></a></li>
-		          <li><a href="http://www.filefishstick.com/93419/details-movie-file-merger.html"><img src="data4/images/filefishstick.jpg" alt="Download Movie File Merger on File Fish Stick" title="Download Movie File Merger on File Fish Stick" id="wows4_60"/></a></li>
-		          <li><a href="http://www.softsilo.com/movie-file-merger-170854"><img src="data4/images/softsilo.jpg" alt="Download Movie File Merger on Soft Silo" title="Download Movie File Merger on Soft Silo" id="wows4_61"/></a></li>
-		          <li><a href="http://www.bestsoftware4download.com/software/t-free-movie-file-merger-download-hkqyodyj.html"><img src="data4/images/bestsoftware4download.png" alt="Download Movie File Merger on Best Software 4 Download" title="Download Movie File Merger on Best Software 4 Download" id="wows4_62"/></a></li>
-		          <li><a href="http://www.eurodownload.com/download-software/237678/Movie-File-Merger.html"><img src="data4/images/eurodownloadlisted.png" alt="Download Movie File Merger on Euro Download" title="Download Movie File Merger on Euro Download" id="wows4_63"/></a></li>
-		          <li><a href="http://www.efreedown.com/soft_513882.html"><img src="data4/images/efreedown.jpg" alt="Download Movie File Merger on EFree Down" title="Download Movie File Merger on EFree Down" id="wows4_64"/></a></li>
-		          <li><a href="http://www.freewarepark.com/movie-file-merger.html"><img src="data4/images/freewarepark.png" alt="Download Movie File Merger on Freeware Park" title="Download Movie File Merger on Freeware Park" id="wows4_65"/></a></li>
-		          <li><a href="http://www.windows8downloads.com/win8-movie-file-merger-vxlohmst/"><img src="data4/images/windows8downloads.png" alt="Download Movie File Merger on Windows 8 Downloads" title="Download Movie File Merger on Windows 8 Downloads" id="wows4_66"/></a></li>
-		          <li><a href="http://www.windows7download.com/win7-movie-file-merger/ckadgldb.html"><img src="data4/images/windows7download.png" alt="Download Movie File Merger on Windows 7 Download" title="Download Movie File Merger on Windows 7 Download" id="wows4_67"/></a></li>
-		          <li><a href="http://www.top4download.com/movie-file-merger/onzvldbc.html"><img src="data4/images/top4download.png" alt="Download Movie File Merger on Top 4 Download" title="Download Movie File Merger on Top 4 Download" id="wows4_68"/></a></li>
-		          <li><a href="http://www.geardownload.com/hobby/movie-file-merger.html"><img src="data4/images/geardownload.jpg" alt="Download Movie File Merger on Gear Download" title="Download Movie File Merger on Gear Download" id="wows4_69"/></a></li>
-		          <li><a href="http://new-download.net/nd/HomeHobby/c241/147635/Movie-File-Merger-0.2.1.html"><img src="data4/images/newdownload.jpg" alt="Download Movie File Merger on New Download" title="Download Movie File Merger on New Download" id="wows4_70"/></a></li>
-		          <li><a href="http://www.downloadroute.com/Movie-File-Merger-Reinhold-Lauer.html"><img src="data4/images/downloadroute.png" alt="Download Movie File Merger on Download Route" title="Download Movie File Merger on Download Route" id="wows4_71"/></a></li>
-		          <li><a href="http://fileforum.betanews.com/detail/Movie-File-Merger/1429409532/1"><img src="data4/images/fileforum.png" alt="Download Movie File Merger on File Forum" title="Download Movie File Merger on File Forum" id="wows4_72"/></a></li>
-		          <li><a href="http://www.freevistafiles.com/Reinhold-Lauer+Movie-File-Merger.html"><img src="data4/images/freevistafiles.png" alt="Download Movie File Merger on Free Vista Files" title="Download Movie File Merger on Free Vista Files" id="wows4_73"/></a></li>
-	          </ul>
-          </div>
-          <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.6</div>
-          <div class="ws_shadow"></div>
-          </div>	
-          <script type="text/javascript" src="engine4/wowslider.js"></script>
-          <script type="text/javascript" src="engine4/script.js"></script>
-          <!-- End WOWSlider.com BODY section -->
-          <p></p>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2><br />The Source
+                    <img alt="Movie File Merger Source Code" src="images/Source.jpg" style="margin: 0px 0px 0px 20px" height="48">
+                </h2>
+                <p>
+                    If you are interested in the details about how Movie File Merger is made, download the complete project inclusive source code as
+                    <a href="https://github.com/Modi777/Movie-File-Merger/zipball/master">ZIP File</a> or
+                    <a href="https://github.com/Modi777/Movie-File-Merger/tarball/master">TAR Ball</a>. Movie File Merger is open source and the source code can be viewed or downloaded on...
+                </p>
+                <p style="text-align: center">
+                    <a href="https://github.com/Modi777/Movie-File-Merger">
+                        <img alt="Movie File Merger on GitHub" src="images/GitHubSocialCoding.jpg" style="margin: 5px 25px" height="64"></a>
+                    or
+                    <a href="https://sourceforge.net/projects/movie-file-merger">
+                        <img alt="Movie File Merger on SourceForge" src="images/SourceForgeSource.jpg" style="margin: 5px 0px 0px 25px" height="64"></a>
+                </p>
+                <p>
+                    Of course you are also very welcome to fork
+                    <a href="https://github.com/Modi777/Movie-File-Merger">Movie File Merger on GitHub</a> and contribute to the program.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h2><br />Third Party Download Sites
+                    <img src="images/3rdParty.jpg" alt="Movie File Merger 3rd Party Downloads" style="margin: 0px 0px 0px 20px" height="48">
+                </h2>
+                <p> If you prefer to get Movie File Merger from another download site, click on the according link below. Just make sure that you get the latest version. Starting with version 0.2.0, Movie File Merger checks for a newer version to download
+                    at start up. If you want to contribute without spending too much time or money, just leave a comment or review on one of the download sites.
+                </p>
+
+                <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container4">
+                    <div class="ws_images">
+                        <ul>
+                            <li>
+                                <a href="http://www.freedownloadscenter.com/Information_Management/Misc__Collection_Managers/Movie_File_Merger.html"><img src="data4/images/freedownloadscenter.jpg" alt="Download Movie File Merger on Free Downloads" title="Download Movie File Merger on Free Downloads" id="wows4_0" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html"><img src="data4/images/freewarefiles.jpg" alt="Download Movie File Merger on Freeware Files" title="Download Movie File Merger on Freeware Files" id="wows4_1" /></a>
+                            </li>
+                            <li>
+                                <a href="https://sourceforge.net/projects/movie-file-merger"><img src="data4/images/sourceforge.png" alt="Download Movie File Merger on Source Forge" title="Download Movie File Merger on Source Forge" id="wows4_2" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.tucows.com/preview/1601777"><img src="data4/images/tucows.png" alt="Download Movie File Merger on Tucows" title="Download Movie File Merger on Tucows" id="wows4_3" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.en.softonic.com/"><img src="data4/images/softonic.jpg" alt="Download Movie File Merger on Softonic" title="Download Movie File Merger on Softonic" id="wows4_4" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.soft32.com/"><img src="data4/images/soft32.png" alt="Download Movie File Merger on Soft32" title="Download Movie File Merger on Soft32" id="wows4_5" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.sofotex.com/Movie-File-Merger-download_L134604.html"><img src="data4/images/sofotex.jpg" alt="Download Movie File Merger on Sofotex" title="Download Movie File Merger on Sofotex" id="wows4_6" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.updatestar.com/"><img src="data4/images/updatestar.jpg" alt="Download Movie File Merger on Update Star" title="Download Movie File Merger on Update Star" id="wows4_7" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.downloadcollection.com/movie_file_merger.htm"><img src="data4/images/downloadcollection.jpg" alt="Download Movie File Merger on Download Collection" title="Download Movie File Merger on Download Collection" id="wows4_8" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.catalogofsoftware.com/get_product.php?id=76499"><img src="data4/images/catalogofsoftware.png" alt="Download Movie File Merger on Catalog of Software" title="Download Movie File Merger on Catalog of Software" id="wows4_9" /></a>
+                            </li>
+                            <li>
+                                <a href="http://windows.podnova.com/software/3297471.htm"><img src="data4/images/podnova.png" alt="Download Movie File Merger on Podnova" title="Download Movie File Merger on Podnova" id="wows4_10" /></a>
+                            </li>
+                            <li>
+                                <a href="http://ptf.com/download/movie_file_merger/1548783"><img src="data4/images/ptf.png" alt="Download Movie File Merger on Prime Time Freeware" title="Download Movie File Merger on Prime Time Freeware" id="wows4_11" /></a>
+                            </li>
+                            <li>
+                                <a href="http://downloads.zdnet.com/product/31714-76277116"><img src="data4/images/zdnet.png" alt="Download Movie File Merger on ZDNet" title="Download Movie File Merger on ZDNet" id="wows4_12" /></a>
+                            </li>
+                            <li>
+                                <a href="http://download.cnet.com/Movie-File-Merger/3000-31714_4-76277116.html"><img src="data4/images/cnet.png" alt="Download Movie File Merger on cnet" title="Download Movie File Merger on cnet" id="wows4_13" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.softwareloaded.com/?p=652"><img src="data4/images/softwareloaded.png" alt="Download Movie File Merger on Software Loaded" title="Download Movie File Merger on Software Loaded" id="wows4_14" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.stahuj.centrum.cz/utility_a_ostatni/prace_se_soubory/deleni_a_spojovani_souboru/movie-file-merger"><img src="data4/images/stahuj.png" alt="Download Movie File Merger on Stahuj" title="Download Movie File Merger on Stahuj" id="wows4_15" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.download26.com/modules/wfdownloads/singlefile.php?cid=50&lid=2758"><img src="data4/images/download26.png" alt="Download Movie File Merger on Download26" title="Download Movie File Merger on Download26" id="wows4_16" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.topshareware.com/Movie-File-Merger-download-103658.htm"><img src="data4/images/topshareware.png" alt="Download Movie File Merger on Top Shareware" title="Download Movie File Merger on Top Shareware" id="wows4_17" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.newsoftware.us/movie-file-merger-reinhold-lauer.html"><img src="data4/images/newsoftware.jpg" alt="Download Movie File Merger on New Software" title="Download Movie File Merger on New Software" id="wows4_18" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.2000shareware.com/info/movie-file-merger/259561"><img src="data4/images/2000shareware.png" alt="Download Movie File Merger on 2000 Shareware" title="Download Movie File Merger on 2000 Shareware" id="wows4_19" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.software.informer.com/"><img src="data4/images/softwareinformer.png" alt="Download Movie File Merger on Software Informer" title="Download Movie File Merger on Software Informer" id="wows4_20" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.hotsoft32.com/software_0229171_Movie_File_Merger.htm"><img src="data4/images/hotsoft32.png" alt="Download Movie File Merger on HotSoft32" title="Download Movie File Merger on HotSoft32" id="wows4_21" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.file-software.com/Movie_File_Merger-softlist-386008.html"><img src="data4/images/filesoftware.jpg" alt="Download Movie File Merger on File Software" title="Download Movie File Merger on File Software" id="wows4_22" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.onethousandapps.com/home-and-hobby/cataloging/movie-file-merger-27962.html"><img src="data4/images/onethousandapps.png" alt="Download Movie File Merger on OneThousand Apps" title="Download Movie File Merger on OneThousand Apps" id="wows4_23" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.soft14.com/cgi-bin/sw-link.pl?act=sp22632"><img src="data4/images/soft14.jpg" alt="Download Movie File Merger on Soft14" title="Download Movie File Merger on Soft14" id="wows4_24" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.download-572-148815.datapicks.com/"><img src="data4/images/datapicks.jpg" alt="Download Movie File Merger on Data Picks" title="Download Movie File Merger on Data Picks" id="wows4_25" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.x64bitdownload.com/downloads/t-64-bit-movie-file-merger-download-gzltsdqj.html"><img src="data4/images/x64bit.png" alt="Download Movie File Merger on X64Bit" title="Download Movie File Merger on X64Bit" id="wows4_26" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.sharesoftware24.com/free-downloads/windows/home-hobby/cataloging/info/movie-file-merger-81027.html"><img src="data4/images/sharesoftware24.jpg" alt="Download Movie File Merger on Share Software 24" title="Download Movie File Merger on Share Software 24" id="wows4_27" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.downloadstock.biz/Home-Hobby/Catalogazione/Movie-File-Merger-1.html"><img src="data4/images/downloadstock.jpg" alt="Download Movie File Merger on Download Stock" title="Download Movie File Merger on Download Stock" id="wows4_28" /></a>
+                            </li>
+                            <li>
+                                <a href="http://softmania.sk/audio-a-video/movie-file-merger"><img src="data4/images/softmania.png" alt="Download Movie File Merger on Soft Mania" title="Download Movie File Merger on Soft Mania" id="wows4_29" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.guguzhu.com/soft/166958.html"><img src="data4/images/guguzhu.png" alt="Download Movie File Merger on GuGuZhu" title="Download Movie File Merger on GuGuZhu" id="wows4_30" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.download.hr/forum/threads/merge-video-collections-with-movie-file-merger.9680/"><img src="data4/images/downloadhr.png" alt="Download Movie File Merger on Download HR" title="Download Movie File Merger on Download HR" id="wows4_31" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.itshareware.com/prodview-code_336678--download-movie-file-merger.htm"><img src="data4/images/itshareware.jpg" alt="Download Movie File Merger on IT Shareware" title="Download Movie File Merger on IT Shareware" id="wows4_32" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.getsoftpro.com/product/Movie-File-Merger/329238"><img src="data4/images/getsoftpro.jpg" alt="Download Movie File Merger on Get Soft Pro" title="Download Movie File Merger on Get Soft Pro" id="wows4_33" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.windows10compatible.com/"><img src="data4/images/windows10compatible.png" alt="Download Movie File Merger on Windows 10 Compatible" title="Download Movie File Merger on Windows 10 Compatible" id="wows4_34" /></a>
+                            </li>
+                            <li>
+                                <a href="http://en.freedownloadmanager.org/Windows-PC/Movie-File-Merger-FREE.html"><img src="data4/images/fdmlib.png" alt="Download Movie File Merger on FDMlib" title="Download Movie File Merger on FDMlib" id="wows4_35" /></a>
+                            </li>
+                            <li>
+                                <a href="http://ru.handyarchive.com/Home-Education/Hobby/172224-Movie-File-Merger.html"><img src="data4/images/handyarchive.jpg" alt="Download Movie File Merger on Handy Archive" title="Download Movie File Merger on Handy Archive" id="wows4_36" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freewarebox.com/free_29674_movie-file-merger-download.html"><img src="data4/images/freewarebox.png" alt="Download Movie File Merger on Freeware Box" title="Download Movie File Merger on Freeware Box" id="wows4_37" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.downloadmost.com/freeware/software/?Movie%20File%20Merger-21731.html"><img src="data4/images/downloadmost.jpg" alt="Download Movie File Merger on Download Most" title="Download Movie File Merger on Download Most" id="wows4_38" /></a>
+                            </li>
+                            <li>
+                                <a href="http://standaloneinstaller.com/50246/Movie-File-Merger"><img src="data4/images/standaloneinstaller.png" alt="Download Movie File Merger on Standalone Installer" title="Download Movie File Merger on Standalone Installer" id="wows4_39" /></a>
+                            </li>
+                            <li>
+                                <a href="http://rinoecomputer.blogspot.co.uk/2015/06/movie-file-merger-v021.html"><img src="data4/images/rinoecomputer.png" alt="Download Movie File Merger on Rinoe Computer" title="Download Movie File Merger on Rinoe Computer" id="wows4_40" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.download-125-220091.programsbase.com/"><img src="data4/images/programsbase.jpg" alt="Download Movie File Merger on Programs Base" title="Download Movie File Merger on Programs Base" id="wows4_41" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sharewarepros.com/get/hobby/movie-file-merger-043191.html"><img src="data4/images/sharewarepros.jpg" alt="Download Movie File Merger on Shareware PROS" title="Download Movie File Merger on Shareware PROS" id="wows4_42" /></a>
+                            </li>
+                            <li>
+                                <a href="http://софт-драйвера.рф/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D0%B4%D0%BB%D1%8F-windows/%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D1%8B/movie-file-merger.html"><img src="data4/images/softdraivera.jpg" alt="Download Movie File Merger on Soft Draivera" title="Download Movie File Merger on Soft Draivera" id="wows4_43" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.searchsoftwar.com/product/Movie-File-Merger/329238"><img src="data4/images/searchsoftware.png" alt="Download Movie File Merger on Search Software" title="Download Movie File Merger on Search Software" id="wows4_44" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.fileyak.com/movie-file-merger"><img src="data4/images/fileyak.png" alt="Download Movie File Merger on File Yak" title="Download Movie File Merger on File Yak" id="wows4_45" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.superwebhunt.com/2015/06/19/movie-file-merger-0-2-1/"><img src="data4/images/superwebhunt.png" alt="Download Movie File Merger on Super Web Hunt" title="Download Movie File Merger on Super Web Hunt" id="wows4_46" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.download100.net/product/soft-60101.aspx#.Vcrii62jvoY"><img src="data4/images/download100.jpg" alt="Download Movie File Merger on Download 100" title="Download Movie File Merger on Download 100" id="wows4_47" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.kingdownloads.com/Home-Education/Hobbies/Movie-File-Merger-127962.html"><img src="data4/images/kingdownloads.png" alt="Download Movie File Merger on King Downloads" title="Download Movie File Merger on King Downloads" id="wows4_48" /></a>
+                            </li>
+                            <li>
+                                <a href="http://ar.softoware.net/tv-movies/download-movie-file-merger-for-windows.html"><img src="data4/images/softoware.png" alt="Download Movie File Merger on Softoware" title="Download Movie File Merger on Softoware" id="wows4_49" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.desktopfreewarefinder.com/movie-file-merger-73580.html"><img src="data4/images/desktopfreewarefinder.png" alt="Download Movie File Merger on Desktop Freeware Finder" title="Download Movie File Merger on Desktop Freeware Finder" id="wows4_50" /></a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.sharewarejunction.com/"><img src="data4/images/sharewarejunction.jpg" alt="Download Movie File Merger on Shareware Junction" title="Download Movie File Merger on Shareware Junction" id="wows4_51" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.yankeedownload.com/software/movie-file-merger-lleof.html"><img src="data4/images/yankeedownload.png" alt="Download Movie File Merger on Yankee Download" title="Download Movie File Merger on Yankee Download" id="wows4_52" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.downloadtyphoon.com/movie-file-merger/infotmnfanzf"><img src="data4/images/downloadtyphoon.jpg" alt="Download Movie File Merger on Download Typhoon" title="Download Movie File Merger on Download Typhoon" id="wows4_53" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freeware1.com/Home-and-Hobby/Cataloging/Reinhold-Lauer/Movie-File-Merger_83603.htm"><img src="data4/images/freeware1.jpg" alt="Download Movie File Merger on Freeware 1" title="Download Movie File Merger on Freeware 1" id="wows4_54" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.bestfreewaredownload.com/freeware/k-freeware-t-free-movie-file-merger-freeware-udmbrzlr.html"><img src="data4/images/bestfreewaredownload.png" alt="Download Movie File Merger on Best Freeware Download" title="Download Movie File Merger on Best Freeware Download" id="wows4_55" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.aol-soft.com/reinhold-lauer-movie-file-merger"><img src="data4/images/aolsoft.jpg" alt="Download Movie File Merger on AOL Soft" title="Download Movie File Merger on AOL Soft" id="wows4_56" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.filecart.com/movie-file-merger"><img src="data4/images/filecart.png" alt="Download Movie File Merger on File Cart" title="Download Movie File Merger on File Cart" id="wows4_57" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freeware-base.de/freeware-zeige-details-29400-Movie_File_Merger.html"><img src="data4/images/freewarebase.jpg" alt="Download Movie File Merger on Freeware Base" title="Download Movie File Merger on Freeware Base" id="wows4_58" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.findsoftware.eu/?pad=id_aHR0cDovL3JlcG9zaXRvcnkuYXBwdmlzb3IuY29tL2luZm8vYXBwLTk3MDA1NDAyYTk5Yi9Nb3ZpZV9GaWxlX01lcmdlcl9wYWQueG1s"><img src="data4/images/findsoftware.jpg" alt="Download Movie File Merger on Find Software" title="Download Movie File Merger on Find Software" id="wows4_59" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.filefishstick.com/93419/details-movie-file-merger.html"><img src="data4/images/filefishstick.jpg" alt="Download Movie File Merger on File Fish Stick" title="Download Movie File Merger on File Fish Stick" id="wows4_60" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.softsilo.com/movie-file-merger-170854"><img src="data4/images/softsilo.jpg" alt="Download Movie File Merger on Soft Silo" title="Download Movie File Merger on Soft Silo" id="wows4_61" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.bestsoftware4download.com/software/t-free-movie-file-merger-download-hkqyodyj.html"><img src="data4/images/bestsoftware4download.png" alt="Download Movie File Merger on Best Software 4 Download" title="Download Movie File Merger on Best Software 4 Download" id="wows4_62" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.eurodownload.com/download-software/237678/Movie-File-Merger.html"><img src="data4/images/eurodownloadlisted.png" alt="Download Movie File Merger on Euro Download" title="Download Movie File Merger on Euro Download" id="wows4_63" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.efreedown.com/soft_513882.html"><img src="data4/images/efreedown.jpg" alt="Download Movie File Merger on EFree Down" title="Download Movie File Merger on EFree Down" id="wows4_64" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freewarepark.com/movie-file-merger.html"><img src="data4/images/freewarepark.png" alt="Download Movie File Merger on Freeware Park" title="Download Movie File Merger on Freeware Park" id="wows4_65" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.windows8downloads.com/win8-movie-file-merger-vxlohmst/"><img src="data4/images/windows8downloads.png" alt="Download Movie File Merger on Windows 8 Downloads" title="Download Movie File Merger on Windows 8 Downloads" id="wows4_66" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.windows7download.com/win7-movie-file-merger/ckadgldb.html"><img src="data4/images/windows7download.png" alt="Download Movie File Merger on Windows 7 Download" title="Download Movie File Merger on Windows 7 Download" id="wows4_67" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.top4download.com/movie-file-merger/onzvldbc.html"><img src="data4/images/top4download.png" alt="Download Movie File Merger on Top 4 Download" title="Download Movie File Merger on Top 4 Download" id="wows4_68" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.geardownload.com/hobby/movie-file-merger.html"><img src="data4/images/geardownload.jpg" alt="Download Movie File Merger on Gear Download" title="Download Movie File Merger on Gear Download" id="wows4_69" /></a>
+                            </li>
+                            <li>
+                                <a href="http://new-download.net/nd/HomeHobby/c241/147635/Movie-File-Merger-0.2.1.html"><img src="data4/images/newdownload.jpg" alt="Download Movie File Merger on New Download" title="Download Movie File Merger on New Download" id="wows4_70" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.downloadroute.com/Movie-File-Merger-Reinhold-Lauer.html"><img src="data4/images/downloadroute.png" alt="Download Movie File Merger on Download Route" title="Download Movie File Merger on Download Route" id="wows4_71" /></a>
+                            </li>
+                            <li>
+                                <a href="http://fileforum.betanews.com/detail/Movie-File-Merger/1429409532/1"><img src="data4/images/fileforum.png" alt="Download Movie File Merger on File Forum" title="Download Movie File Merger on File Forum" id="wows4_72" /></a>
+                            </li>
+                            <li>
+                                <a href="http://www.freevistafiles.com/Reinhold-Lauer+Movie-File-Merger.html"><img src="data4/images/freevistafiles.png" alt="Download Movie File Merger on Free Vista Files" title="Download Movie File Merger on Free Vista Files" id="wows4_73" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.6</div>
+                    <div class="ws_shadow"></div>
+                </div>
+                <script type="text/javascript" src="engine4/wowslider.js"></script>
+                <script type="text/javascript" src="engine4/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+                <p></p>
+            </div>
         </div>
-      </div>
-         
-      <h2><br />Supporting Applications
-        <img alt="Movie File Merger Supporting Applications" src="images/SupportingApplications.png" style="margin: 0px 0px 0px 20px" height="48">
-      </h2>
-      <p>
-        Movie File Merger uses or interfaces with a series of other programs.
-        So, if you want to use the full functionality, you should install the below shown programs.
-        All of them can be download and used for free by following the respective links above or by clicking on the according boxes below.
-      </p>
+
+        <h2><br />Supporting Applications
+            <img alt="Movie File Merger Supporting Applications" src="images/SupportingApplications.png" style="margin: 0px 0px 0px 20px" height="48">
+        </h2>
+        <p>
+            Movie File Merger uses or interfaces with a series of other programs. So, if you want to use the full functionality, you should install the below shown programs. All of them can be download and used for free by following the respective links above or
+            by clicking on the according boxes below.
+        </p>
         <ul>
-          <li><a href="http://codesector.com/teracopy" rel="nofollow">TeraCopy</a> to copy or move the actual files.</li>
-          <li><a href="https://www.mozilla.org/en-US/firefox/new" rel="nofollow">Firefox</a> to browse the web for information, torrent downloads, or read the manuals on-line.</li>
-          <li><a href="http://www.filebot.net" rel="nofollow">FileBot</a> to fix the names of movie or series.</li>
-          <li><a href="http://www.gomlab.com" rel="nofollow">GOM</a> or 
-              <a href="http://www.videolan.org" rel="nofollow">VLC</a> to check out the actual quality or content of the video.</li>
-          <li><a href="http://www.tixati.com" rel="nofollow">Tixati</a> or 
-              <a href="http://www.utorrent.com" rel="nofollow">uTorrent</a> to download the video.</li>
-          <li><a href="http://mediaarea.net/en/MediaInfo" rel="nofollow">MediaInfo</a> to show detailed media information of the video.</li>
-          <li>Windows Explorer to drag and drop folders into and from Movie File Merger or move files to the recycle bin.</li>
+            <li><a href="http://codesector.com/teracopy" rel="nofollow">TeraCopy</a> to copy or move the actual files.</li>
+            <li><a href="https://www.mozilla.org/en-US/firefox/new" rel="nofollow">Firefox</a> to browse the web for information, torrent downloads, or read the manuals on-line.</li>
+            <li><a href="http://www.filebot.net" rel="nofollow">FileBot</a> to fix the names of movie or series.</li>
+            <li><a href="http://www.gomlab.com" rel="nofollow">GOM</a> or
+                <a href="http://www.videolan.org" rel="nofollow">VLC</a> to check out the actual quality or content of the video.</li>
+            <li><a href="http://www.tixati.com" rel="nofollow">Tixati</a> or
+                <a href="http://www.utorrent.com" rel="nofollow">uTorrent</a> to download the video.</li>
+            <li><a href="http://mediaarea.net/en/MediaInfo" rel="nofollow">MediaInfo</a> to show detailed media information of the video.</li>
+            <li>Windows Explorer to drag and drop folders into and from Movie File Merger or move files to the recycle bin.</li>
         </ul>
-      <p style="text-align: center">
-        <!-- TeraCopy -->
-        <a href="http://movie-file-merger.org/teracopy.exe">
-        <img alt="Movie File Merger and TeraCopy" src="images/TeraCopyDownload.jpeg" height="100"></a>
-        <!-- MediaInfo -->
-        <a href="http://movie-file-merger.org/MediaInfo_GUI_0.7.75_Windows.exe">
-        <img alt="Movie File Merger and MediaInfo" src="images/MediaInfoDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
-        <!-- Firefox -->
-        <a href="https://www.mozilla.org/en-US/firefox/new">
-        <img alt="Movie File Merger and Firefox" src="images/FirefoxRed.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
-        <!-- GOM Player -->
-        <a href="http://www.gomlab.com">
-        <img alt="Movie File Merger and GOM Player" src="images/GomOrangeDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
-        <!-- Tixati -->
-        <a href="http://www.tixati.com">
-        <img alt="Movie File Merger and Tixati" src="images/TixatiDownload.png" style="margin: 0px 0px 0px 55px" height="100"></a>
-        <!-- uTorrent -->
-        <a href="http://www.utorrent.com">
-        <img alt="Movie File Merger and uTorrent" src="images/uTorrentDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
-        <!-- VLC -->
-        <a href="http://www.videolan.org">
-        <img alt="Movie File Merger and VLC" src="images/VLCOrangeDownload.png" style="margin: 0px 0px 0px 55px" height="100"></a>
-      </p>
+        <p style="text-align: center">
+            <!-- TeraCopy -->
+            <a href="http://movie-file-merger.org/teracopy.exe">
+                <img alt="Movie File Merger and TeraCopy" src="images/TeraCopyDownload.jpeg" height="100"></a>
+            <!-- MediaInfo -->
+            <a href="http://movie-file-merger.org/MediaInfo_GUI_0.7.75_Windows.exe">
+                <img alt="Movie File Merger and MediaInfo" src="images/MediaInfoDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
+            <!-- Firefox -->
+            <a href="https://www.mozilla.org/en-US/firefox/new">
+                <img alt="Movie File Merger and Firefox" src="images/FirefoxRed.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
+            <!-- GOM Player -->
+            <a href="http://www.gomlab.com">
+                <img alt="Movie File Merger and GOM Player" src="images/GomOrangeDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
+            <!-- Tixati -->
+            <a href="http://www.tixati.com">
+                <img alt="Movie File Merger and Tixati" src="images/TixatiDownload.png" style="margin: 0px 0px 0px 55px" height="100"></a>
+            <!-- uTorrent -->
+            <a href="http://www.utorrent.com">
+                <img alt="Movie File Merger and uTorrent" src="images/uTorrentDownload.jpg" style="margin: 0px 0px 0px 55px" height="100"></a>
+            <!-- VLC -->
+            <a href="http://www.videolan.org">
+                <img alt="Movie File Merger and VLC" src="images/VLCOrangeDownload.png" style="margin: 0px 0px 0px 55px" height="100"></a>
+        </p>
 
-      <h2><br />Release History
-          <img style="margin: 0px 0px 0px 20px" src="images/History.jpg" alt="Movie File Merger Release History" height="48">
-      </h2>
-      <p>
-          Each release contains also minor bug fixes and improvements, which are not explicitly mentioned here...
-      </p>
+        <h2><br />Release History
+            <img style="margin: 0px 0px 0px 20px" src="images/History.jpg" alt="Movie File Merger Release History" height="48">
+        </h2>
+        <p>
+            Each release contains also minor bug fixes and improvements, which are not explicitly mentioned here...
+        </p>
 
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.4.2   <span class="text-muted"><small>2016-04-15</small></span></h2>
-          <p>This release improved the colors and list updating...</p>
-          <ul>
-            <li>Changed the list colors, after I got a new TV.</li>
-            <li>Fixed the scanning so that list are updated.</li>
-            <li>Changed export format to XML.</li>
-            <li>Added donations link to About tab.</li>
-            <li>Updated MediaInfo to version 0.7.84.</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.2" src="images/MFM0.4.2Lists.jpg" style="box-shadow: 5px 5px 10px #888888"><p></p></a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.2 Maintenance" src="images/MFM0.4.2Maintenance.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.4.1   <span class="text-muted"><small>2015-12-06</small></span></h2>
-          <p>
-            This release streamlined the user interface...
-          </p>
-          <ul>
-            <li>Checked the Maintenance tab.</li>
-            <li>Checked the FileBot interface.</li>
-            <li>Simplified the Lists tab.</li>
-            <li>Simplified the Setting tab.</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.1" src="images/MFM0.4.1.gif" style="box-shadow: 5px 5px 10px #888888"><p></p></a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.1 Maintenance" src="images/MFM0.4.1Maintenance.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.4.0   <span class="text-muted"><small>2015-11-22</small></span></h2>
-          <p>This release added the Maintenance tab...</p>
-            <ul>
-              <li>Interface to FileBot, to rename the actual files.</li>
-              <li>Interface to Windows Explorer, to move or delete files.</li>
-              <li>Minimum resolution when processing videos.</li>
-              <li>Many minor improvements and fixes. </li>
-            </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.0" src="images/MFM0.4.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.3.0   <span class="text-muted"><small>2015-08-08</small></span></h2>
-          <p>This release adds the new action bar, to make the operation simpler...</p>
-          <ul>
-            <li>Just Scan It, to scan for collections on all connected hard disks.</li>
-            <li>Just Rip It, to get everything in the import folder.</li>
-            <li>Automatic wishing or binning with predefined criteria.</li>
-            <li>Minor improvements for Windows 10. </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.3.0" src="images/MFM0.3.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.2.1   <span class="text-muted"><small>2015-06-07</small></span></h2>
-          <p>The release fixes the TeraCopy interface problem with languages other than English.</p>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.2.1" src="images/MFM0.2.1.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.2.0   <span class="text-muted"><small>2015-04-05</small></span></h2>
-          <p>This release contains several improvements and bug fixes... </p>
-          <ul>
-            <li>Made Tool Tip Regex selectable</li>
-            <li>Made selection based on horizontal resolution</li>
-            <li>Improved Settings</li>
-            <li>Added more Tool Tips</li>
-            <li>Added various minor improvements</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.2.0" src="images/MFM0.2.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.1.1   <span class="text-muted"><small>2015-01-11</small></span></h2>
-          <p>This release contains minor fixes like...</p>
-          <ul>
-            <li>Improved pictures</li>
-            <li>Updated About tab</li>
-            <li>Updated short instructions</li>
-            <li>Refactored the code</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.1.1" src="images/MFM0.1.1.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12" style="height:25px;"></div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <h2>Release 0.1.0   <span class="text-muted"><small>2014-11-23</small></span></h2>
-          <p>That's the first Movie File Merger release to create a stable point on GitHub. 
-                          I have been using Movie File Merger already for over a year, so the implemented functions are already quite stable.</p>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/Modi777/Movie-File-Merger/releases">
-          <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.1.0" src="images/MFM0.1.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
-        </div>
-      </div>
-      
-                
-      <!-- FOOTER -->
-      <footer>
         <div class="col-xs-12" style="height:25px;"></div>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Reinhold Lauer</p>
-      </footer>
 
-    </div><!-- /.container -->
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.4.2 <span class="text-muted"><small>2016-04-15</small></span></h2>
+                <p>This release improved the colors and list updating...</p>
+                <ul>
+                    <li>Changed the list colors, after I got a new TV. <span class="label label-primary">Enhancement</span></li>
+                    <li>Fixed the scanning so that list are updated. <span class="label label-danger">Bug</span></li>
+                    <li>Changed export format to XML. <span class="label label-primary">Enhancement</span></li>
+                    <li>Added donations link to About tab. <span class="label label-info">Info</span></li>
+                    <li>Updated MediaInfo to version 0.7.84. <span class="label label-info">Info</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.2" src="images/MFM0.4.2Lists.jpg" style="box-shadow: 5px 5px 10px #888888">
+                    <p></p>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.2 Maintenance" src="images/MFM0.4.2Maintenance.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.4.1 <span class="text-muted"><small>2015-12-06</small></span></h2>
+                <p>
+                    This release streamlined the user interface...
+                </p>
+                <ul>
+                    <li>Checked the Maintenance tab. <span class="label label-info">Info</span></li>
+                    <li>Checked the FileBot interface. <span class="label label-info">Info</span></li>
+                    <li>Simplified the Lists tab. <span class="label label-primary">Enhancement</span></li>
+                    <li>Simplified the Setting tab. <span class="label label-primary">Enhancement</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.1" src="images/MFM0.4.1.gif" style="box-shadow: 5px 5px 10px #888888">
+                    <p></p>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.1 Maintenance" src="images/MFM0.4.1Maintenance.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.4.0 <span class="text-muted"><small>2015-11-22</small></span></h2>
+                <p>This release added the Maintenance tab...</p>
+                <ul>
+                    <li>Interface to FileBot, to rename the actual files. <span class="label label-success">New</span></li>
+                    <li>Interface to Windows Explorer, to move or delete files. <span class="label label-success">New</span></li>
+                    <li>Minimum resolution when processing videos. <span class="label label-primary">Enhancement</span></li>
+                    <li>Many minor improvements and fixes. <span class="label label-danger">Bug</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.4.0" src="images/MFM0.4.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.3.0 <span class="text-muted"><small>2015-08-08</small></span></h2>
+                <p>This release adds the new action bar, to make the operation simpler...</p>
+                <ul>
+                    <li>Just Scan It, to scan for collections on hard disks. <span class="label label-success">New</span></li>
+                    <li>Just Rip It, to get everything in the import folder. <span class="label label-success">New</span></li>
+                    <li>Automatic wishing or binning with predefined criteria. <span class="label label-success">New</span></li>
+                    <li>Minor improvements for Windows 10. <span class="label label-danger">Bug</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.3.0" src="images/MFM0.3.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.2.1 <span class="text-muted"><small>2015-06-07</small></span></h2>
+                <p>The release fixes the TeraCopy interface problem with languages other than English.</p>
+                <ul>
+                    <li>Fixed non-english languages. <span class="label label-danger">Bug</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.2.1" src="images/MFM0.2.1.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.2.0 <span class="text-muted"><small>2015-04-05</small></span></h2>
+                <p>This release contains several improvements and bug fixes... </p>
+                <ul>
+                    <li>Made Tool Tip Regex selectable. <span class="label label-success">New</span></li>
+                    <li>Made selection based on horizontal resolution. <span class="label label-success">New</span></li>
+                    <li>Improved Settings. <span class="label label-primary">Enhancement</span></li>
+                    <li>Added more Tool Tips. <span class="label label-primary">Enhancement</span></li>
+                    <li>Added various minor improvements. <span class="label label-danger">Bug</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.2.0" src="images/MFM0.2.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.1.1 <span class="text-muted"><small>2015-01-11</small></span></h2>
+                <p>This release contains minor fixes like...</p>
+                <ul>
+                    <li>Improved pictures. <span class="label label-primary">Enhancement</span></li>
+                    <li>Updated About tab. <span class="label label-primary">Enhancement</span></li>
+                    <li>Updated short instructions. <span class="label label-primary">Enhancement</span></li>
+                    <li>Refactored the code. <span class="label label-info">Info</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.1.1" src="images/MFM0.1.1.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+        <div class="col-xs-12" style="height:25px;"></div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Release 0.1.0 <span class="text-muted"><small>2014-11-23</small></span></h2>
+                <p>That's the first Movie File Merger release to create a stable point on GitHub. I have been using Movie File Merger already for over a year, so the implemented functions are already quite stable.</p>
+                <ul>
+                    <li>Released first public version. <span class="label label-success">New</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/Modi777/Movie-File-Merger/releases">
+                    <img class="featurette-image img-responsive center-block" alt="Movie File Merger 0.1.0" src="images/MFM0.1.0.jpg" style="box-shadow: 5px 5px 10px #888888"></a>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="col-xs-12" style="height:25px;"></div>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2016 Reinhold Lauer</p>
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
     <!-- Start of StatCounter Stuff -->
     <script type="text/javascript">
-        var sc_project=10227202;
-        var sc_invisible=1;
-        var sc_security="e96e6a0e";
+        var sc_project = 10227202;
+        var sc_invisible = 1;
+        var sc_security = "e96e6a0e";
         var scJsHost = (("https:" == document.location.protocol) ?
-        "https://secure." : "http://www.");
-        document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-        "statcounter.com/counter/counter.js'></"+"script>");
+            "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
     </script>
     <noscript>
         <div class="statcounter">
@@ -522,7 +683,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
