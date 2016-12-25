@@ -1,5 +1,9 @@
 version: 1.0.{build}
 build: off
+test: off
+artifacts:
+- path: '*'
+  type: WebDeployPackage
 deploy:
 - provider: FTP
   host: ftp.movie-file-merger.org
