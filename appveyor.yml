@@ -1,0 +1,10 @@
+version: 1.0.{build}
+build:
+  verbosity: minimal
+deploy:
+- provider: FTP
+  host: ftp.movie-file-merger.org
+  protocol: ftp
+  username: movie-file-merger.org
+  password:
+    secure: Zp8Gcw4ltIVgECijdag2AA==
