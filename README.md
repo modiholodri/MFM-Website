@@ -2,6 +2,8 @@
 Have a look at the [Movie File Merger Website][], where you can download the project as ZIP File, TAR Ball, or Setup for the latest release.
 [Movie File Merger Website]: http://movie-file-merger.org
 
+[![Build status](https://ci.appveyor.com/api/projects/status/lys77149vscsikwl?svg=true)](https://ci.appveyor.com/project/Modi/mfm-website)
+
 ### :book: The User Manuals...
 There are two manuals, which are more or less interconnected, involved in the whole project.
 
