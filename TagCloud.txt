@@ -1,7 +1,0 @@
-Collection Collection Collection share share cleanup cleanup merge merge
-organize select inform download download move copy copy filter dump combine combine lists
-sort view play hover ignore
-Videos Videos Movies Movies Series Series Documentaries Documentaries Clips Music Files
-Garbage Existing Wish Import
-Fast Fast Hard-Disk USB Internet Internet Torrents WWW Web
-GOM FileBot TeraCopy VLC MediaInfo Dropbox IMDb TheTVDB
