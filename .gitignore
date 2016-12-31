@@ -37,7 +37,8 @@ Thumbs.db
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -55,3 +56,4 @@ Temporary Items
 
 /MediaInfo_GUI_0.7.75_Windows.exe
 /teracopy.exe
+debug.log
