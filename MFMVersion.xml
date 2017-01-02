@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-<LatestRelease>0.4.2</LatestRelease>
+<LatestRelease>0.5.0</LatestRelease>
 <ReleaseNotes>
-This release improved the colors and list updating...
-- Changed the list colors, after I got a new TV.
-- Fixed the scanning so that list are updated.
-- Changed export format to XML.
-- Added donations link to About tab.
-- Updated MediaInfo to version 0.7.84. 
+This release improved the Maintenance tab...
+- Added Export, Download, Info and Play drop area.
+- Updated available Download choices.
+- Updated available Info choices.
+- Improved scanning algorithm.
+- Various minor fixes... 
 </ReleaseNotes>
 </MFMVersions>
