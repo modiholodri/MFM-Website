@@ -2,8 +2,6 @@ version: 1.0.{build}
 build: off
 test: off
 artifacts:
-- path: 'contacts.html'
-  type: WebDeployPackage
 - path: 'details.html'
   type: WebDeployPackage
 - path: 'donations.html'
@@ -15,12 +13,6 @@ artifacts:
 - path: 'index.html'
   type: WebDeployPackage
 - path: 'license.html'
-  type: WebDeployPackage
-- path: 'manuals.html'
-  type: WebDeployPackage
-- path: 'otherstuff.html'
-  type: WebDeployPackage
-- path: 'screenshots.html'
   type: WebDeployPackage
 deploy:
 - provider: FTP
