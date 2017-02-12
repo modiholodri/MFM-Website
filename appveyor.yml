@@ -8,6 +8,8 @@ artifacts:
   type: WebDeployPackage
 - path: 'downloads.html'
   type: WebDeployPackage
+- path: 'faqs.html'
+  type: WebDeployPackage
 - path: 'errors.html'
   type: WebDeployPackage
 - path: 'index.html'
