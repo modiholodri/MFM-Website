@@ -29,7 +29,9 @@ $RECYCLE.BIN/
 Movie File Merger
 Manuals
 Installation Folder
-.project
+
+*.project
+*.mp4
 Thumbs.db
 
 .DS_Store
