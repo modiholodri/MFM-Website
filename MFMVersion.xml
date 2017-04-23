@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-<LatestRelease>0.5.0</LatestRelease>
+<LatestRelease>0.6.0</LatestRelease>
 <ReleaseNotes>
-This release improved the Maintenance tab...
-- Added Export, Download, Info and Play drop area.
-- Updated available Download choices.
-- Updated available Info choices.
-- Improved scanning algorithm.
+This release added the FTP Sucker tab...
+- Added FTP Sucker to get files over FTP.
+- Made buttons less intrusive.
+- Changed to XML export.
 - Various minor fixes... 
 </ReleaseNotes>
 </MFMVersions>
