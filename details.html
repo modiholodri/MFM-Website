@@ -55,6 +55,7 @@
 
 <body>
   <!-- The Menu -->
+  <span itemscope itemtype="http://schema.org/SoftwareApplication">
   <div class="navbar-wrapper">
     <div class="container">
       <nav class="navbar navbar-inverse navbar-default">
@@ -72,10 +73,10 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="https://movie-file-merger.org/index.html">Home</a></li>
+              <li><a itemprop="url" href="https://movie-file-merger.org/index.html">Home</a></li>
               <li class="active"><a href="https://movie-file-merger.org/details.html">Details</a></li>
               <li><a href="https://movie-file-merger.org/MFMFrms/index.php">Forum</a></li>
-              <li><a href="https://movie-file-merger.org/downloads.html">Downloads</a></li>
+              <li><a itemprop="downloadUrl" href="https://movie-file-merger.org/downloads.html">Downloads</a></li>
               <li><a href="https://movie-file-merger.org/faqs.html">FAQs</a></li>
               <li><a href="https://movie-file-merger.org/donations.html">Support</a></li>
               <li><a href="https://movie-file-merger.org/license.html">License</a></li>
@@ -93,7 +94,7 @@
       <div class=container>
         <img class="center-block" src="images/Combine.png" alt="Combine Two Collections" width="256" height="256">
         <h1 class="bs-docs-featurette-title text-center">Combine Collections</h1>
-        <p class="lead text-center">Movie File Merger supports the selective combination/maintenance of video collections, movies, series, or documentaries.
+        <p class="lead text-center"><span itemprop="name">Movie File Merger</span> supports the selective combination/maintenance of video collections, movies, series, or documentaries.
           It can be used for other types of collections, but it is optimized for videos. The Lists tab is the main tab to combine video collections.
           Use it to move items around in the different lists, sort your collection, or rip the collection of a friend.</p>
       </div>
