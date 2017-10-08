@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-<LatestRelease>0.6.0</LatestRelease>
+<LatestRelease>0.6.1</LatestRelease>
 <ReleaseNotes>
-This release added the FTP Sucker tab...
-- Added FTP Sucker to get files over FTP.
-- Made buttons less intrusive.
-- Various minor fixes... 
-- Made Donations a little bit more visible.
+This mini-release fixed the annoying secure channel bug when checking the version.
+- Added yearly update check option.
 </ReleaseNotes>
 </MFMVersions>
