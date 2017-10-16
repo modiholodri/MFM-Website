@@ -51,9 +51,10 @@
   <link rel="stylesheet" type="text/css" href="engine2/style.css" />
   <script type="text/javascript" src="engine2/jquery.js"></script>
 </head>
-<!-- The Body ================================================== -->
 
+<!-- The Body ================================================== -->
 <body>
+
   <!-- The Menu -->
   <span itemscope itemtype="http://schema.org/SoftwareApplication">
   <div class="navbar-wrapper">
@@ -86,20 +87,40 @@
       </nav>
     </div>
   </div>
-  <!-- ================================================== -->
+
   <!-- Wrap the rest of the page in another container to center all the content. -->
   <div class="container">
-    <!-- Combine Two Collections -->
-    <div class=bs-docs-featurette id="CombineCollections">
+
+    <!-- Movie File Merger Details -->
+    <div class=bs-docs-featurette>
       <div class=container>
         <h1 class="bs-docs-featurette-title text-center">Movie File Merger</h1>
-        <img class="center-block" src="images/Combine.png" alt="Combine Two Collections" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Combine Collections</h1>
-        <p class="lead text-center"><span itemprop="name">Movie File Merger</span> supports the selective combination/maintenance of video collections, movies, series, or documentaries.
-          It can be used for other types of collections, but it is optimized for videos.</p>
+        <img itemprop="image" class="center-block" src="images/MFM.png" alt="Movie File Merger" width="256" height="256">
+        <h1 class=bs-docs-featurette-title style="text-align: center">
+            <br>Details</span></h1>
+        <p class=lead style="text-align: center">
+          <span itemprop="name">Movie File Merger</span> 
+          makes video collection management faster and easier. 
+          A lof of things you can do is in the details.</p>
       </div>
     </div>
+    <p><br><br></p>
+
+    <!-- Combine Two Collections -->
+    <div class="row featurette" id="CombineCollections">
+      <div class="col-md-8">
+        <h2 class="featurette-heading" style="text-align: center">Combine Collections</h2>
+        <p class="lead"><span itemprop="name">Movie File Merger</span> supports the selective combination/maintenance of video collections, movies, series, or documentaries.
+          It can be used for other types of collections, but it is optimized for videos.</p>
+        </p>
+      </div>
+      <div class="col-md-4 align-bottom">
+        <img class="featurette-image img-responsive center-block" src="images/Combine.png" alt="Combine Two Collections" width="256" height="256" >
+      </div>
+    </div>
+
     <div class="row">
+
       <!-- Select -->
       <div class="col-lg-4">
         <h2 class="text-center">Select
@@ -109,6 +130,7 @@
           from your friend's collection you just need his or her list. You can select them at home and once finished go to
           your friend and start copying.</p>
       </div>
+
       <!-- Distribute -->
       <div class="col-lg-4">
         <h2 class="text-center">Distribute
@@ -117,6 +139,7 @@
         <p>Lists are small for distribution over the internet. Once you have scanned your collection, you can send it to your
           friend, who can select what to copy offline.</p>
       </div>
+
       <!-- Ignore -->
       <div class="col-lg-4">
         <h2 class="text-center">Ignore
@@ -126,7 +149,9 @@
           stuff again and again.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Predefine -->
       <div class="col-lg-4">
         <h2 class="text-center">Predefine
@@ -136,6 +161,7 @@
           Just drop the list in the Wish list and only videos from that genre are copied. If you want to ignore a complete
           category, then drop it in the Garbage list.</p>
       </div>
+
       <!-- Filter -->
       <div class="col-lg-4">
         <h2 class="text-center">Filter
@@ -144,6 +170,7 @@
         <p>Select videos according to resolution or other details such as media information; for example, horizontal resolution
           is greater than 1000 pixels. Filters are Regular Expressions and really flexible.</p>
       </div>
+
       <!-- Search -->
       <div class="col-lg-4">
         <h2 class="text-center">Search
@@ -153,7 +180,9 @@
           list entry on the Search for information drop area.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Download -->
       <div class="col-lg-4">
         <h2 class="text-center">Download
@@ -162,6 +191,7 @@
         <p>Search for torrents on the web. Select the sites, which should be searched, and drop any list entry on the Download
           drop area.</p>
       </div>
+
       <!-- Inspect -->
       <div class="col-lg-4">
         <h2 class="text-center">Inspect
@@ -170,6 +200,7 @@
         <p>List detailed media information with <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>. Any videos in the
           Existing list are scanned with the relevant media information.</p>
       </div>
+
       <!-- View -->
       <div class="col-lg-4">
         <h2 class="text-center">View
@@ -180,7 +211,9 @@
           list entry.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Play -->
       <div class="col-lg-4">
         <h2 class="text-center">Play
@@ -189,6 +222,7 @@
         <p>Play videos in the Import list with your default player. Drop any video existing on connected hard disks on the
           Play drop area.</p>
       </div>
+
       <!-- Rip -->
       <div class="col-lg-4">
         <h2 class="text-center">Rip
@@ -198,6 +232,7 @@
           touched.
         </p>
       </div>
+
       <!-- Scan -->
       <div class="col-lg-4">
         <h2 class="text-center">Scan
@@ -209,18 +244,26 @@
         </p>
       </div>
     </div>
+
+    <p><br><br><br></p>
+    
     <!-- Maintain Your Collections -->
-    <div class=bs-docs-featurette id="MaintainCollections">
-      <div class=container>
-        <img class="center-block" src="images/Maintain.png" alt="Maintain Your Collections" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Maintain Your Collections</h1>
-        <p class="lead text-center">Movie File Merger makes the maintenance of your collections easier. It points out bad names, supports moving and
-          sorting into collection types. The Maintenance tab is used to cleanup your newly acquired videos and add-on files
-          or to cleanup your collection in general. It is used in conjunction with Windows Explorer or FileBot, but basically,
-          you can use it with any program, which accepts file drops.</p>
+    <div class="row featurette" id="MaintainCollections">
+      <div class="col-md-8">
+        <h2 class="featurette-heading" style="text-align: center">Maintain Your Collections</h2>
+        <p class="lead"><span itemprop="name">Movie File Merger makes the maintenance of your collections easier. It points out bad names, supports moving and
+            sorting into collection types. The Maintenance tab is used to cleanup your newly acquired videos and add-on files
+            or to cleanup your collection in general. It is used in conjunction with Windows Explorer or file renaming apps, but basically,
+            you can use it with any program, which accepts file drops.</p>
+        </p>
+      </div>
+      <div class="col-md-4 align-bottom">
+        <img class="featurette-image img-responsive center-block" src="images/Maintain.png" alt="Maintain Your Collections" width="256" height="256" >
       </div>
     </div>
+  
     <div class="row">
+
       <!-- Recylcle -->
       <div class="col-lg-4">
         <h2 class="text-center">Bin
@@ -228,6 +271,7 @@
         </h2>
         <p>Get rid of garbage files in your collections. Move irrelevant files into the Windows Recycle Bin.</p>
       </div>
+
       <!-- Suck -->
       <div class="col-lg-4">
         <h2 class="text-center">Suck
@@ -236,15 +280,18 @@
         <p>Suck relevant files out of download folders. Irrelevant files can be sucked into the recycle bin or just ignored.
           No need for the tiresome clicking until your fingers fall off.</p>
       </div>
+
       <!-- Rename -->
       <div class="col-lg-4">
         <h2 class="text-center">Rename
           <img src="images/Rename.png" alt="Rename" height="96">
         </h2>
-        <p>Drop movies or series with bad names into <a href="http://www.filebot.net">FileBot</a> to rename them.</p>
+        <p>Drop movies or series with bad names into specialized file renaming apps to rename them.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Differentiate -->
       <div class="col-lg-4">
         <h2 class="text-center">Differentiate
@@ -253,6 +300,7 @@
         <p>Differentiate automatically between documentaries, series, and movies. Good and bad names are highlights and nonrelated
           files identified.</p>
       </div>
+
       <!-- Move -->
       <div class="col-lg-4">
         <h2 class="text-center">Move
@@ -260,6 +308,7 @@
         </h2>
         <p>Move movies or series with good names in other folders. Move nonrelated files in the Windows Recycle Bin.</p>
       </div>
+
       <!-- Check -->
       <div class="col-lg-4">
         <h2 class="text-center">Check
@@ -269,17 +318,24 @@
           are pointed out. They can be dropped into another program, which is specialized in renaming files.</p>
       </div>
     </div>
+
+    <p><br><br><br></p>
+
     <!-- Remember Your Collection -->
-    <div class=bs-docs-featurette id="RememberCollections">
-      <div class=container>
-        <img class="center-block" src="images/Remember.png" alt="Remember Your Collections" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Remember Your Collections</h1>
-        <p class="lead text-center">Movie File Merger helps you to remember your collections. As your collection grows it'll be impossible to remember
-          everything.
+    <div class="row featurette" id="RememberCollections">
+      <div class="col-md-8">
+        <h2 class="featurette-heading" style="text-align: center">Remember Your Collections</h2>
+        <p class="lead"><span itemprop="name">Movie File Merger helps you to remember your collections. 
+          As your collection grows it'll be impossible to remember everything.</p>
         </p>
       </div>
+      <div class="col-md-4 align-bottom">
+        <img class="featurette-image img-responsive center-block" src="images/Remember.png" alt="Remember Your Collections" width="256" height="256" >
+      </div>
     </div>
+  
     <div class="row">
+
       <!-- Remember -->
       <div class="col-lg-4">
         <h2 class="text-center">Remember
@@ -287,6 +343,7 @@
         </h2>
         <p>Movie File Merger remembers all the videos you have. You'll never copy the same movie again and again.</p>
       </div>
+
       <!-- Dump -->
       <div class="col-lg-4">
         <h2 class="text-center">Dump
@@ -294,6 +351,7 @@
         </h2>
         <p>Movie File Merger remembers all the videos you don't want to have. You'll not copy the same stuff again and again.</p>
       </div>
+
       <!-- Update -->
       <div class="col-lg-4">
         <h2 class="text-center">Update
@@ -303,7 +361,9 @@
           it takes a while if there are many new entries, so just let it run in the background.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Bring -->
       <div class="col-lg-4">
         <h2 class="text-center">Bring
@@ -312,6 +372,7 @@
         <p>Movie Filer Merger is portable so that you can run it from anywhere, on any hard disk or memory stick, or even your
           phone is you use it as such.</p>
       </div>
+
       <!-- Categorize -->
       <div class="col-lg-4">
         <h2 class="text-center">Categorize
@@ -320,6 +381,7 @@
         <p>The videos are split into categories, which are easier to handle and remember. The Miscellaneous category can be
           used to remember temporarily things.</p>
       </div>
+
       <!-- Keep -->
       <div class="col-lg-4">
         <h2 class="text-center">Keep
@@ -329,16 +391,24 @@
           they can be combined in a single large list.</p>
       </div>
     </div>
+
+    <p><br><br><br></p>
+    
     <!-- Hidden Benefits -->
-    <div class=bs-docs-featurette id="HiddenBenefits">
-      <div class=container>
-        <img class="center-block" src="images/Hidden.png" alt="Hidden Benefits" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Hidden Benefits</h1>
-        <p class="lead text-center">Movie File Merger is designed so that it is quite flexible. How and for what to use it depends on you.
-          Use it for some time to figure out which way is best for you.</p>
+    <div class="row featurette" id="HiddenBenefits">
+      <div class="col-md-8">
+        <h2 class="featurette-heading" style="text-align: center">Hidden Benefits</h2>
+        <p class="lead"><span itemprop="name">Movie File Merger is designed so that it is quite flexible. How and for what to use it depends on you.
+            Use it for some time to figure out which way is best for you.</p>
+        </p>
+      </div>
+      <div class="col-md-4 align-bottom">
+        <img class="featurette-image img-responsive center-block" src="images/Hidden.png" alt="Hidden Benefits" width="256" height="256" >
       </div>
     </div>
+      
     <div class="row">
+
       <!-- Backup -->
       <div class="col-lg-4">
         <h2 class="text-center">Backup
@@ -347,6 +417,7 @@
         <p>Considering the size of video files, it is not practical to have your collections double. It's a good idea to backup
           your video collections on hard disks of others. That way they can watch your videos and you save space.</p>
       </div>
+
       <!-- Gather -->
       <div class="col-lg-4">
         <h2 class="text-center">Gather
@@ -355,6 +426,7 @@
         <p>Social gathering when visiting your friend. If you connect your two hard disks, transfer rates are best. 
           That's also a good opportunity to have a beer or two.</p>
       </div>
+
       <!-- Save -->
       <div class="col-lg-4">
         <h2 class="text-center">Save
@@ -364,7 +436,9 @@
           connection is, you are much faster when using Movie File Merger.</p>
       </div>
     </div>
+
     <div class="row">
+
       <!-- Speed-up -->
       <div class="col-lg-4">
         <h2 class="text-center">Speed-up
@@ -373,6 +447,7 @@
         <p>Faster than backing up in the cloud. Transferring data over USB 3.0 is around 150 MB/s. When used to rip collections
           without too much thinking, that means that you'll get around 300 GB per hour. You can sort out the details later.</p>
       </div>
+
       <!-- Evaluate -->
       <div class="col-lg-4">
         <h2 class="text-center">Evaluate
@@ -381,6 +456,7 @@
         <p>Your friends are checking the quality of movies before you get them. Bad stuff will be cut off at the roots and deleted
           before you can get it.</p>
       </div>
+
       <!-- Explore -->
       <div class="col-lg-4">
         <h2 class="text-center">Explore
@@ -391,6 +467,7 @@
         </p>
       </div>
     </div>
+
     <!-- Movie File Merger Screenshots -->
     <div class=bs-docs-featurette>
       <div class=container>
@@ -511,6 +588,7 @@
         <p><br> <br></p>
       </div>
     </div>
+
     <!-- Rewards/Reviews -->
     <div class=bs-docs-featurette id="RewardsReviews">
       <div class=container>
@@ -526,6 +604,7 @@
     </p>
     <div class="row">
       <div class="col-lg-6">
+
         <!-- GHacks Rewarded 5 Stars -->
         <p>
           <a href="http://www.ghacks.net/2015/01/05/merge-video-collections-with-movie-file-merger/" target="_blank">
@@ -535,6 +614,7 @@
           really matter if you want to perform those operations on your own movie collection or if you use it to merge a
           friend's collection with your own.
         </p>
+
         <!-- Baixaki -->
         <p>
           <a href="http://www.baixaki.com.br/download/movie-file-merger.htm#nossaop">
@@ -543,6 +623,7 @@
             <br> O Movie File Merger é uma opção interessante para criar coleções de vídeo de forma mais prática, 
             principalmente se você quiser transferir arquivos e informações de um computador para o outro.
         </p>
+
         <!-- SharewarePROS -->
         <p>
           <a href="https://www.sharewarepros.com/get/hobby/movie-file-merger-043191.html">
@@ -551,6 +632,7 @@
             to administer long movie's collections; it offers a simple way to copy, move files and also enables to merge collections
             taking care about duplications.
         </p>
+
         <!-- Taimienphi -->
         <p>
           <a href="http://taimienphi.vn/download-movie-file-merger-35334">
@@ -562,7 +644,9 @@
              nhưng cũng có thể được áp dụng cho âm nhạc hay các định dạng khác, tuy nhiên lý tưởng nhất là dành cho các video.
         </p>
       </div>
+
       <div class="col-lg-6">
+
         <!-- Free Downloads Center -->
         <p>
           <a href="http://www.freedownloadscenter.com/Reviews/r9513.html" target="_blank">
@@ -574,6 +658,7 @@
           files, and is optimized for videos. This capable software also supports the option of
           playing the video with your default player.
         </p>
+
         <!-- Softpedia -->
         <p>
           <a href="http://www.softpedia.com/get/System/File-Management/Movie-File-Merger.shtml">
@@ -589,6 +674,7 @@
         </p>
       </div>
     </div>
+
     <!-- FOOTER -->
     <footer>
       <div class="col-xs-12" style="height:25px;"></div>
@@ -597,6 +683,7 @@
     </footer>
   </div>
   <!-- /.container -->
+
   <!-- Start of StatCounter Stuff -->
   <script type="text/javascript">
     var sc_project = 10227202;
@@ -614,8 +701,8 @@
     </div>
   </noscript>
   <!-- End of StatCounter Stuff -->
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
+
+  <!-- Bootstrap core JavaScript -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
