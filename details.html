@@ -2,716 +2,885 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Selective combination/maintenance of video collections, movies, series, documentaries... Details">
-  <meta name="author" content="Reinhold Lauer">
-  <meta name="theme-color" content="#022f5a">
-  <link rel="icon" href="images/MFM32Favicon.ico">
-  <title>Combine/Maintain Video Collections - Details</title>
-  <link rel="prerender" href="https://movie-file-merger.org/index.html" />
-  <link rel="prerender" href="https://movie-file-merger.org/details.html" />
-  <link rel="prerender" href="https://movie-file-merger.org/downloads.html" />
-  <link rel="prerender" href="https://movie-file-merger.org/donations.html" />
-  <link rel="prerender" href="https://movie-file-merger.org/license.html" />
-  <link rel="next" href="https://movie-file-merger.org/downloads.html" />
-  <link rel="prev" href="https://movie-file-merger.org/index.html" />
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Analytics Code -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-63705144-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- HeatMap Code -->
-  <script>
-    (function (h, e, a, t, m, p) {
-      m = e.createElement(a);
-      m.async = !0;
-      m.src = t;
-      p = e.getElementsByTagName(a)[0];
-      p.parentNode.insertBefore(m, p);
-    })(window, document, 'script', 'https://u.heatmap.it/log.js');
-  </script>
-  <!-- Start WOWSlider.com HEAD section -->
-  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-  <script type="text/javascript" src="engine1/jquery.js"></script>
-  <link rel="stylesheet" type="text/css" href="engine2/style.css" />
-  <script type="text/javascript" src="engine2/jquery.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Selective combination/maintenance of video collections, movies, series, documentaries... Details">
+    <meta name="author" content="Reinhold Lauer">
+    <meta name="theme-color" content="#022f5a">
+    <link rel="icon" href="images/MFM32Favicon.ico">
+    <title>Combine/Maintain Video Collections - Details</title>
+    <link rel="prerender" href="https://movie-file-merger.org/index.html" />
+    <link rel="prerender" href="https://movie-file-merger.org/details.html" />
+    <link rel="prerender" href="https://movie-file-merger.org/downloads.html" />
+    <link rel="prerender" href="https://movie-file-merger.org/donations.html" />
+    <link rel="prerender" href="https://movie-file-merger.org/license.html" />
+    <link rel="next" href="https://movie-file-merger.org/downloads.html" />
+    <link rel="prev" href="https://movie-file-merger.org/index.html" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Analytics Code -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-63705144-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- HeatMap Code -->
+    <script>
+        (function (h, e, a, t, m, p) {
+            m = e.createElement(a);
+            m.async = !0;
+            m.src = t;
+            p = e.getElementsByTagName(a)[0];
+            p.parentNode.insertBefore(m, p);
+        })(window, document, 'script', 'https://u.heatmap.it/log.js');
+    </script>
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="engine2/style.css" />
+    <script type="text/javascript" src="engine2/jquery.js"></script>
 </head>
 
 <!-- The Body ================================================== -->
+
 <body>
 
-  <!-- The Menu -->
-  <span itemscope itemtype="http://schema.org/SoftwareApplication">
-  <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-inverse navbar-default">
+    <!-- The Menu -->
+    <div class="navbar-wrapper">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" href="https://movie-file-merger.org/index.html">
-              <img style="max-width:100px; margin-top: -7px;" src="images/MFM32Favicon.ico" alt="MFM Icon">
-            </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a itemprop="url" href="https://movie-file-merger.org/index.html">Home</a></li>
-              <li class="active"><a href="https://movie-file-merger.org/details.html">Details</a></li>
-              <li><a href="https://movie-file-merger.org/MFMFrms/index.php">Forum</a></li>
-              <li><a itemprop="downloadUrl" href="https://movie-file-merger.org/downloads.html">Downloads</a></li>
-              <li><a href="https://movie-file-merger.org/faqs.html">FAQs</a></li>
-              <li><a href="https://movie-file-merger.org/donations.html">Support</a></li>
-              <li><a href="https://movie-file-merger.org/license.html">License</a></li>
-            </ul>
-          </div>
+            <nav class="navbar navbar-inverse navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="https://movie-file-merger.org/index.html">
+                            <img style="max-width:100px; margin-top: -7px;" src="images/MFM32Favicon.ico" alt="MFM Icon">
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a itemprop="url" href="https://movie-file-merger.org/index.html">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="https://movie-file-merger.org/details.html">Details</a>
+                            </li>
+                            <li>
+                                <a href="https://movie-file-merger.org/MFMFrms/index.php">Forum</a>
+                            </li>
+                            <li>
+                                <a itemprop="downloadUrl" href="https://movie-file-merger.org/downloads.html">Downloads</a>
+                            </li>
+                            <li>
+                                <a href="https://movie-file-merger.org/faqs.html">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="https://movie-file-merger.org/donations.html">Support</a>
+                            </li>
+                            <li>
+                                <a href="https://movie-file-merger.org/license.html">License</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-  </div>
-
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-  <div class="container">
-
-    <!-- Movie File Merger Details -->
-    <div class=bs-docs-featurette>
-      <div class=container>
-        <h1 class="bs-docs-featurette-title text-center">Movie File Merger</h1>
-        <img itemprop="image" class="center-block" src="images/MFM.png" alt="Movie File Merger" width="256" height="256">
-        <h1 class=bs-docs-featurette-title style="text-align: center">
-            <br>Details</span></h1>
-        <p class=lead style="text-align: center">
-          <span itemprop="name">Movie File Merger</span> 
-          makes video collection management faster and easier. 
-          A lof of things you can do is in the details.</p>
-      </div>
-    </div>
-    <p><br><br></p>
-
-    <!-- Combine Two Collections -->
-    <div class="row featurette" id="CombineCollections">
-      <div class="col-md-8">
-        <h2 class="featurette-heading" style="text-align: center"><br>Combine Collections</h2>
-        <p class="lead"><span itemprop="name">Movie File Merger</span> supports the selective combination/maintenance of video collections, movies, series, or documentaries.
-          It can be used for other types of collections, but it is optimized for videos.</p>
-        </p>
-      </div>
-      <div class="col-md-4 align-bottom">
-        <img class="featurette-image img-responsive center-block" src="images/Combine.png" alt="Combine Two Collections" width="256" height="256" >
-      </div>
     </div>
 
-    <div class="row">
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container">
 
-      <!-- Select -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Select
-          <img src="images/Select.png" alt="Select" height="96">
-        </h2>
-        <p>Select which videos are copied or moved. Only videos in the Wish list are considered. To select videos or movies
-          from your friend's collection you just need his or her list. You can select them at home and once finished go to
-          your friend and start copying.</p>
-      </div>
-
-      <!-- Distribute -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Distribute
-          <img src="images/Distribute.png" alt="Distribute" height="96">
-        </h2>
-        <p>Lists are small for distribution over the internet. Once you have scanned your collection, you can send it to your
-          friend, who can select what to copy offline.</p>
-      </div>
-
-      <!-- Ignore -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Ignore
-          <img src="images/Ignore.png" alt="Ignore" height="96">
-        </h2>
-        <p>Videos in the Existing and Garbage lists are ignored. That way you don't have to worry about copying the same 
-          stuff again and again.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Predefine -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Predefine
-          <img src="images/Predefine.png" alt="Predefine" height="96">
-        </h2>
-        <p>Select movies according to predefined genre lists from the internet, for example, <a href="http://www.imdb.com">IMDb</a>.
-          Just drop the list in the Wish list and only videos from that genre are copied. If you want to ignore a complete
-          category, then drop it in the Garbage list.</p>
-      </div>
-
-      <!-- Filter -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Filter
-          <img src="images/Filter.png" alt="Filter" height="96">
-        </h2>
-        <p>Select videos according to resolution or other details such as media information; for example, horizontal resolution
-          is greater than 1000 pixels. Filters are Regular Expressions and really flexible.</p>
-      </div>
-
-      <!-- Search -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Search
-          <img src="images/Search.png" alt="Search" height="96">
-        </h2>
-        <p>Search for movies or series information on the internet, like on <a href="http://thetvdb.com">TheTVDb</a>. Drop any
-          list entry on the Search for information drop area.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Download -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Download
-          <img src="images/Download.png" alt="Download" height="96">
-        </h2>
-        <p>Search for torrents on the web. Select the sites, which should be searched, and drop any list entry on the Download
-          drop area.</p>
-      </div>
-
-      <!-- Inspect -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Inspect
-          <img src="images/Inspect.png" alt="Inspect" height="96">
-        </h2>
-        <p>List detailed media information with <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>. Any videos in the
-          Existing list are scanned with the relevant media information.</p>
-      </div>
-
-      <!-- View -->
-      <div class="col-lg-4">
-        <h2 class="text-center">View
-          <img src="images/View.png" alt="View" height="96">
-        </h2>
-        <p>View video media information in the pop-ups when hovering over a list entry. Videos in the Existing list are
-          scanned with the relevant media information. Basic information is shown in the screen tip when hovering over the
-          list entry.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Play -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Play
-          <img src="images/Play.png" alt="Play" height="96">
-        </h2>
-        <p>Play videos in the Import list with your default player. Drop any video existing on connected hard disks on the
-          Play drop area.</p>
-      </div>
-
-      <!-- Rip -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Rip
-          <img src="images/Rip.png" alt="Rip" height="96">
-        </h2>
-        <p>Click on Just Rip It... to get all videos in the Import folder. Videos in the Existing and Garbage lists are not
-          touched.
-        </p>
-      </div>
-
-      <!-- Scan -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Scan
-          <img src="images/Scan.png" alt="Scan" height="96">
-        </h2>
-        <p>Click on Just Scan It... to scan all videos in all top level folders on all hard disks connected to the computer.
-          The top level folders have to contain the collection name so that videos in that folder are put in the according
-          collection.
-        </p>
-      </div>
-    </div>
-
-    <p><br><br><br></p>
-    
-    <!-- Maintain Your Collections -->
-    <div class="row featurette" id="MaintainCollections">
-      <div class="col-md-8">
-        <h2 class="featurette-heading" style="text-align: center">Maintain Your Collections</h2>
-        <p class="lead"><span itemprop="name">Movie File Merger makes the maintenance of your collections easier. It points out bad names, supports moving and
-            sorting into collection types. The Maintenance tab is used to cleanup your newly acquired videos and add-on files
-            or to cleanup your collection in general. It is used in conjunction with Windows Explorer or file renaming apps, but basically,
-            you can use it with any program, which accepts file drops.</p>
-        </p>
-      </div>
-      <div class="col-md-4 align-bottom">
-        <img class="featurette-image img-responsive center-block" src="images/Maintain.png" alt="Maintain Your Collections" width="256" height="256" >
-      </div>
-    </div>
-    <p><br></p>
-    <div class="row">
-
-      <!-- Recylcle -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Bin
-          <img src="images/Bin.png" alt="Bin" height="96">
-        </h2>
-        <p>Get rid of garbage files in your collections. Move irrelevant files into the Windows Recycle Bin.</p>
-      </div>
-
-      <!-- Suck -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Suck
-          <img src="images/Suck.png" alt="Suck" height="96">
-        </h2>
-        <p>Suck relevant files out of download folders. Irrelevant files can be sucked into the recycle bin or just ignored.
-          No need for the tiresome clicking until your fingers fall off.</p>
-      </div>
-
-      <!-- Rename -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Rename
-          <img src="images/Rename.png" alt="Rename" height="96">
-        </h2>
-        <p>Drop movies or series with bad names into specialized file renaming apps to rename them.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Differentiate -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Differentiate
-          <img src="images/Differentiate.png" alt="Differentiate" height="96">
-        </h2>
-        <p>Differentiate automatically between documentaries, series, and movies. Good and bad names are highlights and nonrelated
-          files identified.</p>
-      </div>
-
-      <!-- Move -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Move
-          <img src="images/Move.png" alt="Move" height="96">
-        </h2>
-        <p>Move movies or series with good names in other folders. Move nonrelated files in the Windows Recycle Bin.</p>
-      </div>
-
-      <!-- Check -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Check
-          <img src="images/Check.png" alt="Check" height="96">
-        </h2>
-        <p>Check if all files in your collection have a good name. Bad names, which are not following the naming conventions
-          are pointed out. They can be dropped into another program, which is specialized in renaming files.</p>
-      </div>
-    </div>
-
-    <p><br><br><br></p>
-
-    <!-- Remember Your Collection -->
-    <div class="row featurette" id="RememberCollections">
-      <div class="col-md-8">
-        <h2 class="featurette-heading" style="text-align: center"><br>Remember Your Collections</h2>
-        <p class="lead"><span itemprop="name">Movie File Merger helps you to remember your collections. 
-          As your collection grows it'll be impossible to remember everything.</p>
-        </p>
-      </div>
-      <div class="col-md-4 align-bottom">
-        <img class="featurette-image img-responsive center-block" src="images/ExercisingWeightsBrain.png" alt="Exercising Weights Brain" width="256" height="256" >
-      </div>
-    </div>
-  
-    <div class="row">
-
-      <!-- Remember -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Remember
-          <img src="images/Remember.png" alt="Remember" height="96">
-        </h2>
-        <p>Movie File Merger remembers all the videos you have. You'll never copy the same movie again and again.</p>
-      </div>
-
-      <!-- Dump -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Dump
-          <img src="images/Dump.png" alt="Dump" height="96">
-        </h2>
-        <p>Movie File Merger remembers all the videos you don't want to have. You'll not copy the same stuff again and again.</p>
-      </div>
-
-      <!-- Update -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Update
-          <img src="images/Update.png" alt="Update" height="96">
-        </h2>
-        <p>Movie File Merger is designed so that your collection information can be easily updated once out of date. Just Scan
-          it takes a while if there are many new entries, so just let it run in the background.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Bring -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Bring
-          <img src="images/Bring.png" alt="Bring" height="96">
-        </h2>
-        <p>Movie Filer Merger is portable so that you can run it from anywhere, on any hard disk or memory stick, or even your
-          phone is you use it as such.</p>
-      </div>
-
-      <!-- Categorize -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Categorize
-          <img src="images/Categorize.png" alt="Categorize" height="96">
-        </h2>
-        <p>The videos are split into categories, which are easier to handle and remember. The Miscellaneous category can be
-          used to remember temporarily things.</p>
-      </div>
-
-      <!-- Keep -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Keep
-          <img src="images/Keep.png" alt="Keep" height="96">
-        </h2>
-        <p>Lists can be archived to keep a history of your collection over time. To get a list of all the movies ever owned,
-          they can be combined in a single large list.</p>
-      </div>
-    </div>
-
-    <p><br><br><br></p>
-    
-    <!-- Hidden Benefits -->
-    <div class="row featurette" id="HiddenBenefits">
-      <div class="col-md-8">
-        <h2 class="featurette-heading" style="text-align: center"><br>Hidden Benefits</h2>
-        <p class="lead"><span itemprop="name">Movie File Merger is designed so that it is quite flexible. How and for what to use it depends on you.
-            Use it for some time to figure out which way is best for you.</p>
-        </p>
-      </div>
-      <div class="col-md-4 align-bottom">
-        <img class="featurette-image img-responsive center-block" src="images/Hidden.png" alt="Hidden Benefits" width="256" height="256" >
-      </div>
-    </div>
-    <p><br></p>
-      
-    <div class="row">
-
-      <!-- Backup -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Backup
-          <img src="images/Backup.png" alt="Backup" height="96">
-        </h2>
-        <p>Considering the size of video files, it is not practical to have your collections double. It's a good idea to backup
-          your video collections on hard disks of others. That way they can watch your videos and you save space.</p>
-      </div>
-
-      <!-- Gather -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Gather
-          <img src="images/Gather.png" alt="Gather" height="96">
-        </h2>
-        <p>Social gathering when visiting your friend. If you connect your two hard disks, transfer rates are best. 
-          That's also a good opportunity to have a beer or two.</p>
-      </div>
-
-      <!-- Save -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Save
-          <img src="images/Save.png" alt="Save" height="96">
-        </h2>
-        <p>Save internet bandwidth, because large data quantities are moved over USB or similar. Independent how fast your internet
-          connection is, you are much faster when using Movie File Merger.</p>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <!-- Speed-up -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Speed-up
-          <img src="images/Speedup.png" alt="Speed-up" height="96">
-        </h2>
-        <p>Faster than backing up in the cloud. Transferring data over USB 3.0 is around 150 MB/s. When used to rip collections
-          without too much thinking, that means that you'll get around 300 GB per hour. You can sort out the details later.</p>
-      </div>
-
-      <!-- Evaluate -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Evaluate
-          <img src="images/Evaluate.png" alt="Evaluate" height="96">
-        </h2>
-        <p>Your friends are checking the quality of movies before you get them. Bad stuff will be cut off at the roots and deleted
-          before you can get it.</p>
-      </div>
-
-      <!-- Explore -->
-      <div class="col-lg-4">
-        <h2 class="text-center">Explore
-          <img src="images/Explore.png" alt="Explore" height="96">
-        </h2>
-        <p>Others are searching the internet for good downloads for you, what is actually quite a lot of work. If you don't
-          like something it can all the time be added to the Garbage list and deleted.
-        </p>
-      </div>
-    </div>
-
-    <!-- Movie File Merger Screenshots -->
-    <p><br><br></p>
-    <div class=bs-docs-featurette>
-      <div class=container>
-        <img class="center-block" src="images/Camera.png" alt="Screenshots" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Movie File Merger Screenshots</h1>
-        <p class="lead text-center">The layout of Movie File Merger is improved frequently, so some screenshots might be out of date...</p>
-      </div>
-    </div>
-    <div class="row" id="ScreenShots">
-      <div class="col-lg-6">
-        <h1 style="text-align: center"><br>Application Screenshots</h1>
+        <!-- Movie File Merger Details -->
+        <div class=bs-docs-featurette>
+            <div class=container>
+                <h1 class="bs-docs-featurette-title text-center">Movie File Merger</h1>
+                <img itemprop="image" class="center-block" src="images/MFM.png" alt="Movie File Merger" width="256" height="256">
+                <h1 class=bs-docs-featurette-title style="text-align: center">
+                    <br>Details
+                </h1>
+                <p class=lead style="text-align: center">
+                    <span itemprop="name">Movie File Merger</span>
+                    makes video collection management faster and easier. A lof of things you can do is in the details.</p>
+            </div>
+        </div>
         <p>
-          The screenshots shown below are based on Movie Filer Merger version 0.4.0.
+            <br>
+            <br>
         </p>
-        <!-- Start WOWSlider.com BODY section MFM Screen Shots -->
-        <div id="wowslider-container1">
-          <div class="ws_images">
-            <ul>
-              <li><img src="data1/images/mfm_lists.jpg" alt="MFM Lists" title="MFM Lists" id="wows1_0" /></li>
-              <li><img src="data1/images/mfm_maintenance.jpg" alt="MFM Maintenance" title="MFM Maintenance" id="wows1_1" /></li>
-              <li><img src="data1/images/mfm_log.jpg" alt="MFM Log" title="MFM Log" id="wows1_2" /></li>
-              <li><img src="data1/images/mfm_settings.jpg" alt="MFM Settings" title="MFM Settings" id="wows1_3" /></li>
-              <li><img src="data1/images/mfm_instructions.jpg" alt="image slider" title="MFM Instructions" id="wows1_4" /></li>
-              <li><img src="data1/images/mfm_about.jpg" alt="MFM About" title="MFM About" id="wows1_5" /></li>
-            </ul>
-          </div>
-          <div class="ws_bullets">
-            <div>
-              <a href="#" title="MFM Lists"><span><img src="data1/tooltips/mfm_lists.jpg" alt="MFM Lists"/>1</span></a>
-              <a href="#" title="MFM Maintenance"><span><img src="data1/tooltips/mfm_maintenance.jpg" alt="MFM Maintenance"/>2</span></a>
-              <a href="#" title="MFM Log"><span><img src="data1/tooltips/mfm_log.jpg" alt="MFM Log"/>3</span></a>
-              <a href="#" title="MFM Settings"><span><img src="data1/tooltips/mfm_settings.jpg" alt="MFM Settings"/>4</span></a>
-              <a href="#" title="MFM Instructions"><span><img src="data1/tooltips/mfm_instructions.jpg" alt="MFM Instructions"/>5</span></a>
-              <a href="#" title="MFM About"><span><img src="data1/tooltips/mfm_about.jpg" alt="MFM About"/>6</span></a>
+
+        <!-- Combine Two Collections -->
+        <div class="row featurette" id="CombineCollections">
+            <div class="col-md-8">
+                <h2 class="featurette-heading" style="text-align: center">
+                    <br>Combine Collections</h2>
+                <p class="lead">
+                    <span itemprop="name">Movie File Merger</span> supports the selective combination/maintenance of video collections, movies,
+                    series, or documentaries. It can be used for other types of collections, but it is optimized for videos.
+                </p>
+                </p>
             </div>
-          </div>
-          <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
-          <div class="ws_shadow"></div>
-        </div>
-        <script type="text/javascript" src="engine1/wowslider.js"></script>
-        <script type="text/javascript" src="engine1/script.js"></script>
-        <!-- End WOWSlider.com BODY section MFM Screen Shots -->
-      </div>
-      <div class="col-lg-6">
-        <h1 style="text-align: center"><br>On the Web</h1>
-        <p>Movie File Merger can be found in many places on the web...
-        </p>
-        <!-- Start WOWSlider.com BODY section Web Presents -->
-        <div id="wowslider-container2">
-          <div class="ws_images">
-            <ul>
-              <li>
-                <a href="https://github.com/Modi777/Movie-File-Merger" target="_blank">
-                <img src="data2/images/mfm_web_github.jpg" alt="MFM on GitHub" title="MFM on GitHub" id="wows2_0" /></a>
-              </li>
-              <li>
-                <a href="https://sourceforge.net/projects/movie-file-merger" target="_blank">
-                <img src="data2/images/mfm_web_sourceforge.jpg" alt="MFM on SourceForge" title="MFM on SourceForge" id="wows2_1" /></a>
-              </li>
-              <li>
-                <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual" target="_blank">
-                <img src="data2/images/mfm_web_user_manual.jpg" alt="MFM Online User Manual" title="MFM Online User Manual" id="wows2_2" /></a>
-              </li>
-              <li>
-                <a href="https://movie-file-merger.org/MFMFrms/index.php" target="_blank">
-                <img src="data2/images/mfm_web_forum.jpg" alt="MFM Forum" title="MFM Forum" id="wows2_3" /></a>
-              </li>
-              <li>
-                <a href="http://wiki.appvisor.org/Movie_File_Merger">
-                <img src="data2/images/mfm_web_appvisor.jpg" alt="MFM Web AppVisor" title="MFM Web AppVisor" id="wows2_4" /></a>
-              </li>
-              <li>
-                <a href="https://www.openhub.net/p/Movie-File-Merger">
-                <img src="data2/images/mfm_web_openhub.jpg" alt="MFM Web OpenHub" title="MFM Web OpenHub" id="wows2_5" /></a>
-              </li>
-              <li><img src="data2/images/mfm_web_statcounter.jpg" alt="MFM on StatCounter" title="MFM on StatCounter" id="wows2_6" /></li>
-              <li><img src="data2/images/mfm_web_google_analytics.jpg" alt="MFM on Google Analytics" title="MFM on Google Analytics" id="wows2_7" /></li>
-              <li>
-                <a href="http://www.filecart.com/movie-file-merger">
-                <img src="data2/images/mfm_web_filecart.jpg" alt="MFM on FileCart" title="MFM on FileCart" id="wows2_8" /></a>
-              </li>
-              <li>
-                <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
-                <img src="data2/images/mfm_web_freewarefiles.jpg" alt="MFM on FreewareFiles" title="MFM on FreewareFiles" id="wows2_9" /></a>
-              </li>
-              <li>
-                <a href="http://movie-file-merger.windows10compatible.com/">
-                <img src="data2/images/mfm_web_windows_10_compatible.jpg" alt="MFM on Windows 10 Compatible" title="MFM on Windows 10 Compatible" id="wows2_10" /></a>
-              </li>
-              <li>
-                <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
-                <img src="data2/images/mfm_web_geardownload.jpg" alt="MFM on GearDownload" title="MFM on GearDownload" id="wows2_11" /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="ws_bullets">
-            <div>
-              <a href="#" title="MFM on GitHub"><span><img src="data2/tooltips/mfm_web_github.jpg" alt="MFM on GitHub"/>1</span></a>
-              <a href="#" title="MFM on SourceForge"><span><img src="data2/tooltips/mfm_web_sourceforge.jpg" alt="MFM on SourceForge"/>2</span></a>
-              <a href="#" title="MFM Online User Manual"><span><img src="data2/tooltips/mfm_web_user_manual.jpg" alt="MFM Online User Manual"/>3</span></a>
-              <a href="#" title="MFM Forum"><span><img src="data2/tooltips/mfm_web_forum.jpg" alt="MFM Forum"/>4</span></a>
-              <a href="#" title="MFM Web AppVisor"><span><img src="data2/tooltips/mfm_web_appvisor.jpg" alt="MFM Web AppVisor"/>5</span></a>
-              <a href="#" title="MFM Web OpenHub"><span><img src="data2/tooltips/mfm_web_openhub.jpg" alt="MFM Web OpenHub"/>6</span></a>
-              <a href="#" title="MFM on StatCounter"><span><img src="data2/tooltips/mfm_web_statcounter.jpg" alt="MFM on StatCounter"/>7</span></a>
-              <a href="#" title="MFM on Google Analytics"><span><img src="data2/tooltips/mfm_web_google_analytics.jpg" alt="MFM on Google Analytics"/>8</span></a>
-              <a href="#" title="MFM on FileCart"><span><img src="data2/tooltips/mfm_web_filecart.jpg" alt="MFM on FileCart"/>9</span></a>
-              <a href="#" title="MFM on FreewareFiles"><span><img src="data2/tooltips/mfm_web_freewarefiles.jpg" alt="MFM on FreewareFiles"/>10</span></a>
-              <a href="#" title="MFM on Windows 10 Compatible"><span><img src="data2/tooltips/mfm_web_windows_10_compatible.jpg" alt="MFM on Windows 10 Compatible"/>11</span></a>
-              <a href="#" title="MFM on GearDownload"><span><img src="data2/tooltips/mfm_web_geardownload.jpg" alt="MFM on GearDownload"/>12</span></a>
+            <div class="col-md-4 align-bottom">
+                <img class="featurette-image img-responsive center-block" src="images/Combine.png" alt="Combine Two Collections" width="256"
+                    height="256">
             </div>
-          </div>
-          <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
-          <div class="ws_shadow"></div>
         </div>
-        <script type="text/javascript" src="engine2/wowslider.js"></script>
-        <script type="text/javascript" src="engine2/script.js"></script>
-        <!-- End WOWSlider.com BODY section  Web Presents -->
-        <p><br> <br></p>
-      </div>
-    </div>
 
-    <!-- Rewards/Reviews -->
-    <p><br><br></p>
-    <div class=bs-docs-featurette id="RewardsReviews">
-      <div class=container>
-        <img class="center-block" src="images/Rewards.png" alt="Rewards" width="256" height="256">
-        <h1 class="bs-docs-featurette-title text-center">Rewards/Reviews</h1>
-        <p class="lead text-center">Below are some reviews Movie File Merger got so far...</p>
-      </div>
-    </div>
-    <p></p>
-    <p>
-      For a more comprehensive list of reviews go to the
-      <a href="https://movie-file-merger.org/MFMFrms/viewforum.php?f=17">Movie File Merger Review Forum</a>.
-    </p>
-    <div class="row">
-      <div class="col-lg-6">
+        <div class="row">
 
-        <!-- GHacks Rewarded 5 Stars -->
-        <p><br>
-          <a href="http://www.ghacks.net/2015/01/05/merge-video-collections-with-movie-file-merger/" target="_blank">
-            <img alt="GHacks Rewarded Movie Filer Merger 5 Stars" src="images/GHacksRewarded.png" style="margin: 5px 5px" height="40"></a>
-          <br>by <a href="http://www.ghacks.net/author/martin/">Martin Brinkmann</a>
-          <br /> Movie File Merger is an interesting program for users who want to move or copy video files. It does not
-          really matter if you want to perform those operations on your own movie collection or if you use it to merge a
-          friend's collection with your own.
+            <!-- Select -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Select
+                    <img src="images/Select.png" alt="Select" height="96">
+                </h2>
+                <p>Select which videos are copied or moved. Only videos in the Wish list are considered. To select videos or
+                    movies from your friend's collection you just need his or her list. You can select them at home and once
+                    finished go to your friend and start copying.</p>
+            </div>
+
+            <!-- Distribute -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Distribute
+                    <img src="images/Distribute.png" alt="Distribute" height="96">
+                </h2>
+                <p>Lists are small for distribution over the internet. Once you have scanned your collection, you can send it
+                    to your friend, who can select what to copy offline.</p>
+            </div>
+
+            <!-- Ignore -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Ignore
+                    <img src="images/Ignore.png" alt="Ignore" height="96">
+                </h2>
+                <p>Videos in the Existing and Garbage lists are ignored. That way you don't have to worry about copying the
+                    same stuff again and again.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Predefine -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Predefine
+                    <img src="images/Predefine.png" alt="Predefine" height="96">
+                </h2>
+                <p>Select movies according to predefined genre lists from the internet, for example,
+                    <a href="http://www.imdb.com">IMDb</a>. Just drop the list in the Wish list and only videos from that genre are copied. If you want
+                    to ignore a complete category, then drop it in the Garbage list.</p>
+            </div>
+
+            <!-- Filter -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Filter
+                    <img src="images/Filter.png" alt="Filter" height="96">
+                </h2>
+                <p>Select videos according to resolution or other details such as media information; for example, horizontal
+                    resolution is greater than 1000 pixels. Filters are Regular Expressions and really flexible.</p>
+            </div>
+
+            <!-- Search -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Search
+                    <img src="images/Search.png" alt="Search" height="96">
+                </h2>
+                <p>Search for movies or series information on the internet, like on
+                    <a href="http://thetvdb.com">TheTVDb</a>. Drop any list entry on the Search for information drop area.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Download -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Download
+                    <img src="images/Download.png" alt="Download" height="96">
+                </h2>
+                <p>Search for torrents on the web. Select the sites, which should be searched, and drop any list entry on the
+                    Download drop area.</p>
+            </div>
+
+            <!-- Inspect -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Inspect
+                    <img src="images/Inspect.png" alt="Inspect" height="96">
+                </h2>
+                <p>List detailed media information with
+                    <a href="http://mediaarea.net/en/MediaInfo">MediaInfo</a>. Any videos in the Existing list are scanned with the relevant media information.</p>
+            </div>
+
+            <!-- View -->
+            <div class="col-lg-4">
+                <h2 class="text-center">View
+                    <img src="images/View.png" alt="View" height="96">
+                </h2>
+                <p>View video media information in the pop-ups when hovering over a list entry. Videos in the Existing list
+                    are scanned with the relevant media information. Basic information is shown in the screen tip when hovering
+                    over the list entry.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Play -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Play
+                    <img src="images/Play.png" alt="Play" height="96">
+                </h2>
+                <p>Play videos in the Import list with your default player. Drop any video existing on connected hard disks
+                    on the Play drop area.</p>
+            </div>
+
+            <!-- Rip -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Rip
+                    <img src="images/Rip.png" alt="Rip" height="96">
+                </h2>
+                <p>Click on Just Rip It... to get all videos in the Import folder. Videos in the Existing and Garbage lists
+                    are not touched.
+                </p>
+            </div>
+
+            <!-- Scan -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Scan
+                    <img src="images/Scan.png" alt="Scan" height="96">
+                </h2>
+                <p>Click on Just Scan It... to scan all videos in all top level folders on all hard disks connected to the computer.
+                    The top level folders have to contain the collection name so that videos in that folder are put in the
+                    according collection.
+                </p>
+            </div>
+        </div>
+
+        <p>
+            <br>
+            <br>
+            <br>
         </p>
 
-        <!-- Baixaki -->
-        <p><br>
-          <a href="http://www.baixaki.com.br/download/movie-file-merger.htm#nossaop">
-            <img alt="Movie Filer Merger Review on Baixaki" src="images/Baixaki.png" style="margin: 5px 5px" height="30"></a>
-            <br>by Ana Nemes</a>
-            <br> O Movie File Merger é uma opção interessante para criar coleções de vídeo de forma mais prática, 
-            principalmente se você quiser transferir arquivos e informações de um computador para o outro.
+        <!-- Maintain Your Collections -->
+        <div class="row featurette" id="MaintainCollections">
+            <div class="col-md-8">
+                <h2 class="featurette-heading" style="text-align: center">Maintain Your Collections</h2>
+                <p class="lead">
+                    <span itemprop="name">Movie File Merger makes the maintenance of your collections easier. It points out bad names, supports
+                        moving and sorting into collection types. The Maintenance tab is used to cleanup your newly acquired
+                        videos and add-on files or to cleanup your collection in general. It is used in conjunction with
+                        Windows Explorer or file renaming apps, but basically, you can use it with any program, which accepts
+                        file drops.</p>
+                </p>
+            </div>
+            <div class="col-md-4 align-bottom">
+                <img class="featurette-image img-responsive center-block" src="images/Maintain.png" alt="Maintain Your Collections" width="256"
+                    height="256">
+            </div>
+        </div>
+        <p>
+            <br>
+        </p>
+        <div class="row">
+
+            <!-- Recylcle -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Bin
+                    <img src="images/Bin.png" alt="Bin" height="96">
+                </h2>
+                <p>Get rid of garbage files in your collections. Move irrelevant files into the Windows Recycle Bin.</p>
+            </div>
+
+            <!-- Suck -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Suck
+                    <img src="images/Suck.png" alt="Suck" height="96">
+                </h2>
+                <p>Suck relevant files out of download folders. Irrelevant files can be sucked into the recycle bin or just
+                    ignored. No need for the tiresome clicking until your fingers fall off.</p>
+            </div>
+
+            <!-- Rename -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Rename
+                    <img src="images/Rename.png" alt="Rename" height="96">
+                </h2>
+                <p>Drop movies or series with bad names into specialized file renaming apps to rename them.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Differentiate -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Differentiate
+                    <img src="images/Differentiate.png" alt="Differentiate" height="96">
+                </h2>
+                <p>Differentiate automatically between documentaries, series, and movies. Good and bad names are highlights
+                    and nonrelated files identified.</p>
+            </div>
+
+            <!-- Move -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Move
+                    <img src="images/Move.png" alt="Move" height="96">
+                </h2>
+                <p>Move movies or series with good names in other folders. Move nonrelated files in the Windows Recycle Bin.
+                </p>
+            </div>
+
+            <!-- Check -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Check
+                    <img src="images/Check.png" alt="Check" height="96">
+                </h2>
+                <p>Check if all files in your collection have a good name. Bad names, which are not following the naming conventions
+                    are pointed out. They can be dropped into another program, which is specialized in renaming files.
+                </p>
+            </div>
+        </div>
+
+        <p>
+            <br>
+            <br>
+            <br>
         </p>
 
-        <!-- SharewarePROS -->
-        <p><br>
-          <a href="https://www.sharewarepros.com/get/hobby/movie-file-merger-043191.html">
-            <img alt="Movie Filer Merger Review on SharewarePROS" src="images/SharewarePROS.jpg" style="margin: 5px 5px" height="30"></a>
-            <br/> Movie File Merger is an useful program, intended for people that need
-            to administer long movie's collections; it offers a simple way to copy, move files and also enables to merge collections
-            taking care about duplications.
+        <!-- Remember Your Collection -->
+        <div class="row featurette" id="RememberCollections">
+            <div class="col-md-8">
+                <h2 class="featurette-heading" style="text-align: center">
+                    <br>Remember Your Collections</h2>
+                <p class="lead">
+                    <span itemprop="name">Movie File Merger helps you to remember your collections. As your collection grows it'll be impossible
+                        to remember everything.
+                </p>
+                </p>
+            </div>
+            <div class="col-md-4 align-bottom">
+                <img class="featurette-image img-responsive center-block" src="images/ExercisingWeightsBrain.png" alt="Exercising Weights Brain"
+                    width="256" height="256">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Remember -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Remember
+                    <img src="images/Remember.png" alt="Remember" height="96">
+                </h2>
+                <p>Movie File Merger remembers all the videos you have. You'll never copy the same movie again and again.</p>
+            </div>
+
+            <!-- Dump -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Dump
+                    <img src="images/Dump.png" alt="Dump" height="96">
+                </h2>
+                <p>Movie File Merger remembers all the videos you don't want to have. You'll not copy the same stuff again and
+                    again.</p>
+            </div>
+
+            <!-- Update -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Update
+                    <img src="images/Update.png" alt="Update" height="96">
+                </h2>
+                <p>Movie File Merger is designed so that your collection information can be easily updated once out of date.
+                    Just Scan it takes a while if there are many new entries, so just let it run in the background.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Bring -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Bring
+                    <img src="images/Bring.png" alt="Bring" height="96">
+                </h2>
+                <p>Movie Filer Merger is portable so that you can run it from anywhere, on any hard disk or memory stick, or
+                    even your phone is you use it as such.</p>
+            </div>
+
+            <!-- Categorize -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Categorize
+                    <img src="images/Categorize.png" alt="Categorize" height="96">
+                </h2>
+                <p>The videos are split into categories, which are easier to handle and remember. The Miscellaneous category
+                    can be used to remember temporarily things.</p>
+            </div>
+
+            <!-- Keep -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Keep
+                    <img src="images/Keep.png" alt="Keep" height="96">
+                </h2>
+                <p>Lists can be archived to keep a history of your collection over time. To get a list of all the movies ever
+                    owned, they can be combined in a single large list.</p>
+            </div>
+        </div>
+
+        <p>
+            <br>
+            <br>
+            <br>
         </p>
 
-        <!-- Taimienphi -->
-        <p><br>
-          <a href="http://taimienphi.vn/download-movie-file-merger-35334">
-            <img alt="Movie Filer Merger Review on Taimienphi.vn" src="images/Taimienphi.png" style="margin: 5px 5px" height="30"></a>
-            <br>by <a href="http://taimienphi.vn/user/B%C3%B9i+Minh+Quang">Bùi Minh Quang</a>
-            <br/> Movie File Merger cung cấp chức năng ghép nối và tổ chức các file video của bạn trong một bộ sưu tập duy nhất, 
-             nơi bạn có thể truy cập để xem phim mà không phải mất công tìm kiếm như trước. 
-             Phần mềm này được thiết kế với mục đích giúp bạn quản lý tốt hơn các bộ phim và video dưới nhiều thể loại và nhiều hình thức, 
-             nhưng cũng có thể được áp dụng cho âm nhạc hay các định dạng khác, tuy nhiên lý tưởng nhất là dành cho các video.
-        </p>
-      </div>
-
-      <div class="col-lg-6">
-
-        <!-- Free Downloads Center -->
-        <p><br>
-          <a href="http://www.freedownloadscenter.com/Reviews/r9513.html" target="_blank">
-            <img alt="Movie File Merger Review on Free Downloads Center" src="images/FreeDownloadsCenter.gif" style="margin: 5px 5px"
-              height="40"></a><br /> Movie File Merger is the most ideal program helpful with the selective combination of video collections,
-          like home videos, movies, series, or documentaries. As the name suggests, this handy program enhanced with the
-          latest technology and a fast and straightforward interface helps you with the selective combination of video collections,
-          like home videos, movies, series, or documentaries. It is also useful with other collections, like music, or other
-          files, and is optimized for videos. This capable software also supports the option of
-          playing the video with your default player.
+        <!-- Hidden Benefits -->
+        <div class="row featurette" id="HiddenBenefits">
+            <div class="col-md-8">
+                <h2 class="featurette-heading" style="text-align: center">
+                    <br>Hidden Benefits</h2>
+                <p class="lead">
+                    <span itemprop="name">Movie File Merger is designed so that it is quite flexible. How and for what to use it depends on you.
+                        Use it for some time to figure out which way is best for you.</p>
+                </p>
+            </div>
+            <div class="col-md-4 align-bottom">
+                <img class="featurette-image img-responsive center-block" src="images/Hidden.png" alt="Hidden Benefits" width="256" height="256">
+            </div>
+        </div>
+        <p>
+            <br>
         </p>
 
-        <!-- Softpedia -->
-        <p><br>
-          <a href="http://www.softpedia.com/get/System/File-Management/Movie-File-Merger.shtml">
-            <img alt="Movie Filer Merger Review on Softpedia" src="images/Softpedia.png" style="margin: 5px 5px" height="30"></a>
-            <br>by <a href="http://www.softpedia.com/editors/browse/vlad-constantinescu">Vlad Constantinescu</a>
-          <br/> Manage your video collections in a quick, effective manner by turning to this lightweight application that provides
-          you with various relevant tools.<br> 
-          If you're a movie aficionado, have a fairly large collection and like to keep it well-organized, 
-          you might consider looking for help in the software department. Movie File Merger, for instance, 
-          is a specialized application that can help you manage your video collection in an efficient manner by providing you with many helpful tools.<br />
-          All things considered, if you'd like to keep your video collection organized, you might want to try Movie File Merger, 
-          as it can provide you with various useful tools that can help you do so.
+        <div class="row">
+
+            <!-- Backup -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Backup
+                    <img src="images/Backup.png" alt="Backup" height="96">
+                </h2>
+                <p>Considering the size of video files, it is not practical to have your collections double. It's a good idea
+                    to backup your video collections on hard disks of others. That way they can watch your videos and you
+                    save space.</p>
+            </div>
+
+            <!-- Gather -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Gather
+                    <img src="images/Gather.png" alt="Gather" height="96">
+                </h2>
+                <p>Social gathering when visiting your friend. If you connect your two hard disks, transfer rates are best.
+                    That's also a good opportunity to have a beer or two.</p>
+            </div>
+
+            <!-- Save -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Save
+                    <img src="images/Save.png" alt="Save" height="96">
+                </h2>
+                <p>Save internet bandwidth, because large data quantities are moved over USB or similar. Independent how fast
+                    your internet connection is, you are much faster when using Movie File Merger.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Speed-up -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Speed-up
+                    <img src="images/Speedup.png" alt="Speed-up" height="96">
+                </h2>
+                <p>Faster than backing up in the cloud. Transferring data over USB 3.0 is around 150 MB/s. When used to rip
+                    collections without too much thinking, that means that you'll get around 300 GB per hour. You can sort
+                    out the details later.
+                </p>
+            </div>
+
+            <!-- Evaluate -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Evaluate
+                    <img src="images/Evaluate.png" alt="Evaluate" height="96">
+                </h2>
+                <p>Your friends are checking the quality of movies before you get them. Bad stuff will be cut off at the roots
+                    and deleted before you can get it.</p>
+            </div>
+
+            <!-- Explore -->
+            <div class="col-lg-4">
+                <h2 class="text-center">Explore
+                    <img src="images/Explore.png" alt="Explore" height="96">
+                </h2>
+                <p>Others are searching the internet for good downloads for you, what is actually quite a lot of work. If you
+                    don't like something it can all the time be added to the Garbage list and deleted.
+                </p>
+            </div>
+        </div>
+
+        <!-- Movie File Merger Screenshots -->
+        <p>
+            <br>
+            <br>
         </p>
-      </div>
+        <div class=bs-docs-featurette>
+            <div class=container>
+                <img class="center-block" src="images/Camera.png" alt="Screenshots" width="256" height="256">
+                <h1 class="bs-docs-featurette-title text-center">Movie File Merger Screenshots</h1>
+                <p class="lead text-center">The layout of Movie File Merger is improved frequently, so some screenshots might be out of date...</p>
+            </div>
+        </div>
+        <div class="row" id="ScreenShots">
+            <div class="col-lg-6">
+                <h1 style="text-align: center">
+                    <br>Application Screenshots</h1>
+                <p>
+                    The screenshots shown below are based on Movie Filer Merger version 0.4.0.
+                </p>
+                <!-- Start WOWSlider.com BODY section MFM Screen Shots -->
+                <div id="wowslider-container1">
+                    <div class="ws_images">
+                        <ul>
+                            <li>
+                                <img src="data1/images/mfm_lists.jpg" alt="MFM Lists" title="MFM Lists" id="wows1_0" />
+                            </li>
+                            <li>
+                                <img src="data1/images/mfm_maintenance.jpg" alt="MFM Maintenance" title="MFM Maintenance" id="wows1_1" />
+                            </li>
+                            <li>
+                                <img src="data1/images/mfm_log.jpg" alt="MFM Log" title="MFM Log" id="wows1_2" />
+                            </li>
+                            <li>
+                                <img src="data1/images/mfm_settings.jpg" alt="MFM Settings" title="MFM Settings" id="wows1_3" />
+                            </li>
+                            <li>
+                                <img src="data1/images/mfm_instructions.jpg" alt="image slider" title="MFM Instructions" id="wows1_4" />
+                            </li>
+                            <li>
+                                <img src="data1/images/mfm_about.jpg" alt="MFM About" title="MFM About" id="wows1_5" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="MFM Lists">
+                                <span>
+                                    <img src="data1/tooltips/mfm_lists.jpg" alt="MFM Lists" />1</span>
+                            </a>
+                            <a href="#" title="MFM Maintenance">
+                                <span>
+                                    <img src="data1/tooltips/mfm_maintenance.jpg" alt="MFM Maintenance" />2</span>
+                            </a>
+                            <a href="#" title="MFM Log">
+                                <span>
+                                    <img src="data1/tooltips/mfm_log.jpg" alt="MFM Log" />3</span>
+                            </a>
+                            <a href="#" title="MFM Settings">
+                                <span>
+                                    <img src="data1/tooltips/mfm_settings.jpg" alt="MFM Settings" />4</span>
+                            </a>
+                            <a href="#" title="MFM Instructions">
+                                <span>
+                                    <img src="data1/tooltips/mfm_instructions.jpg" alt="MFM Instructions" />5</span>
+                            </a>
+                            <a href="#" title="MFM About">
+                                <span>
+                                    <img src="data1/tooltips/mfm_about.jpg" alt="MFM About" />6</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ws_script" style="position:absolute;left:-99%">
+                        <a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
+                    <div class="ws_shadow"></div>
+                </div>
+                <script type="text/javascript" src="engine1/wowslider.js"></script>
+                <script type="text/javascript" src="engine1/script.js"></script>
+                <!-- End WOWSlider.com BODY section MFM Screen Shots -->
+            </div>
+            <div class="col-lg-6">
+                <h1 style="text-align: center">
+                    <br>On the Web</h1>
+                <p>Movie File Merger can be found in many places on the web...
+                </p>
+                <!-- Start WOWSlider.com BODY section Web Presents -->
+                <div id="wowslider-container2">
+                    <div class="ws_images">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Modi777/Movie-File-Merger" target="_blank">
+                                    <img src="data2/images/mfm_web_github.jpg" alt="MFM on GitHub" title="MFM on GitHub" id="wows2_0" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://sourceforge.net/projects/movie-file-merger" target="_blank">
+                                    <img src="data2/images/mfm_web_sourceforge.jpg" alt="MFM on SourceForge" title="MFM on SourceForge" id="wows2_1" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://modi777.gitbooks.io/movie-file-merger-user-manual" target="_blank">
+                                    <img src="data2/images/mfm_web_user_manual.jpg" alt="MFM Online User Manual" title="MFM Online User Manual" id="wows2_2"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://movie-file-merger.org/MFMFrms/index.php" target="_blank">
+                                    <img src="data2/images/mfm_web_forum.jpg" alt="MFM Forum" title="MFM Forum" id="wows2_3" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://wiki.appvisor.org/Movie_File_Merger">
+                                    <img src="data2/images/mfm_web_appvisor.jpg" alt="MFM Web AppVisor" title="MFM Web AppVisor" id="wows2_4" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.openhub.net/p/Movie-File-Merger">
+                                    <img src="data2/images/mfm_web_openhub.jpg" alt="MFM Web OpenHub" title="MFM Web OpenHub" id="wows2_5" />
+                                </a>
+                            </li>
+                            <li>
+                                <img src="data2/images/mfm_web_statcounter.jpg" alt="MFM on StatCounter" title="MFM on StatCounter" id="wows2_6" />
+                            </li>
+                            <li>
+                                <img src="data2/images/mfm_web_google_analytics.jpg" alt="MFM on Google Analytics" title="MFM on Google Analytics" id="wows2_7"
+                                />
+                            </li>
+                            <li>
+                                <a href="http://www.filecart.com/movie-file-merger">
+                                    <img src="data2/images/mfm_web_filecart.jpg" alt="MFM on FileCart" title="MFM on FileCart" id="wows2_8" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.freewarefiles.com/Movie-File-Merger_program_103162.html">
+                                    <img src="data2/images/mfm_web_freewarefiles.jpg" alt="MFM on FreewareFiles" title="MFM on FreewareFiles" id="wows2_9" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://movie-file-merger.windows10compatible.com/">
+                                    <img src="data2/images/mfm_web_windows_10_compatible.jpg" alt="MFM on Windows 10 Compatible" title="MFM on Windows 10 Compatible"
+                                        id="wows2_10" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.geardownload.com/hobby/movie-file-merger.html">
+                                    <img src="data2/images/mfm_web_geardownload.jpg" alt="MFM on GearDownload" title="MFM on GearDownload" id="wows2_11" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="MFM on GitHub">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_github.jpg" alt="MFM on GitHub" />1</span>
+                            </a>
+                            <a href="#" title="MFM on SourceForge">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_sourceforge.jpg" alt="MFM on SourceForge" />2</span>
+                            </a>
+                            <a href="#" title="MFM Online User Manual">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_user_manual.jpg" alt="MFM Online User Manual" />3</span>
+                            </a>
+                            <a href="#" title="MFM Forum">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_forum.jpg" alt="MFM Forum" />4</span>
+                            </a>
+                            <a href="#" title="MFM Web AppVisor">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_appvisor.jpg" alt="MFM Web AppVisor" />5</span>
+                            </a>
+                            <a href="#" title="MFM Web OpenHub">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_openhub.jpg" alt="MFM Web OpenHub" />6</span>
+                            </a>
+                            <a href="#" title="MFM on StatCounter">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_statcounter.jpg" alt="MFM on StatCounter" />7</span>
+                            </a>
+                            <a href="#" title="MFM on Google Analytics">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_google_analytics.jpg" alt="MFM on Google Analytics" />8</span>
+                            </a>
+                            <a href="#" title="MFM on FileCart">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_filecart.jpg" alt="MFM on FileCart" />9</span>
+                            </a>
+                            <a href="#" title="MFM on FreewareFiles">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_freewarefiles.jpg" alt="MFM on FreewareFiles" />10</span>
+                            </a>
+                            <a href="#" title="MFM on Windows 10 Compatible">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_windows_10_compatible.jpg" alt="MFM on Windows 10 Compatible" />11</span>
+                            </a>
+                            <a href="#" title="MFM on GearDownload">
+                                <span>
+                                    <img src="data2/tooltips/mfm_web_geardownload.jpg" alt="MFM on GearDownload" />12</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ws_script" style="position:absolute;left:-99%">
+                        <a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.6</div>
+                    <div class="ws_shadow"></div>
+                </div>
+                <script type="text/javascript" src="engine2/wowslider.js"></script>
+                <script type="text/javascript" src="engine2/script.js"></script>
+                <!-- End WOWSlider.com BODY section  Web Presents -->
+                <p>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+
+        <!-- Rewards/Reviews -->
+        <p>
+            <br>
+            <br>
+        </p>
+        <div class=bs-docs-featurette id="RewardsReviews">
+            <div class=container>
+                <img class="center-block" src="images/Rewards.png" alt="Rewards" width="256" height="256">
+                <h1 class="bs-docs-featurette-title text-center">Rewards/Reviews</h1>
+                <p class="lead text-center">Below are some reviews Movie File Merger got so far...</p>
+            </div>
+        </div>
+        <p></p>
+        <p>
+            For a more comprehensive list of reviews go to the
+            <a href="https://movie-file-merger.org/MFMFrms/viewforum.php?f=17">Movie File Merger Review Forum</a>.
+        </p>
+        <div class="row">
+            <div class="col-lg-6">
+
+                <!-- GHacks Rewarded 5 Stars -->
+                <p>
+                    <br>
+                    <a href="http://www.ghacks.net/2015/01/05/merge-video-collections-with-movie-file-merger/" target="_blank">
+                        <img alt="GHacks Rewarded Movie Filer Merger 5 Stars" src="images/GHacksRewarded.png" style="margin: 5px 5px" height="40">
+                    </a>
+                    <br>by
+                    <a href="http://www.ghacks.net/author/martin/">Martin Brinkmann</a>
+                    <br /> Movie File Merger is an interesting program for users who want to move or copy video files. It does
+                    not really matter if you want to perform those operations on your own movie collection or if you use
+                    it to merge a friend's collection with your own.
+                </p>
+
+                <!-- Baixaki -->
+                <p>
+                    <br>
+                    <a href="http://www.baixaki.com.br/download/movie-file-merger.htm#nossaop">
+                        <img alt="Movie Filer Merger Review on Baixaki" src="images/Baixaki.png" style="margin: 5px 5px" height="30">
+                    </a>
+                    <br>by Ana Nemes</a>
+                    <br> O Movie File Merger é uma opção interessante para criar coleções de vídeo de forma mais prática, principalmente
+                    se você quiser transferir arquivos e informações de um computador para o outro.
+                </p>
+
+                <!-- SharewarePROS -->
+                <p>
+                    <br>
+                    <a href="https://www.sharewarepros.com/get/hobby/movie-file-merger-043191.html">
+                        <img alt="Movie Filer Merger Review on SharewarePROS" src="images/SharewarePROS.jpg" style="margin: 5px 5px" height="30">
+                    </a>
+                    <br/> Movie File Merger is an useful program, intended for people that need to administer long movie's collections;
+                    it offers a simple way to copy, move files and also enables to merge collections taking care about duplications.
+                </p>
+
+                <!-- Taimienphi -->
+                <p>
+                    <br>
+                    <a href="http://taimienphi.vn/download-movie-file-merger-35334">
+                        <img alt="Movie Filer Merger Review on Taimienphi.vn" src="images/Taimienphi.png" style="margin: 5px 5px" height="30">
+                    </a>
+                    <br>by
+                    <a href="http://taimienphi.vn/user/B%C3%B9i+Minh+Quang">Bùi Minh Quang</a>
+                    <br/> Movie File Merger cung cấp chức năng ghép nối và tổ chức các file video của bạn trong một bộ sưu tập
+                    duy nhất, nơi bạn có thể truy cập để xem phim mà không phải mất công tìm kiếm như trước. Phần mềm này
+                    được thiết kế với mục đích giúp bạn quản lý tốt hơn các bộ phim và video dưới nhiều thể loại và nhiều
+                    hình thức, nhưng cũng có thể được áp dụng cho âm nhạc hay các định dạng khác, tuy nhiên lý tưởng nhất
+                    là dành cho các video.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+
+                <!-- Free Downloads Center -->
+                <p>
+                    <br>
+                    <a href="http://www.freedownloadscenter.com/Reviews/r9513.html" target="_blank">
+                        <img alt="Movie File Merger Review on Free Downloads Center" src="images/FreeDownloadsCenter.gif" style="margin: 5px 5px"
+                            height="40">
+                    </a>
+                    <br /> Movie File Merger is the most ideal program helpful with the selective combination of video collections,
+                    like home videos, movies, series, or documentaries. As the name suggests, this handy program enhanced
+                    with the latest technology and a fast and straightforward interface helps you with the selective combination
+                    of video collections, like home videos, movies, series, or documentaries. It is also useful with other
+                    collections, like music, or other files, and is optimized for videos. This capable software also supports
+                    the option of playing the video with your default player.
+                </p>
+
+                <!-- Softpedia -->
+                <p>
+                    <br>
+                    <a href="http://www.softpedia.com/get/System/File-Management/Movie-File-Merger.shtml">
+                        <img alt="Movie Filer Merger Review on Softpedia" src="images/Softpedia.png" style="margin: 5px 5px" height="30">
+                    </a>
+                    <br>by
+                    <a href="http://www.softpedia.com/editors/browse/vlad-constantinescu">Vlad Constantinescu</a>
+                    <br/> Manage your video collections in a quick, effective manner by turning to this lightweight application
+                    that provides you with various relevant tools.
+                    <br> If you're a movie aficionado, have a fairly large collection and like to keep it well-organized, you
+                    might consider looking for help in the software department. Movie File Merger, for instance, is a specialized
+                    application that can help you manage your video collection in an efficient manner by providing you with
+                    many helpful tools.
+                    <br /> All things considered, if you'd like to keep your video collection organized, you might want to try
+                    Movie File Merger, as it can provide you with various useful tools that can help you do so.
+                </p>
+            </div>
+        </div>
     </div>
 
     <!-- FOOTER -->
     <footer>
-      <div class="col-xs-12" style="height:25px;"></div>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017 Reinhold Lauer</p>
+        <div class="col-xs-12" style="height:25px;"></div>
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>&copy; 2017 Reinhold Lauer</p>
     </footer>
-  </div>
-  <!-- /.container -->
-
-  <!-- Start of StatCounter Stuff -->
-  <script type="text/javascript">
-    var sc_project = 10227202;
-    var sc_invisible = 1;
-    var sc_security = "e96e6a0e";
-    var scJsHost = (("https:" == document.location.protocol) ?
-      "https://secure." : "http://www.");
-    document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
-      "statcounter.com/counter/counter.js'></" + "script>");
-  </script>
-  <noscript>
-    <div class="statcounter">
-      <a title="create counter" href="http://statcounter.com/free-hit-counter/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/10227202/0/e96e6a0e/1/" alt="create counter">
-      </a>
     </div>
-  </noscript>
-  <!-- End of StatCounter Stuff -->
+    <!-- /.container -->
 
-  <!-- Bootstrap core JavaScript -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-  </script>
-  <script src="js/bootstrap.min.js"></script>
+    <!-- Start of StatCounter Stuff -->
+    <script type="text/javascript">
+        var sc_project = 10227202;
+        var sc_invisible = 1;
+        var sc_security = "e96e6a0e";
+        var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="create counter" href="http://statcounter.com/free-hit-counter/" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/10227202/0/e96e6a0e/1/" alt="create counter">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of StatCounter Stuff -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
