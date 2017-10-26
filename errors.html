@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Combine/Maintain Video Collections - Error</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,6 @@
     <meta name="author" content="Reinhold Lauer">
     <meta name="theme-color" content="#022f5a">
     <link rel="icon" href="https://movie-file-merger.org/images/MFM32Favicon.ico">
-    <title>Combine/Maintain Video Collections - Error</title>
 
     <link rel="prerender" href="https://movie-file-merger.org/index.html" />
     <link rel="prerender" href="https://movie-file-merger.org/details.html" />
@@ -21,6 +21,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://movie-file-merger.org/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Hover CSS -->
+    <link href="css/hover.min.css" rel="stylesheet">
+    
     <!-- Google Analytics Code -->
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -37,6 +41,7 @@
         ga('create', 'UA-63705144-1', 'auto');
         ga('send', 'pageview');
     </script>
+
     <!-- HeatMap Code -->
     <script>
         (function (h, e, a, t, m, p) {
@@ -50,7 +55,6 @@
 </head>
 
 <!-- The Body -->
-
 <body>
 
     <!-- The Menu -->
@@ -101,12 +105,14 @@
 
     <!-- ================================================== -->
     <div class="container">
-        <div class=bs-docs-featurette id="PageNotFound">
+        <div class="bs-docs-featurette hvr-grow" id="PageNotFound">
 
             <!-- Page Not Found -->
             <div class=container>
                 <h1 class="bs-docs-featurette-title text-center">Movie File Merger</h1>
-                <img itemprop="image" class="center-block" src="images/MFM.png" alt="Movie File Merger" width="256" height="256">
+                <p class=lead style="text-align: center">
+                    <img itemprop="image" class="hvr-bounce-out" src="images/MFM.png" alt="Movie File Merger" width="256" height="256">
+                </p>
                 <h1 class="bs-docs-featurette-title text-center">Page Not Found</h1>
                 <p class="lead text-center">Ooooops, I could not find the requested URL on the server hosting Movie File Merger. Please, select your
                     desired page in the menu.</p>
