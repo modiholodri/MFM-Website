@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MFMVersions>
-<LatestRelease>0.6.1</LatestRelease>
+<LatestRelease>0.7.0</LatestRelease>
 <ReleaseNotes>
-This mini-release fixed the annoying secure channel bug when checking the version.
-- Added yearly update check option.
+This release added several new features and improved the usability.
+- Added the Export list as FileDrop interface.
+- Enabled playing all lists if hard disk is connected.
+- Added searching for Orphan Add-On files.
+- Added the posibility to reset the colors.
+- Added the option to color according to the search criteria.
+- Made the Drop Ares clickable.
+- Fixed several bugs.
 </ReleaseNotes>
 </MFMVersions>
