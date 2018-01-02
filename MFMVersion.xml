@@ -4,9 +4,9 @@
 <ReleaseNotes>
 This release added several new features and improved the usability.
 - Added the Export list as FileDrop interface.
-- Enabled playing all lists if hard disk is connected.
+- Enabled playing from all lists if the hard disk is connected.
 - Added searching for Orphan Add-On files.
-- Added the posibility to reset the colors.
+- Added the possibility to reset the colors.
 - Added the option to color according to the search criteria.
 - Made the Drop Ares clickable.
 - Fixed several bugs.
